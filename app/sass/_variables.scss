@@ -1,0 +1,36 @@
+// Variables de Branding
+// --------------------------------------------------
+
+// Colores
+
+$blanco: #fff;
+$celeste: #00a1e1;
+$turquesa: #3fb3e6;
+$gris-oscuro: #eaeaea;
+$gris-claro: #f3f3f3;
+$rojo: #e60219;
+$bordo: #9a0405;
+$verde: #007c57;
+$naranja: #fe8204;
+$grain: #c8e1e4;
+
+$tabla_de_colores: (
+  "celeste": $celeste,
+  "turquesa": $turquesa,
+  "gris-oscuro": $gris-oscuro,
+  "gris-claro": $gris-claro, 
+  "rojo": $rojo,
+  "bordo": $bordo,
+  "verde": $verde,
+  "naranja": $naranja,
+  "blanco": $blanco, 
+) !default; 
+
+@each $color in $tabla_de_colores {
+  .#{nth($color,1)} {
+    background-color: #{nth($color,2)} !important;
+  }
+  .#{nth($color,1)}-text {
+    color: #{nth($color,2)} !important;
+  } 
+}
