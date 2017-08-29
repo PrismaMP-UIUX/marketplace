@@ -1,0 +1,54 @@
+// Cards
+.misServicios {
+	header {
+		position: relative;
+		border-bottom: 1px solid black;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 30px;
+
+		h1 {
+			font-size: 2em;
+		}
+
+		aside { 
+			button {
+				padding: 5px;
+				margin-left: 10px;
+				
+				i {
+					font-size: 2.5em; 
+				}
+
+				&.active {
+					cursor: initial;
+
+					i {
+						opacity: 0.5; 
+					}
+				}
+			}
+		}
+	}
+	ul.list {
+		& > li {
+			display: flex;
+
+			& > div {
+				display: flex;
+				justify-content: center;
+
+				&.card-content ul {
+					display: flex;
+				}
+			}	
+			&:nth-child(even) {
+				background-color: $gris-claro;
+			}
+			&:nth-child(odd) {
+				background-color: $gris-oscuro;
+			}		
+		} 
+	}
+}
