@@ -7,7 +7,7 @@ var $container;
     	$('.button-collapse').sideNav('hide')
     })
     $('.dropdown-button').dropdown({
-    	hover: true,
+    	// hover: true,
     	constrainWidth: false,
     	belowOrigin: true,
     	stopPropagation: true
