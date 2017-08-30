@@ -6,6 +6,7 @@
 $blanco: #fff;
 $celeste: #00a1e1;
 $turquesa: #3fb3e6;
+$gris-muy-oscuro: #b3b3b3;
 $gris-oscuro: #eaeaea;
 $gris-claro: #f3f3f3;
 $rojo: #e60219;
@@ -19,6 +20,7 @@ $tabla_de_colores: (
   "turquesa": $turquesa,
   "gris-oscuro": $gris-oscuro,
   "gris-claro": $gris-claro, 
+  "gris-muy-oscuro": $gris-muy-oscuro,
   "rojo": $rojo,
   "bordo": $bordo,
   "verde": $verde,
@@ -33,4 +35,9 @@ $tabla_de_colores: (
   .#{nth($color,1)}-text {
     color: #{nth($color,2)} !important;
   } 
+}
+
+// block
+.block {
+  display: block !important;
 }

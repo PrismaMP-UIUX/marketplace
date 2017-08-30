@@ -10,6 +10,7 @@
 
 		h1 {
 			font-size: 2em;
+			margin-bottom: 15px;
 		}
 
 		aside { 
@@ -34,21 +35,87 @@
 	ul.list {
 		& > li {
 			display: flex;
+			margin: 0px;
 
 			& > div {
 				display: flex;
 				justify-content: center;
+			    align-items: center;
+			    padding: 3px 15px;
 
-				&.card-content ul {
-					display: flex;
+			    &.card-plus { 
+			    	a {
+			    		display: flex;
+			    	}
+			    }
+			    &.card-logo { 
+
+			    	img {
+			    		max-height: 40px;
+			    		width: auto;
+			    	}
+			    }
+			    &.card-title {  
+			    	justify-content: flex-start;
+			    }
+				&.card-content { 
+
+					ul {
+						display: flex;
+
+						li {
+							padding: 0  15px; 
+							display: flex;
+							justify-content: center;
+						    align-items: center;
+
+							.card-price {
+								b {
+									line-height: initial;
+								}
+							}
+							.card-status {
+								span {
+									padding: 3px 10px;
+									white-space: nowrap;
+								}
+							}
+							.card-date {
+								span {
+									font-size: 12px; 
+									line-height: 12px;
+								}
+							}
+						}
+					}
 				}
 			}	
+			.card-action {
+				input[type="checkbox"].filled-in:not(:checked) + label:after {
+					height: 25px;
+				    width: 25px;
+				    background-color: transparent;
+				    border: 4px solid $celeste;
+				    top: 0px;
+				    z-index: 0;
+				}
+				input[type="checkbox"].filled-in:checked + label:after {
+					background-color: $celeste; 
+					height: 25px;
+				    width: 25px; 
+				    border: 4px solid $celeste;
+				}
+				input[type="checkbox"].filled-in:checked + label:before {
+					top: 3px;
+					left: 3px;
+				}
+			}
 			&:nth-child(even) {
 				background-color: $gris-claro;
 			}
 			&:nth-child(odd) {
 				background-color: $gris-oscuro;
-			}		
+			}	 
 		} 
 	}
 }
