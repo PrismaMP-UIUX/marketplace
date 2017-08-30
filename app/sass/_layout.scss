@@ -30,6 +30,21 @@ body > header {
 
 			& nav {
 				background-color: transparent;
+
+				.dropdown-content {
+
+					li > a {
+						color: $blanco;
+					}
+
+					p {
+						margin: 30px 0 0 15px;
+					}
+
+					input[type=text]:not(.browser-default) {
+						height: 5em;
+					}
+				}
 			}
 		}
 		div:last-of-type { 
