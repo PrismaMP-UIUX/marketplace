@@ -11,5 +11,12 @@
         $('.misServicios > ul').removeClass("cards").addClass("list");
       }
     }) 
+
+    $(".card-plus a").click(function() {
+        $(this).each(function(){
+          $(this).closest(".card").find(".card-title").toggleClass("hide");
+          $(this).closest(".card").find(".card-content").toggleClass("card-opened card-closed"); 
+        });
+    });
   }); // end of document ready
 })(jQuery); // end of jQuery name space 

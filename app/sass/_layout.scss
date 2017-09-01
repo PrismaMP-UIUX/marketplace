@@ -26,6 +26,8 @@ body {
 				display: flex;
 				justify-content: space-between;
 				padding: 50px 0; 
+			}
+			
 			& nav {
 				background-color: transparent;
 
@@ -86,8 +88,7 @@ body {
 					}
 					& > a:last-of-type { 
 						border-right: 2px solid rgba(255,255,255,0.2);
-					}
-
+					} 
 				}
 			}
 		}
@@ -110,8 +111,7 @@ body {
 					} 
 				} 
 			}
-		}
-		
+		} 
 	}
 
 	& > main {

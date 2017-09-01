@@ -10,49 +10,60 @@
         <button class="vistaList active celeste blanco-text valign-wrapper left"><i class="material-icons">format_list_bulleted</i></button>
       </aside>
     </header>
-    <ul class="list">
-      <li class="card row">
-        <div class="card-plus col s1">
-          <a href="#"><i class="material-icons circle gris-muy-oscuro gris-oscuro-text tiny-5">add</i></a>
-        </div>
-        <div class="card-logo col s2">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Aysa_logo.svg/170px-Aysa_logo.svg.png">
-        </div>
-        <div class="card-title col s3"> 
-          <h5 class="truncate">AguaAguaAgua</h5>
-        </div> 
-        <div class="card-content col s5">
-          <ul>
-            <li>
-              <div class="card-price">
+    <ul class="cards">
+      <!-- Card -->
+      <li class="card">
+        <div class="row">
+          <div class="card-plus left">
+            <a href="#"><i class="material-icons circle gris-muy-oscuro gris-oscuro-text tiny-5">add</i></a>
+          </div>
+          <div class="card-logo left">
+            <div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Aysa_logo.svg/170px-Aysa_logo.svg.png">
+            </div>
+          </div>  
+          <div class="card-title valign-wrapper left">  
+            <h5>AguaAguaAgua</h5>
+          </div> 
+          <div class="card-content card-closed left">
+            <div class="row"> 
+              <div class="card-price left"> 
                 <b class="rojo-text tiny-4">$450.-</b>
               </div>
-            </li>
-            <li>
-              <div class="card-status">
+              <div class="card-status left">
                 <span class="rojo blanco-text">QUEDAN 3 DÍAS</span>
               </div>
-            </li> 
-            <li>
-              <div class="card-date">
+              <div class="card-date left hide-on-small-only">
                 <span class="block rojo-text">Vence:</span>
                 <time class="block rojo-text">10/11/17</time>
               </div>
-            </li>
-          </ul>
-        </div>
-        <div class="card-action  col s1">
-          <form action="">
-            <input type="checkbox" class="filled-in" id="filled-in-box"  />
-            <label for="filled-in-box"></label> 
-          </form>
-        </div>
-      </li> 
+            </div>
+            <div>
+              <ul>
+                <li>Empresa: <span>AySA</span></li>
+                <li>Seudónimo: <span>AguaAguaAgua</span> <a href="#"><i class="material-icons tiny gris-mas-oscuro-text">create</i></a></li>
+                <li>Importe: <b>$450,00</b></li>
+                <li>Referencia Interna: asñlkfdjaoifsd</li>
+                <li>Vencimiento: 10/11/17</li>
+              </ul>
+              <a class="waves-effect bordo waves-light btn-large"><i class="material-icons">delete</i></a>
+            </div>
+          </div>  
+          <div class="card-action left"> 
+              <div>
+                <input type="checkbox" class="filled-in" id="filled-in-box-1"  />
+                <label for="filled-in-box-1"><span>SELECCIONAR</span></label>
+              </div>  
+          </div> 
+        </div> 
+      </li>
+      <!-- End Card -->  
     </ul>
   </div>
 </main>
 
 <!-- Javascript -->
   @@include('_partials/footer.html')
+
 </body>
 </html>

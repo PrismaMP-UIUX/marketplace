@@ -6,6 +6,7 @@
 $blanco: #fff;
 $celeste: #00a1e1;
 $turquesa: #3fb3e6;
+$gris-mas-oscuro: #807f7d;
 $gris-muy-oscuro: #b3b3b3;
 $gris-oscuro: #eaeaea;
 $gris-claro: #f3f3f3;
@@ -21,11 +22,13 @@ $tabla_de_colores: (
   "gris-oscuro": $gris-oscuro,
   "gris-claro": $gris-claro, 
   "gris-muy-oscuro": $gris-muy-oscuro,
+  "gris-mas-oscuro": $gris-mas-oscuro,
   "rojo": $rojo,
   "bordo": $bordo,
   "verde": $verde,
   "naranja": $naranja,
   "blanco": $blanco, 
+  "grain": $grain, 
 ) !default; 
 
 @each $color in $tabla_de_colores {
@@ -41,3 +44,6 @@ $tabla_de_colores: (
 .block {
   display: block !important;
 }
+
+// breaks
+$break-mobile: 600px;
