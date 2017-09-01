@@ -1,17 +1,16 @@
 body {
-
-	& > header {
+	& > header { 
 
 		nav {
 			box-shadow: none; 
-		}
+		} 
 
 		& > .row { 
 
 			& > div {
 				display: flex;
 				justify-content: center;
-			}
+			} 
 			.logo {
 				img {
 					width: 100%;
@@ -20,7 +19,7 @@ body {
 			}
 		}	
  
-		&.main-header {
+		&.main-header {  
 
 			& > .container {
 				display: flex;
@@ -33,6 +32,16 @@ body {
 				.dropdown-content li > a {
 						color: $blanco;
 				}
+					}
+
+					p {
+						margin: 30px 0 0 15px;
+					}
+
+					input[type=text]:not(.browser-default) {
+						height: 5em;
+					}
+				} 
 			}
 			& > div:last-of-type {
 				background-color: $celeste;
@@ -71,12 +80,15 @@ body {
 					i {
 						height: auto;
 					}
+					    }		 
+					}
 					& > a {
 						border-left: 2px solid rgba(255,255,255,0.2);
 					}
 					& > a:last-of-type { 
 						border-right: 2px solid rgba(255,255,255,0.2);
 					}
+
 					.dropdown-content {
 						overflow: hidden;
 						& > div:first-child {
