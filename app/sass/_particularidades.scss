@@ -1,0 +1,282 @@
+// DROPDOWN1: PAGAR
+//////////////////
+// BUSCAR POR POR EMPRESA
+/* body > header.main-header div:last-of-type nav #dropdown1 {
+	&.dropdown-content {
+		overflow-y: hidden;
+
+		p {
+			margin: 30px 0 0 30px;
+		}
+
+		input[type=text]:not(.browser-default) {
+			background-color: $blanco;
+			height: 3em;
+			width: 50%;
+			margin: 10px 0px 0px 30px;
+		}
+	}
+
+	& > div:first-of-type {
+		width: 350px;
+		height: 140px;
+
+		.btn-flat {
+			margin: 10px 0 0 0;
+			height: 3em;
+			background-color: $blanco;
+			border: 5px solid $turquesa;
+		}
+
+		.btn-large {
+			border-radius: 0;
+			padding: 0;
+			text-transform: none;
+			display: flex;
+		}
+
+		i {
+			color: $celeste;
+			margin-right: 5px;
+			margin-left: 5px;
+		}
+
+		span {
+			color: $celeste;
+			margin-right: 10px;
+		}
+
+		.input-field {
+			height: 50%;
+		}
+
+		& > i {
+			color: $blanco;
+			height: 1em;
+			font-size: 1.2em;
+			bottom: 20px;
+			margin: 0 0 0 5px;
+			position: relative;
+			bottom: 23px;
+		}
+	}
+} */
+
+// BUSCAR POR RUBRO
+/* body > header.main-header div:last-of-type nav #dropdown1 > div:last-of-type {
+	width: 125px;
+	height: 140px;
+	overflow: hidden;
+	justify-content: center;
+	
+	& > a:hover {
+		background-color: transparent;
+	}
+} */
+
+// DROPDOWN2: RECARGAR y DROPDOWN3: DONAR
+//////////////////
+// body > header.main-header div:last-of-type nav #dropdown2,
+// body > header.main-header div:last-of-type nav #dropdown3 {
+
+// 	& > div:first-of-type {
+// 		width: 400px;
+// 		height: 220px;
+// 		.row {
+// 			margin: 0;
+// 		}
+// 		.carousel.carousel-slider {
+// 			top: 15px;
+// 			height: 175px !important;
+// 		}
+// 		.marcas {
+// 			.row {
+// 				margin-top: 15px;
+// 				a {
+// 					padding: 0;
+// 				}
+// 			}
+
+// 			.col.s12 {
+// 				padding-right: 0;
+// 			}
+// 		}
+// 		select.browser-default {
+// 			background-color: transparent;
+// 			border: 2px solid $turquesa;
+// 			border-radius: 0px;
+// 			-webkit-appearance: none;
+// 			cursor: pointer;
+// 		}
+// 		.flecha {
+// 			position: absolute;
+// 			right: 10px;
+// 			background-color: $turquesa;
+// 			height: 3em;
+// 			width: 40px;
+// 			display: flex;
+// 			justify-content: center;
+// 			align-items: center;
+// 			pointer-events: none;
+
+// 			& > i {
+// 				color: $celeste;
+// 			}
+// 		}
+// 		& > span i {
+// 			color: $blanco;
+// 			height: 1em;
+// 			font-size: 1.2em;
+// 			float: right;
+// 			margin: -5px 10px;
+// 		}
+// 	}
+// }
+
+// // DROPDOWN3: DONAR
+// //////////////////
+// body > header.main-header div:last-of-type nav #dropdown3 > div:first-of-type {
+// 	& > .row .col.s5 img {
+// 		position: relative;
+// 		top: 15px;
+// 	}
+// }
+
+// DROPDOWN4: AFIP
+//////////////////
+body > header.main-header div:last-of-type nav #dropdown4 > div:first-of-type {
+	width: 300px;
+	height: 170px;
+
+}
+
+// DROPDOWN5: VARIOS
+//////////////////
+body > header.main-header div:last-of-type nav #dropdown5 > div:first-of-type {
+	width: auto;
+	height: auto;
+
+}
+
+
+// Cards
+.misServicios {
+	header {
+		position: relative;
+		border-bottom: 1px solid black;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 30px;
+
+		h1 {
+			font-size: 2em;
+			margin-bottom: 15px;
+		}
+
+		aside { 
+			button {
+				padding: 5px;
+				margin-left: 10px;
+				
+				i {
+					font-size: 2.5em; 
+				}
+
+				&.active {
+					cursor: initial;
+
+					i {
+						opacity: 0.5; 
+					}
+				}
+			}
+		}
+	}
+	ul.list {
+		& > li {
+			display: flex;
+			margin: 0px;
+
+			& > div {
+				display: flex;
+				justify-content: center;
+			    align-items: center;
+			    padding: 3px 15px;
+
+			    &.card-plus { 
+			    	a {
+			    		display: flex;
+			    	}
+			    }
+			    &.card-logo { 
+
+			    	img {
+			    		max-height: 40px;
+			    		width: auto;
+			    	}
+			    }
+			    &.card-title {  
+			    	justify-content: flex-start;
+			    }
+				&.card-content { 
+
+					ul {
+						display: flex;
+
+						li {
+							padding: 0  15px; 
+							display: flex;
+							justify-content: center;
+						    align-items: center;
+
+							.card-price {
+								b {
+									line-height: initial;
+								}
+							}
+							.card-status {
+								span {
+									padding: 3px 10px;
+									white-space: nowrap;
+								}
+							}
+							.card-date {
+								span {
+									font-size: 12px; 
+									line-height: 12px;
+								}
+							}
+						}
+					}
+				}
+			}	
+			.card-action {
+				input[type="checkbox"].filled-in:not(:checked) + label:after {
+					height: 25px;
+				    width: 25px;
+				    background-color: transparent;
+				    border: 4px solid $celeste;
+				    top: 0px;
+				    z-index: 0;
+				}
+				input[type="checkbox"].filled-in:checked + label:after {
+					background-color: $celeste; 
+					height: 25px;
+				    width: 25px; 
+				    border: 4px solid $celeste;
+				}
+				input[type="checkbox"].filled-in:checked + label:before {
+					top: 3px;
+					left: 3px;
+				}
+			}
+			&:nth-child(even) {
+				background-color: $gris-claro;
+			}
+			&:nth-child(odd) {
+				background-color: $gris-oscuro;
+			}	 
+		} 
+	}
+}
