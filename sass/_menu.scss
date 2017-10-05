@@ -1,0 +1,40 @@
+	
+// Centado de ules del menú
+// --------------------------------------------------
+
+nav {
+	& .nav-wrapper{
+		& ul.center {
+    		display: flex;
+    		justify-content: center;
+    	}
+		& .dropdown-button{
+			&.active{
+				background-color: rgba(0,0,0,0.1);
+			}
+		}
+		& .dropdown-content {
+			overflow: hidden;
+			& .row{
+				margin: 0px;
+				
+				& > .col:not(.input-field){
+					background: #0089ec;
+					transition: width .3s;
+
+					&.active{
+						background: #b1dcfb;
+					}
+				}
+			}
+			& .input-field {
+				&.col {
+					& label {
+		  				width: auto;
+					}
+				}
+			}
+		}
+
+	}
+}

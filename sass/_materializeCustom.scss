@@ -1,0 +1,81 @@
+.container {
+	&.full{
+		width: 100% !important;
+	}
+}
+@media #{$medium-and-up} {
+  	.container {
+		&.full{
+			width: 100% !important;
+		}
+  	}
+}
+@media #{$large-and-up} {
+	.container {
+    	width: 80% !important;
+
+		&.full{
+			width: 80% !important;
+		}
+  	}
+}
+
+// Revisar SUFFIX
+
+.input-field.suffix i {
+  position: absolute;
+  width: 3rem;
+  font-size: 2rem;
+  transition: color .2s;
+  top: 0px;
+  right: 0px;
+}
+
+.input-field.suffix i.active {
+  color: #00a3dd;
+}
+
+.input-field.suffix input,
+.input-field.suffix textarea {
+  margin-right: 3rem;
+  width: 92%;
+  width: calc(100% - 3rem);
+}
+
+.input-field.suffix textarea {
+  padding-top: .8rem;
+}
+
+.input-field.suffix label {
+  margin-right: 3rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .input-field.suffix input {
+    width: 86%;
+    width: calc(100% - 3rem);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .input-field.suffix input {
+    width: 80%;
+    width: calc(100% - 3rem);
+  }
+}
+
+.flex{
+  display: flex;
+  flex-flow: row wrap;
+  &.flex-j-end{
+    justify-content: flex-end;
+  }
+
+  & .align-start{
+   align-self: flex-start;
+  }
+
+  & .align-end{
+   align-self: flex-end;
+  }
+}

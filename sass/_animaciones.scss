@@ -1,0 +1,64 @@
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+
+.rotate{
+   -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+
+section {
+
+	@media #{$large-and-up} {
+		position: inherit;
+		overflow: hidden;
+	}
+
+	.container {
+		position: fixed;
+		top: 0; 
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+	    height: 0px;
+	    z-index: 1;
+
+			
+	    // @media #{$sz-phablet} {
+
+	    // }
+	} 
+	.carrito {
+		@extend .white;
+		margin-top: -2px;
+	    padding: 1px 20px 1px;
+	    border: solid 1px $brand_celeste; 
+	    width: 100%;
+	    position: relative;
+	    top: -50px;
+	    -webkit-transition: top 0.5s; /* Safari */
+        transition: top 0.5s;
+
+	    &.active{  
+			top: 60px;
+
+			@media #{$medium-and-up} {
+				top:124px
+			}
+	    }
+
+	    	
+	}
+
+}
+
+// $medium-and-up 
+// $large-and-up 
+// $extra-large-and-up 
+// $small-and-down 
+// $medium-and-down 
+// $medium-only

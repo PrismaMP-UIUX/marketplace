@@ -1,0 +1,21 @@
+.tabs.tabs-fixed-width{
+	overflow-x: hidden;
+}
+.card-panel.ticket {
+	position:relative;
+
+	&::before {
+		background: linear-gradient(45deg, transparent 20px, #fff 0), linear-gradient(-45deg, transparent 20px, #fff 0);
+		background-size: 18px 25px;
+		content: "";
+		height: 20px;
+		position: absolute;
+		bottom: -20px;
+		left: 0;
+		width: 100%;
+	}
+}
+#password + a {
+	right: 0px;
+	top: 12px;
+}
