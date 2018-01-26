@@ -1,0 +1,22 @@
+
+// Barra del menú
+nav {
+	background-color: $brand_celeste;
+}
+
+.side-nav li>a {
+	color: #fff;
+}
+
+body {
+	background-color: $fondo;
+}
+
+
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating),
+a#powered-todopago {
+	@extend .blue-text;
+}
+
+

@@ -1,0 +1,557 @@
+@font-face {
+  font-family: 'prisma';
+  src:  url('fonts/prisma.eot?1kke3d');
+  src:  url('fonts/prisma.eot?1kke3d#iefix') format('embedded-opentype'),
+    url('fonts/prisma.ttf?1kke3d') format('truetype'),
+    url('fonts/prisma.woff?1kke3d') format('woff'),
+    url('fonts/prisma.svg?1kke3d#prisma') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.prisma {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'prisma' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jubilados:before {
+  content: "\e989";
+}
+.rubros_clubes-asociaciones:before {
+  content: "\e997";
+}
+.adherir-celular:before {
+  content: "\e996";
+}
+.rubros_recargas:before {
+  content: "\e992";
+}
+.rubros_impuestos-municipales:before {
+  content: "\e990";
+}
+.rubros_planes-ahorro:before {
+  content: "\e991";
+}
+.rubros_impuestos-prov:before {
+  content: "\e993";
+}
+.rubros_seguridad:before {
+  content: "\e994";
+}
+.rubros_cooperativas:before {
+  content: "\e995";
+}
+.rubros_telefonia:before {
+  content: "\e99b";
+}
+.rubros_solicitud-informe:before {
+  content: "\e99c";
+}
+.rubros_cines:before {
+  content: "\e99d";
+}
+.rubros_viajes-turismo:before {
+  content: "\e99e";
+}
+.rubros_operadores-tv:before {
+  content: "\e99f";
+}
+.rubros_seguro-vida:before {
+  content: "\e9a0";
+}
+.rubros_patente:before {
+  content: "\e9a1";
+}
+.rubros_servicios-correo:before {
+  content: "\e9a2";
+}
+.rubros_proveedores-internet:before {
+  content: "\e9a3";
+}
+.rubros_luz:before {
+  content: "\e9a4";
+}
+.rubros_medicina-prepaga:before {
+  content: "\e9a5";
+}
+.rubros_establecimientos-educativos:before {
+  content: "\e9a6";
+}
+.rubros_tarjeta-credito:before {
+  content: "\e9a7";
+}
+.rubros_barrio-privado:before {
+  content: "\e9a8";
+}
+.rubros_gas:before {
+  content: "\e9a9";
+}
+.rubros_emergencias-medicas:before {
+  content: "\e9aa";
+}
+.rubros_consorcios:before {
+  content: "\e9ab";
+}
+.rubros_agua:before {
+  content: "\e9ac";
+}
+.rubros_tickets:before {
+  content: "\e9ad";
+}
+.rubros_pulsos:before {
+  content: "\e9ae";
+}
+.rubros_subte:before {
+  content: "\e9af";
+}
+.rubros_donaciones:before {
+  content: "\e9b0";
+}
+.cheques:before {
+  content: "\e9b6";
+}
+.cpp2:before {
+  content: "\e9b7";
+}
+.clave-compras:before {
+  content: "\e9b8";
+}
+.nueva-transferencia:before {
+  content: "\e98a";
+}
+.ultimas-transferencias:before {
+  content: "\e98b";
+}
+.clave-alfa-id:before {
+  content: "\e98c";
+}
+.limite-transferencias:before {
+  content: "\e98d";
+}
+.baja-seguros:before {
+  content: "\e98e";
+}
+.alta-seguros:before {
+  content: "\e98f";
+}
+.seguros:before {
+  content: "\e96e";
+}
+.prestamos:before {
+  content: "\e986";
+}
+.pago-total:before {
+  content: "\e987";
+}
+.cierre-cuenta:before {
+  content: "\e988";
+}
+.accion-pagar:before {
+  content: "\e914";
+}
+.deposito-efectivo:before {
+  content: "\e911";
+}
+.envio-recepcion:before {
+  content: "\e912";
+}
+.deposito:before {
+  content: "\e913";
+}
+.transaccion:before {
+  content: "\e910";
+}
+.transferencia:before {
+  content: "\e90f";
+}
+.tam:before {
+  content: "\e90d";
+}
+.desplegable:before {
+  content: "\e90e";
+}
+.cajero-touch:before {
+  content: "\e900";
+}
+.confirmar:before {
+  content: "\e901";
+}
+.cancelar:before {
+  content: "\e902";
+}
+.clave-cajero:before {
+  content: "\e903";
+}
+.homebanking:before {
+  content: "\e904";
+}
+.clave-homebanking:before {
+  content: "\e905";
+}
+.token-generico:before {
+  content: "\e906";
+}
+.clave-terminal:before {
+  content: "\e907";
+}
+.clave-banelco:before {
+  content: "\e908";
+}
+.clave-coordenadas:before {
+  content: "\e909";
+}
+.clave-canales:before {
+  content: "\e90a";
+}
+.clave-transferencias:before {
+  content: "\e90b";
+}
+.banelco:before {
+  content: "\e90c";
+}
+.redcirrus:before {
+  content: "\e915";
+}
+.extracash:before {
+  content: "\e916";
+}
+.visa:before {
+  content: "\e917";
+}
+.pagomiscuentas:before {
+  content: "\e918";
+}
+.banelcomovil:before {
+  content: "\e919";
+}
+.todopago:before {
+  content: "\e91a";
+}
+.facebook:before {
+  content: "\e91b";
+}
+.twitter:before {
+  content: "\e91c";
+}
+.afip:before {
+  content: "\e91d";
+}
+.ba:before {
+  content: "\e91e";
+}
+.token:before {
+  content: "\e91f";
+}
+.terminal:before {
+  content: "\e920";
+}
+.mano:before {
+  content: "\e921";
+}
+.ojo:before {
+  content: "\e922";
+}
+.mas-opciones-horizontal:before {
+  content: "\e923";
+}
+.debin:before {
+  content: "\e924";
+}
+.inicio:before {
+  content: "\e925";
+}
+.eliminar:before {
+  content: "\e926";
+}
+.borrar:before {
+  content: "\e927";
+}
+.editar:before {
+  content: "\e928";
+}
+.imprimir:before {
+  content: "\e929";
+}
+.buscar:before {
+  content: "\e92a";
+}
+.izquierda:before {
+  content: "\e92b";
+}
+.derecha:before {
+  content: "\e92c";
+}
+.salir:before {
+  content: "\e92d";
+}
+.entrar:before {
+  content: "\e92e";
+}
+.guardar:before {
+  content: "\e92f";
+}
+.clave:before {
+  content: "\e930";
+}
+.mas-opciones:before {
+  content: "\e931";
+}
+.fecha:before {
+  content: "\e932";
+}
+.configuracion:before {
+  content: "\e933";
+}
+.advertencia:before {
+  content: "\e934";
+}
+.cerrar:before {
+  content: "\e935";
+}
+.mas:before {
+  content: "\e936";
+}
+.menos:before {
+  content: "\e937";
+}
+.informacion:before {
+  content: "\e938";
+}
+.internet:before {
+  content: "\e939";
+}
+.favorito:before {
+  content: "\e93a";
+}
+.total:before {
+  content: "\e93b";
+}
+.tiempo:before {
+  content: "\e93c";
+}
+.no-videntes:before {
+  content: "\e93d";
+}
+.en-pie:before {
+  content: "\e93e";
+}
+.cambio-de-clave:before {
+  content: "\e93f";
+}
+.compras:before {
+  content: "\e940";
+}
+.bloqueado:before {
+  content: "\e941";
+}
+.desbloqueado:before {
+  content: "\e942";
+}
+.ubicacion:before {
+  content: "\e943";
+}
+.no-ubicacion:before {
+  content: "\e944";
+}
+.flujo:before {
+  content: "\e945";
+}
+.hombre:before {
+  content: "\e946";
+}
+.mujer:before {
+  content: "\e947";
+}
+.amigos:before {
+  content: "\e948";
+}
+.error:before {
+  content: "\e949";
+}
+.comprobante:before {
+  content: "\e94a";
+}
+.tarjeta:before {
+  content: "\e94b";
+}
+.sin-tarjeta:before {
+  content: "\e94c";
+}
+.pagar:before {
+  content: "\e94d";
+}
+.usuario-ok:before {
+  content: "\e94e";
+}
+.cuenta-destacada:before {
+  content: "\e94f";
+}
+.agregar:before {
+  content: "\e950";
+}
+.transferencia-cta-propia:before {
+  content: "\e951";
+}
+.cajero-notouch:before {
+  content: "\e952";
+}
+.negocio:before {
+  content: "\e953";
+}
+.saldo:before {
+  content: "\e954";
+}
+.consulta-saldo:before {
+  content: "\e955";
+}
+.disponible:before {
+  content: "\e956";
+}
+.ultimos-movimientos:before {
+  content: "\e957";
+}
+.consulta-movimientos:before {
+  content: "\e958";
+}
+.mail:before {
+  content: "\e959";
+}
+.cbu:before {
+  content: "\e95a";
+}
+.consulta-cbu:before {
+  content: "\e95b";
+}
+.cuenta:before {
+  content: "\e95c";
+}
+.billetera:before {
+  content: "\e95d";
+}
+.billete:before {
+  content: "\e95e";
+}
+.pesos:before {
+  content: "\e95f";
+}
+.dolares:before {
+  content: "\e960";
+}
+.euros:before {
+  content: "\e961";
+}
+.adelanto:before {
+  content: "\e962";
+}
+.reconocimiento-billete:before {
+  content: "\e963";
+}
+.transferencia-envio:before {
+  content: "\e964";
+}
+.transferencia-recepcion:before {
+  content: "\e965";
+}
+.deposito-cta-propia:before {
+  content: "\e966";
+}
+.deposito-cta-terceros:before {
+  content: "\e967";
+}
+.limite-compra:before {
+  content: "\e968";
+}
+.limite-pagos:before {
+  content: "\e969";
+}
+.clave-mobile:before {
+  content: "\e96a";
+}
+.recarga-tel:before {
+  content: "\e96b";
+}
+.giftcard:before {
+  content: "\e96c";
+}
+.tarjeta-coordenadas:before {
+  content: "\e96d";
+}
+.extraccion:before {
+  content: "\e96f";
+}
+.consultas:before {
+  content: "\e970";
+}
+.si-no:before {
+  content: "\e971";
+}
+.empresa:before {
+  content: "\e972";
+}
+.en-auto:before {
+  content: "\e973";
+}
+.banco:before {
+  content: "\e974";
+}
+.factura:before {
+  content: "\e975";
+}
+.donacion:before {
+  content: "\e976";
+}
+.cpp:before {
+  content: "\e977";
+}
+.giftcard2:before {
+  content: "\e978";
+}
+.regalo:before {
+  content: "\e979";
+}
+.carro:before {
+  content: "\e97a";
+}
+.limite-extraccion:before {
+  content: "\e97b";
+}
+.retire-tarjeta:before {
+  content: "\e97c";
+}
+.ingrese-tarjeta:before {
+  content: "\e97d";
+}
+.cardhole-out:before {
+  content: "\e97e";
+}
+.cardhole-in:before {
+  content: "\e97f";
+}
+.tarjeta90:before {
+  content: "\e980";
+}
+.arriba:before {
+  content: "\e981";
+}
+.abajo:before {
+  content: "\e982";
+}
+.touch:before {
+  content: "\e983";
+}
+.mensaje:before {
+  content: "\e984";
+}
+.archivar:before {
+  content: "\e985";
+}

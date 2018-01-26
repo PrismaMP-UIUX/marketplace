@@ -1,0 +1,88 @@
+// Variables de Branding
+// --------------------------------------------------
+
+// Colores
+
+// $blanco: #fff;
+// $celeste: #00a1e1;
+// $turquesa: #3fb3e6;
+// $gris-mas-oscuro: #807f7d;
+// $gris-muy-oscuro: #b3b3b3;
+// $gris-oscuro: #eaeaea;
+// $gris-claro: #f3f3f3;
+// $rojo: #e60219;
+// $bordo: #9a0405;
+// $verde: #007c57;
+// $naranja: #fe8204;
+// $grain: #c8e1e4;
+
+// $tabla_de_colores: (
+//   "celeste": $celeste,
+//   "turquesa": $turquesa,
+//   "gris-oscuro": $gris-oscuro,
+//   "gris-claro": $gris-claro,
+//   "gris-muy-oscuro": $gris-muy-oscuro,
+//   "gris-mas-oscuro": $gris-mas-oscuro,
+//   "rojo": $rojo,
+//   "bordo": $bordo,
+//   "verde": $verde,
+//   "naranja": $naranja,
+//   "blanco": $blanco,
+//   "grain": $grain,
+// ) !default;
+
+// @each $color in $tabla_de_colores {
+//   .#{nth($color,1)} {
+//     background-color: #{nth($color,2)} !important;
+//   }
+//   .#{nth($color,1)}-text {
+//     color: #{nth($color,2)} !important;
+//   }
+// }
+
+
+$brand_blanco: #fff;
+$brand_celeste: #00A3DD;
+$brand_blue: #00a3dd;
+$brand_naranja: #FF8300;
+$brand_borgonia: #707274;
+$brand_gris: #707274;
+$fondo: #f0f3f4;
+
+$fondo-card-gris: #cfd8dc;
+.fondo-card-gris {
+  background-color: $fondo-card-gris !important;
+}
+
+
+.blue {background-color: #00A3DD !important;}
+
+// block
+.block {
+  display: block !important;
+}
+
+.border {
+  border: 2px solid #00a3dd !important;
+}
+
+// Breacks responsive
+$break-mobile: 400px;
+$break-phablet: 550px;
+$break-tablet: 750px;
+$break-desktop: 1000px;
+$break-desktophd: 1200px;
+
+// Tamaños
+$sz-mobile: "( min-width: " $break-mobile " )" ;
+$sz-phablet: "( min-width: " $break-phablet " )";
+$sz-tablet: "( min-width: " $break-tablet " )";
+$sz-desktop: "( min-width: " $break-desktop" )" ;
+$sz-desktophd: "( min-width: " $break-desktophd " )";
+
+// Tamaños
+$sz-mobile: "only screen and (min-width: 25em)" ;
+$sz-phablet: "only screen and (min-width: 34em)";
+$sz-tablet: "only screen and (min-width: 48em)";
+$sz-desktop: "only screen and (min-width: 64em)" ;
+$sz-desktophd: "only screen and (min-width: 75em)";

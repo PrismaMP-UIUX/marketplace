@@ -1,0 +1,449 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"card",
+				"card-body"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"inn",
+				"inline-block"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"inlie",
+				"inline-block"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"ta",
+				"target\tAttr"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"light",
+				"lighten"
+			],
+			[
+				"cuerpo",
+				"cuerpo_muychico"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"table",
+				"table-row"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"mari",
+				"margin-right"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"pa",
+				"placeholder\tAttr"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"text",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "indent",
+		"selected_items":
+		[
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 484.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/sass/mdb/_custom.scss",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/checkout.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/_partials/navigation.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/bienvenido.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/bienvenido2.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/genero.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/otrasactividades.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/asiento.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/final.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/diayhora.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/aquecine2.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/conquienvas.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/aquecine.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/index.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/_partials/resultado1.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/sass/mdb/_custom-temp.scss",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/sass/mdb/_custom (Copia en conflicto de Mariano d'Almeida 2017-11-20).scss",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/_backup1/css/bootstrap.css",
+		"/E/Dropbox (Personal)/Xampp/Banelco_Marketplace/sass/_materializeCustom.scss",
+		"/E/Dropbox (Personal)/Xampp/Banelco_Marketplace/sass/_particularidades.scss",
+		"/E/Dropbox (Personal)/Xampp/Banelco_Marketplace/sass/_hacks.scss",
+		"/E/Dropbox (Personal)/Xampp/Banelco_Marketplace/sass/_layout.scss",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/buscando.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/resultado.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/sass/mdb.scss",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/_partials/head.php",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/css/style.css",
+		"/E/Dropbox (Personal)/Xampp/TP Usabilidad y Accesibilidad Final/css/mdb.css",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/inicio_sinpapel2.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/inicio_sindinero2.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/inicio.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/inicio_sindinerosinpapel2.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/scss/_botones.scss",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/mau2.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/mau1.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/assets/int_timeout.php",
+		"/C/Users/Mariano/Desktop/WebSda/Web_SdA.scss",
+		"/C/Users/Mariano/Desktop/WebSda/Web_SdA.css",
+		"/C/Users/Mariano/Desktop/theme.less",
+		"/C/Users/Mariano/Desktop/Web_SdA.css",
+		"/E/Dropbox (Personal)/Clientes/Maxvision/Mercadolibre/index.html",
+		"/C/Users/Mariano/Desktop/index.html",
+		"/C/Users/Mariano/Desktop/htmlmlgaby.html",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/idposalfa3.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/idposalfaerror.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/idposalfa4.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/css/style.css",
+		"/C/Users/Mariano/Desktop/Backup APSA/htmls/Integrantes.html",
+		"/C/Users/Mariano/Desktop/integrantes.html",
+		"/C/Users/Mariano/Desktop/wp_wysija_user.sql",
+		"/C/Users/Mariano/Desktop/lg000554_rihpnew.sql",
+		"/C/Users/Mariano/Desktop/lg000554_rihp_solo_mailpoet.sql",
+		"/E/Dropbox (Personal)/Xampp/Banelco_HB_Tucuman/tarjetasdebito.php",
+		"/C/Users/Mariano/Desktop/.htaccess",
+		"/E/Dropbox (Personal)/Xampp/TAM/nueva.php",
+		"/E/Dropbox (Personal)/Xampp/TAM/css/style.scss",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/scss/_layout.scss",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/scss/_typografia.scss",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/extraccion.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/extraccion2.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/login.php",
+		"/E/Dropbox (Personal)/Xampp/APSA/wp-config.php",
+		"/C/Users/Mariano/Desktop/widget.html",
+		"/C/Users/Mariano/Desktop/Integrantes.html",
+		"/E/Dropbox (Personal)/Xampp/TAM/ticket_nueva.php",
+		"/E/Dropbox (Personal)/Xampp/TAM/edit.php",
+		"/E/Dropbox (Personal)/Xampp/TAM/index.php",
+		"/E/Dropbox (Personal)/Xampp/TAM/nueva_verificada.php",
+		"/E/Dropbox (Personal)/Xampp/TAM/detalle.php",
+		"/E/Dropbox (Personal)/Xampp/TAM/actions.php",
+		"/E/Dropbox (Personal)/Xampp/TAM/ticket.php",
+		"/E/Dropbox (Personal)/Xampp/TAM/nav_in.php",
+		"/E/Dropbox (Personal)/Xampp/TAM/css/personalizacion/_particularidades.scss",
+		"/E/Dropbox (Personal)/Xampp/TAM/css/personalizacion/_typografia.scss",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/scss/_formybotones.scss",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/scss/_degrades.scss",
+		"/E/Dropbox (Personal)/Xampp/energia universal/web_eu/index.html",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/index.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/nav_in.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/js/init.js",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/subcampos.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/referentes.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/mapas.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/emergencias.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/gracias.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/actions.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/footer.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/var_link_comment.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/header.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/modulos.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/__notas.txt",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/radiocomunicaciones.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/scss no copiar/_particularidades.scss",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/php/contact.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/convivencia.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/confesiones.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/circulares.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/horarios.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/fotos.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/kudu.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/noticias.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/sugerencias.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/canaes.php",
+		"/E/Dropbox (Personal)/Xampp/App_Canaes/scss no copiar/_typografia.scss",
+		"/C/Users/Mariano/Desktop/magnifik-0.1.4/magnifik-0.1.4/examples/index.html",
+		"/C/Users/Mariano/Desktop/magnifik-0.1.4/magnifik-0.1.4/examples/main.js",
+		"/E/Dropbox (Personal)/Xampp/energia universal/web_eu/assets/php/contact.php",
+		"/E/Dropbox (Personal)/Xampp/Banelco_HB_Tucuman/scss no copiar/_typografia.scss",
+		"/E/Dropbox (Personal)/Xampp/Banelco_HB_Tucuman/css/style.css",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/ayuda.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/ingreso.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/assets/brandbar_hsbc.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/scss/style.scss",
+		"/E/Dropbox (Personal)/Xampp/index.html",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/assets/pie_ayuda.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/assets/brandbar_banelco.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/assets/pie_volver.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/index.html",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/assets/pie_solosalir.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/assets/pie_loginayuda.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/assets/brandbar.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/index.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/header.php",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/js/init.js",
+		"/E/Dropbox (Personal)/Xampp/Multivendor/footer.php",
+		"/E/Dropbox (Personal)/Xampp/Banelco_HB_Tucuman/header.php",
+		"/E/Dropbox (Personal)/Xampp/Banelco_HB_Tucuman/index.php",
+		"/E/Dropbox (Personal)/Xampp/Banelco_HB_Tucuman/afterlogin.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Cambios en maqueta para pasar a FE.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

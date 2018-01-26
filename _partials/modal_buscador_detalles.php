@@ -1,0 +1,245 @@
+<!-- 1 -->
+<div id="bd-1" class="modal buscador-detalles max-500">
+  <div class="modal-content pd-b-0">
+    <i class="material-icons right modal-close">close</i>
+    <div class="row mg-b-10">
+      <div class="col s12">
+        <div class="collapsible z-depth-0 reset-border mg-0">
+          <li style="list-style: none;">
+            <h2 class="mg-0 collapsible-header grey lighten-5 valign-wrapper reset-border pd-b-0 pd-t-0">VEP <i class="material-icons mg-l-5">help_outline</i></h2>
+            <div class="collapsible-body reset-border pd-0">
+              <p style="font-size:0.8em">Para poder pagar a través de PagoMisCuentas.com, sólo deberá ingresar la clave "Pago en Banelco" (ubicada en el frente de la factura, dentro del recuadro de color celeste, sobre el margen superior derecho, junto a los datos del cliente) que consta de 10 dígitos. De esta forma, queda automáticamente relacionado el código ingresado a su clave de usuario, simplificando su operatoria en el futuro.</p>
+              <p style="font-size:0.8em" class="orange-text">Se puede pagar primer y segundo vencimiento.</p>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="row mg-b-5">
+      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em"><img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);">Rubro: AFIP</div>
+    </div>
+    <div class="row">
+      <form>
+        <div class="input-field col s12 m10 offset-m1">
+          <input id="cuit-contr" type="text" data-length="11" pattern="^[0-9]+$" maxlength="11" class="validate mg-b-10">
+          <label style="font-size:0.8em" for="cuit-contr">CUIT del Contribuyente del VEP a pagar</label>
+        </div>
+        <div class="input-field col s12 m10 offset-m1">
+          <input id="cuit-gene" type="text" data-length="11" pattern="^[0-9]+$" maxlength="11" class="validate mg-b-10">
+          <label style="font-size:0.8em" for="cuit-gene">CUIT del Generador del VEP a pagar</label>
+        </div>
+        <div class="input-field col s12 m10 offset-m1">
+          <span class="grey-text" style="font-size:0.8em">Podes ponerle un alias para acordarte (opcional):</span>
+          <input placeholder="Ej: Celu de mamá" id="" type="text" class="validate mg-b-10">
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <a class="btn-flat modal-close waves-effect pd-l-0"><i class="material-icons left">close</i> Cancelar</a>
+        <a href="inicio_conpendientes.php" class="btn blue right"><i class="material-icons right">check</i> Agregar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 2 -->
+<div id="bd-2" class="modal buscador-detalles max-500">
+  <div class="modal-content pd-b-0">
+    <i class="material-icons right modal-close">close</i>
+    <div class="row mg-b-10">
+      <div class="col s12">
+        <div class="collapsible z-depth-0 reset-border mg-0">
+          <li style="list-style: none;">
+            <h2 class="mg-0 collapsible-header grey lighten-5 valign-wrapper reset-border pd-b-0 pd-t-0">ABSA <i class="material-icons mg-l-5">help_outline</i></h2>
+            <div class="collapsible-body reset-border pd-0">
+              <p style="font-size:0.8em">Para poder pagar a través de PagoMisCuentas.com, sólo deberá ingresar la clave "Pago en Banelco" (ubicada en el frente de la factura, dentro del recuadro de color celeste, sobre el margen superior derecho, junto a los datos del cliente) que consta de 10 dígitos. De esta forma, queda automáticamente relacionado el código ingresado a su clave de usuario, simplificando su operatoria en el futuro.</p>
+              <p style="font-size:0.8em" class="orange-text">Se puede pagar primer y segundo vencimiento.</p>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="row mg-b-5">
+      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em"><img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);">Rubro: AFIP</div>
+    </div>
+    <div class="row">
+      <form>
+          <div class="input-field col s12 m10 offset-m1">
+            <input id="cuit-empleado" type="text" data-length="11" pattern="^[0-9]+$" maxlength="11" class="validate mg-b-10">
+            <label style="font-size:0.8em" for="cuit-empleado">CUIT/CUIL empleado</label>
+          </div>
+          <div class="input-field col s12 m10 offset-m1">
+            <input id="cuit-empleador" type="text" data-length="11" pattern="^[0-9]+$" maxlength="11" class="validate mg-b-10">
+            <label style="font-size:0.8em" for="cuit-empleador">CUIT/CUIL empleador</label>
+          </div>
+          <div class="input-field col s12 m10 offset-m1">
+            <p style="font-size:0.8em" class="blue-text mg-0">Fecha</p>
+            <div class="input-field col s6 mg-t-0">
+              <input id="mes" name="mes" type="text" pattern="^(0?[1-9]|1[012])$" maxlength="2" class="validate center-align  mg-b-10" placeholder="MM" required>
+            </div>
+            <div class="input-field col s6 mg-t-0">
+              <input id="anio" name="anio" type="text" pattern="\d*" maxlength="2" class="validate center-align mg-b-10" placeholder="AA" required>
+            </div>
+          </div>
+          <div class="input-field col s12 m10 offset-m1">
+            <span style="font-size:0.8em;" class="blue-text">Importe</span>
+            <p>176,00</p>
+            <!-- <input disabled value="176,00" id="importe" type="text"> -->
+            <!-- <label style="font-size:0.8em" for="importe">Importe</label> -->
+          </div>
+          <div class="input-field col s12 m10 offset-m1">
+            <span class="grey-text" style="font-size:0.8em">Podes ponerle un alias para acordarte (opcional):</span>
+            <input placeholder="Ej: Celu de mamá" id="" type="text" class="validate mg-b-10">
+          </div>
+        </div>
+      </form>
+      <div class="row">
+        <div class="col s12">
+          <a class="btn-flat modal-close waves-effect pd-l-0"><i class="material-icons left">close</i> Cancelar</a>
+          <a href="inicio_conpendientes.php" class="btn blue right"><i class="material-icons right">check</i> Agregar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 3 -->
+<div id="bd-3" class="modal buscador-detalles max-500">
+  <div class="modal-content pd-b-0">
+    <i class="material-icons right modal-close">close</i>
+    <div class="row mg-b-10">
+      <div class="col s12">
+        <div class="collapsible z-depth-0 reset-border mg-0">
+          <li style="list-style: none;">
+            <h2 class="mg-0 collapsible-header grey lighten-5 valign-wrapper reset-border pd-b-0 pd-t-0">Cruz Roja <i class="material-icons mg-l-5">help_outline</i></h2>
+            <div class="collapsible-body reset-border pd-0">
+              <p style="font-size:0.8em">Para poder pagar a través de PagoMisCuentas.com, sólo deberá ingresar la clave "Pago en Banelco" (ubicada en el frente de la factura, dentro del recuadro de color celeste, sobre el margen superior derecho, junto a los datos del cliente) que consta de 10 dígitos. De esta forma, queda automáticamente relacionado el código ingresado a su clave de usuario, simplificando su operatoria en el futuro.</p>
+              <p style="font-size:0.8em" class="orange-text">Se puede pagar primer y segundo vencimiento.</p>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="row mg-b-5">
+      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em"><img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);">Rubro: AFIP</div>
+    </div>
+    <div class="row">
+      <form>
+          <div class="input-field col s12 m10 offset-m1">
+            <input id="doc" type="text" data-length="8" pattern="^[0-9]+$" maxlength="8" class="validate mg-b-10">
+            <label for="doc" style="font-size:0.8em">Número de documento</label>
+          </div>
+          <div class="input-field col s12 m10 offset-m1">
+            <input id="importe" type="text" pattern="^[0-9]{1,9}([,.][0-9]{1,2})?$" class="validate mg-b-10">
+            <label for="importe" style="font-size:0.8em">Importe</label>
+          </div>
+          <div class="input-field col s12 m10 offset-m1">
+            <span class="grey-text" style="font-size:0.8em">Podes ponerle un alias para acordarte (opcional):</span>
+            <input placeholder="Ej: Celu de mamá" id="" type="text" class="validate mg-b-10">
+          </div>
+        </div>
+      </form>
+      <div class="row">
+        <div class="col s12">
+          <a class="btn-flat modal-close waves-effect pd-l-0"><i class="material-icons left">close</i> Cancelar</a>
+          <a href="inicio_conpendientes.php" class="btn blue left"><i class="material-icons right">check</i> Agregar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- 4 -->
+<div id="bd-4" class="modal buscador-detalles max-500">
+  <div class="modal-content pd-b-0">
+    <i class="material-icons right modal-close">close</i>
+    <div class="row mg-b-10">
+      <div class="col s12">
+        <div class="collapsible z-depth-0 reset-border mg-0">
+          <li style="list-style: none;">
+            <h2 class="mg-0 collapsible-header grey lighten-5 valign-wrapper reset-border pd-b-0 pd-t-0">AySA <i class="material-icons mg-l-5">help_outline</i></h2>
+            <div class="collapsible-body reset-border pd-0">
+              <p style="font-size:0.8em">Para poder pagar a través de PagoMisCuentas.com, sólo deberá ingresar la clave "Pago en Banelco" (ubicada en el frente de la factura, dentro del recuadro de color celeste, sobre el margen superior derecho, junto a los datos del cliente) que consta de 10 dígitos. De esta forma, queda automáticamente relacionado el código ingresado a su clave de usuario, simplificando su operatoria en el futuro.</p>
+              <p style="font-size:0.8em" class="orange-text">Se puede pagar primer y segundo vencimiento.</p>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="row mg-b-5">
+      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em"><img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);">Rubro: AFIP</div>
+    </div>
+    <form>
+      <div class="row">
+        <div class="input-field col s12 m10 offset-m1">
+          <input id="importe" type="text" data-length="19" pattern="^[0-9]+$" maxlength="19" class="validate mg-b-10">
+          <label for="importe" style="font-size:0.8em">Clave de pago Banelco</label>
+        </div>
+        <div class="input-field col s12 m10 offset-m1">
+          <span class="grey-text" style="font-size:0.8em">Podes ponerle un alias para acordarte (opcional):</span>
+          <input placeholder="Ej: Celu de mamá" id="" type="text" class="validate mg-b-10">
+        </div>
+      </div>
+    </form>
+    <div class="row">
+      <div class="col s12">
+        <a class="btn-flat modal-close waves-effect pd-l-0"><i class="material-icons left">close</i> Cancelar</a>
+        <a href="inicio_conpendientes.php" class="btn blue right"><i class="material-icons right">check</i> Agregar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 5 -->
+<div id="bd-5" class="modal buscador-detalles max-500">
+  <div class="modal-content pd-b-0">
+    <i class="material-icons right modal-close">close</i>
+    <div class="row mg-b-10">
+      <div class="col s12">
+        <div class="collapsible z-depth-0 reset-border mg-0">
+          <li style="list-style: none;">
+            <h2 class="mg-0 collapsible-header grey lighten-5 valign-wrapper reset-border pd-b-0 pd-t-0">Personal <i class="material-icons mg-l-5">help_outline</i></h2>
+            <div class="collapsible-body reset-border pd-0">
+              <p style="font-size:0.8em">Para poder pagar a través de PagoMisCuentas.com, sólo deberá ingresar la clave "Pago en Banelco" (ubicada en el frente de la factura, dentro del recuadro de color celeste, sobre el margen superior derecho, junto a los datos del cliente) que consta de 10 dígitos. De esta forma, queda automáticamente relacionado el código ingresado a su clave de usuario, simplificando su operatoria en el futuro.</p>
+              <p style="font-size:0.8em" class="orange-text">Se puede pagar primer y segundo vencimiento.</p>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="row mg-b-5">
+      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em"><img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);">Rubro: AFIP</div>
+    </div>
+    <form>
+      <div class="row">
+        <div class="input-field col s12 m10 offset-m1">
+          <span class="grey-text" style="font-size:0.8em">Referencia de pago (*)</span>
+          <input id="" type="text" data-length="19" pattern="^[0-9]+$" maxlength="19" class="validate mg-b-10">
+        </div>
+        <div class="input-field col s12 m10 offset-m1">
+          <input class="mg-b-10" id="importe" type="text" pattern="^[0-9]{1,9}([,.][0-9]{1,2})?$" class="validate mg-b-10">
+          <label for="importe" style="font-size:0.8em">Importe (opcional)</label>
+          <p class="orange-text left-align valign-wrapper mg-0" style="font-size:0.8em">
+            <i class="material-icons tooltipped mg-r-5" data-tooltip-id="0490eea2-5532-6b79-bfdf-325e3dcdfc01">info_outline</i>
+            <span>Ingresá el importe si es tu primer pago o si tu factura no está informada</span>
+          </p>
+        </div>
+        <div class="input-field col s12 m10 offset-m1 mg-t-40">
+          <span class="grey-text" style="font-size:0.8em">Podes ponerle un alias para acordarte (opcional):</span>
+          <input placeholder="Ej: Celu de mamá" id="" type="text" class="validate mg-b-10">
+        </div>
+        <div class="col s12">
+
+        </div>
+      </div>
+    </form>
+    <div class="row">
+      <div class="col s12">
+        <a class="btn-flat modal-close waves-effect pd-l-0"><i class="material-icons left">close</i> Cancelar</a>
+        <a href="inicio_conpendientes.php" class="btn blue right"><i class="material-icons right">check</i> Agregar</a>
+      </div>
+    </div>
+  </div>
+</div>

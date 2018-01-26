@@ -1,0 +1,199 @@
+16/11
+	Componente: Boton carrito
+	Archivos: nav.php
+	Comentarios: bla
+	Preguntas a: Pato
+
+  Componente: Botones "imprimir todo" y "descargar todo"
+  Archivos: ticket.php
+  Comentarios: tienen un margin
+  Preguntas a: Lucio
+
+  Componente: Select de empresa y numero de telefono
+  Archivos: nologueadoregistro2.php
+  Comentarios: agrego m4/m8 y cambio a s12 en las cols
+  Preguntas a: Lucio
+
+  Componente: img (mobile)
+  Archivos: pagar.php
+  Comentarios: agrego clase "hide-on-small-only"
+  Preguntas a: Lucio
+
+  Componente: cada item-grid
+  Archivos: medio_de_pago.php
+  Comentarios: principalmente el editar vto, la clase heigth-35 en la imagen de visa/master/amex, botones habilitar/eliminar, etc.
+  Preguntas a: Lucio
+
+  Componente: texto en tabs
+  Archivos: mi_perfil.php
+  Comentarios: cambio de texto en tabs y en texto posterior (mensajes por notificaciones y acceso por ingreso).
+  Preguntas a: Lucio
+
+17/11
+	Componente: Modal Buscador
+	Archivos: modal_buscador_detalle.php
+	Comentarios: bla
+	Preguntas a: Pato
+
+	Componente: Bienvenida
+	Archivos: inicioTabla.php, inicio.php
+	Comentarios: Vuelan las palabras "Por favor" de la frase "Por favor seleccioná una o varias de las facturas que queres pagar."
+	Preguntas a: Pato
+
+	Componente: Tabla inicio
+	Archivos: inicioTabla.php, init.js
+	Comentarios: Se cambió el icono + de las filas con collapse de la tabla por una flechita que gira. Se hizo una clase que hace girar algo con el click (flechitas, por ejemplo). la clase es "rotateOnClick").
+	Preguntas a: Pato
+
+	Componente: Boton pagar
+	Archivos: Todos los de inicio
+	Comentarios: Ahora se oculta el boton de pago rapido cuando la factura se agrega al carrito. Para la animación togglear las clases "scale-transition scale-out" en el boton. Para la grilla togglearle la clase "active" a ".card-action" y correr masonry para que se acomoden las cards.
+	Preguntas a: Pato
+
+  Componente: Botón eliminar, y editar alias dentro del collapsible
+  Archivos: tabla.php, inicioTabla.php
+  Comentarios: se modificó la ubicación del botón eliminar y se aregó la función de editar alias. Se modificó la función deleteItem para pegarle al botón eliminar.
+  Preguntas a: Lucio
+
+  Componente: Links y textos de las actions
+  Archivos: actions.php y actions_emptystates.php
+  Comentarios: nuevos textos, links... y creo que nada más.
+  Preguntas a: Lucio
+
+  Componente: estructura e IMGs
+  Archivos: emptystates*.php (los 3 archivos)
+  Comentarios: mg-b-0 en ROW, en IMG clase "max-150" reemplazando el atributo "width".
+  Preguntas a: Lucio
+
+  Componente: Botón eliminar
+  Archivos: pagar.php
+  Comentarios: modificaciones en la estructura del div del botón tachito (en gral) y en la estructura del LI que tiene el texto de error (especificamente).
+  Preguntas a: Lucio
+
+  Componente: Vencimiento editable
+  Archivos: medio_de_pago.php
+  Comentarios: el P que contiene el vencimiento es editable, se agregan algunas clases para poder editar.
+  Preguntas a: Lucio
+
+21/11
+
+  Componente: Editar Alias/Vencimiento
+  Archivos: inicioTabla.php, inicio.php, inicio_conpendientes.php, medio_de_pago.php
+  Comentarios: Agrego función para que se edite el alias/vencimiento al presionar ENTER. En el caso de medio_de_pago.php tambien modifico el onclick, poniendo la función directamente, más prolijo. En el caso de inicio_conpendientes.php modifico clases para reutilizar funciones.
+  Preguntas a: Lucio
+
+  Componente: Editar Alias
+  Archivos: tabla.php
+  Comentarios: Cambio en la estructura del collapsible-body, y especificamente donde se muestra el alias para poder editarlo.
+  Preguntas a: Lucio
+
+  Componente: Tooltips
+  Archivos: actions.php
+  Comentarios: Se eliminan los tooltips propiamente dichos (materialize) y se simulan con .btn-floating y otra clase. No encontré la forma de desplegar todos los tooltips (de materialize) :(
+  Preguntas a: Lucio
+
+  Componente: Checkboxs
+  Archivos: tabla.php
+  Comentarios: Se eliminan los checkbox si está PAGADA, si es RUBRO, si es UNICEF o una promo de DUPLICA (claro, movistar, etc) . Agrego class .max-35 al DIV para mantener la alineación de las IMGs
+  Preguntas a: Lucio
+
+  Componente: Formulario pinchange y perfil
+  Archivos: pinChange.php, perfil.php
+  Comentarios: Se agregó el ojito para ver mas. Importante que el ojito la clase "second-icon" y actualizar sass
+  Preguntas a: Pato
+
+  Componente: Todo icono que quiera girar con el click
+  Archivos: Hasta ahora se aplicó en el icono de ver más de la vista tabla (tabla.php) y en el ver más del usuario (header.php). Se actualizó sass y init.js
+  Comentarios: Se creó una clase ("rotateOnClick") que hace girar al elemento en el click (el evento agrega la clase "active" que dispara la animación).
+  Preguntas a: Pato
+
+  Componente: ayuda clave pinChange y perfil
+  Archivos: pinChange.php y perfil.php
+  Comentarios: Se agregó la clase toHideInMobile al tooltip de ayuda para que se esconda en mobile.
+  Preguntas a: Pato
+
+  Componente: modales de buscador
+  Archivos: modal_buscador_detalles.php
+  Comentarios: Cambió el icono de la flechita al lado de la empresa por uno de help. también le achiqué el margen left al icono
+  Preguntas a: Pato
+
+  Componente: Texto
+  Archivos: medio_de_pago.php
+  Comentarios: Saqué todo el texto que sobraba. Lo dejé comentado por si el día de mañana lo quieren volver a agregar. Cambié el margin de "Estos son tus madios de pago" mg-t y mg-b
+  Preguntas a: Mariano
+
+  Componente: modales del buscador
+  Archivos: modal_buscador_detalles.php
+  Comentarios: en el DIV de fecha e importe cambió la estructura
+  Preguntas a: Lucio
+
+  Componente: logos en tarjetas de crédito
+  Archivos: alta_tarjeta.php
+  Comentarios: agrego jquery para anular parte de los logos y reemplazarlos via css.
+  Preguntas a: Lucio
+
+  Componente: Texto en boton borrar todas
+  Archivos: pagar.php
+  Comentarios: Cambiar texto cancelar por borrar todas.
+  Preguntas a: Mariano
+
+22/11
+	Componente: Buscar por rubros (busqueda avanzada)
+	Archivos: buscar.php
+	Comentarios: Cambio la forma en que se selecciona el rubro. Ahora aparece la lista de rubros con iconitos en forma de grilla. La animación no es la definitiva, va a cambiar.
+	Preguntas a: Pato
+
+	Componente: Busqueda avanzada: Resultados
+	Archivos: buscar.php
+	Comentarios: Cambió levemente el markup del html de lista y se agregói el botón AGREGAR que dispara el modal de búsqueda
+	Preguntas a: Pato
+
+	Componente: Modales buscador
+	Archivos: modal_buscador_detalles.php
+	Comentarios: el collapsible se puso en en nombre de la empresa. cambio el html
+	Preguntas a: Pato
+
+  Componente: Estructura de col, rows y cards
+  Archivos: medio_de_pago.php
+  Comentarios: Cambié la estructura para separar en 2 cards. La de arriba es si no tiene medios de pago, la de abajo si ya los tiene. Metí un botón adentro de la card que estaba colgado.
+  Preguntas a: Mariano
+
+	Componente: Modificacion boton de pagar
+	Archivos: pagar.php
+	Comentarios: Ahora es azul y dispara un modal de confirmacion de pago (#confimarcion-pago)
+	Preguntas a: Pato
+
+	Componente: modal de confirmacion de pago
+	Archivos: modal_confirmacion_pago.php
+	Comentarios: Se creó de 0
+	Preguntas a: Pato
+
+  Componente: clases de colores
+  Archivos: pagar.php
+  Comentarios: cambio el "orange-text" por "grey-text text-darken-2"
+  Preguntas a: Lucio
+
+  Componente: IMG
+  Archivos: pagar.php
+  Comentarios: cambio las IMGs por svgs de rubros
+  Preguntas a: Lucio
+
+  Componente: boton borrar todas
+  Archivos: pagar.php
+  Comentarios: agrego clases "btn white" además de las que ya tenia.
+  Preguntas a: Lucio
+
+  Componente: modales desde cero
+  Archivos: modal_terminosycondiciones.php, modal_privacidad.php, modal_protecciondatospersonales.php, modal_preguntasfrecuentes.php
+  Comentarios: se creó desde 0
+  Preguntas a: Lucio
+
+  Componente: Footer
+  Archivos: footer.php
+  Comentarios: Modifiqué todo el contenido y bastante de la estructura (ahora es fijo). Te diría que se creó de 0.
+  Preguntas a: Lucio
+
+  Componente: editar Alias
+  Archivos: pagar.php
+  Comentarios: Agrego un mg-r-5 al P del ALIAS dentro del collapsible-body
+  Preguntas a: Lucio

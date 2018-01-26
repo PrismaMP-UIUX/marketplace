@@ -1,0 +1,215 @@
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+
+@keyframes to-green {from {background-color: #00A3DD;}
+    to {background-color: #4CAF50;}}
+@-webkit-keyframes to-green {from {background-color: #00A3DD;}
+    to {background-color: #4CAF50;}}
+
+.rotate{
+   -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.to-green{
+   -webkit-animation: 1s to-green linear;
+    animation: 1s to-green linear;
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-fill-mode: forwards;
+}
+
+@keyframes bounceInLeftSass {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.bounceInLeftSass {
+  animation-name: bounceInLeftSass;
+}
+
+@keyframes bounceInRightSass {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    opacity: 0;
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.bounceInRightSass {
+  animation-name: bounceInRightSass;
+}
+
+.noAnimation {
+  animation: none !important;
+}
+
+section {
+
+	@media #{$large-and-up} {
+		position: inherit;
+		overflow: hidden;
+	}
+
+	.container {
+		position: fixed;
+		top: 0;
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+	    height: 0px;
+	    z-index: 1;
+
+
+	    // @media #{$sz-phablet} {
+
+	    // }
+	}
+	.carrito {
+		@extend .white;
+		margin-top: -2px;
+	    padding: 1px 20px 1px;
+	    border: solid 1px $brand_celeste;
+	    width: 100%;
+	    position: relative;
+	    top: -50px;
+	    -webkit-transition: top 0.5s; /* Safari */
+        transition: top 0.5s;
+
+	    &.active{
+			top: 60px;
+
+			@media #{$medium-and-up} {
+				top:124px
+			}
+	    }
+
+
+	}
+
+}
+
+// $medium-and-up
+// $large-and-up
+// $extra-large-and-up
+// $small-and-down
+// $medium-and-down
+// $medium-only
+
+
+//TIMER DEL TOAST DESHACER AL ELIMINAR UNA FACTURA DE LA LISTA DE PAGAR
+.radial-timer {
+  // CONFIG
+  $size: 20px;
+  $thickness: 3px;
+  $duration: 20s;
+  $color: white;
+
+  overflow: hidden;
+  height: $size;
+  width: $size;
+  position: relative;
+  left: -10px;
+  display: inline-block;
+
+  .radial-timer-half {
+    height: $size;
+    width: $size/2;
+    border-radius: $size/2 0 0 $size/2;
+    background: $color;
+    position: absolute;
+    &:nth-of-type(2) {
+      z-index: 99999999;
+      -webkit-transform-origin: center right;
+      -webkit-transform: rotate(180deg);
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: $thickness;
+      left: $thickness;
+      height: $size - 2*$thickness;
+      width: ($size - 2*$thickness)/2;
+      border-radius: ($size - $thickness)/2 0 0 ($size - $thickness)/2;
+      background: #323232;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      background: #323232;
+      height: $size*2;
+      width: $size*1.5;
+      left: -$size;
+      top: -$size/2;
+      -webkit-transform-origin: center right;
+    }
+  }
+
+  &.s-animate {
+    -webkit-transform-origin: center right;
+    .radial-timer-half:nth-of-type(1):after {
+      -webkit-animation: rotateLeftMask $duration infinite linear;
+    }
+    .radial-timer-half:nth-of-type(2):after {
+      -webkit-animation: rotateRightMask $duration infinite linear;
+    }
+  }
+}
+
+@-webkit-keyframes rotateLeftMask {
+  0%   { -webkit-transform: rotate(0deg); }
+  50%   { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(180deg); }
+}
+@-webkit-keyframes rotateRightMask {
+  0%   { -webkit-transform: rotate(0deg); }
+  50%   { -webkit-transform: rotate(180deg); visibility: hidden; }
+  100% { -webkit-transform: rotate(180deg); visibility: hidden; }
+}

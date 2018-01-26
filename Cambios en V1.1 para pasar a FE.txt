@@ -1,0 +1,102 @@
+1/12
+	Componente: Tabs de Perfil
+	Archivos: perfil.php
+	Comentarios: Elimino tabs ya que solo puede ingresar de una manera
+	Preguntas a: Lucio
+
+4/12
+  Componente: Tags <rubro> en Buscar
+  Archivos: buscar.php
+  Comentarios: Agrego tags <rubro> para incluir imagenes. Tambien agrego clases al tag <rubro>
+  Preguntas a: Lucio
+
+  Componente: Logo Mobile
+  Archivos: header_out.php y header.php
+  Comentarios: Cambio logo mobile a uno reducido.
+  Preguntas a: Lucio
+
+  Componente: Boton pagar/guardar en inicioTabla.php
+  Archivos: inicioTabla.php, inicio.php, tabla.php
+  Comentarios: Agrego clase "not-collapse" a botones Guardar y Pagar de la vista Tabla. Modifico jquery en inicioTabla.php para que abra el modal correspondiente a cada botón. Copio el mismo jquery en inicio.php ya que esa vista en mobile utiliza tabla.php.
+  Preguntas a: Lucio
+
+  Componente: Validaciones en inputs
+  Archivos: modal_buscador_detalles.php
+  Comentarios: Agrego validaciones de número, cantidad y contador en inputs. Ojo que hay RegEx distintas.
+  Preguntas a: Lucio
+
+5/12
+  Componente: Agregar nueva factura
+  Archivos: tabla.php
+  Comentarios: Agrego card-panel para agregar nueva factura, como en la vista de cards.
+  Preguntas a: Lucio
+
+  Componente: Botones floating de imprimir, descargar y mail
+  Archivos: ticket.php
+  Comentarios: Agrego botones floating de imprimir, descargar y enviar mail en tickets, reemplazando (al menos por ahora) los links que había anteriormente..
+  Preguntas a: Lucio
+
+6/12
+  Componente: Modals
+  Archivos: modal_buscador_detalles.php
+  Comentarios: Agrego clases mg-b-5 en row que contiene "Rubro: AFIP" y tambien la imagen del rubro en ese div... y mg-b-10 en los inputs para eliminar espacios en blanco.
+  Preguntas a: Lucio
+
+  Componente: Toast de caida de sesion y reingresar
+  Archivos: init.js
+  Comentarios: Agrego la funcionalidad para que cada X cant de segundos aparezca el aviso de que se va a caer la sesión y luego el de sesión caída con el link a Reingresar.
+  Preguntas a: Lucio
+
+7/12
+  Componente: Link
+  Archivos: emptystate_desde_banco.php
+  Comentarios: Corrijo link de pimer imagen, va al modal #nuevopago
+  Preguntas a: Lucio
+
+  Componente: Botón
+  Archivos: emptystate_sin_deudas.php
+  Comentarios: Agrego clases "btn btn-flat white" y span con clase "hide-on-small-only" dentro del botón "ver historial de pagos" para que se vea bien tanto dektop como mobile.
+  Preguntas a: Lucio
+
+  Componente: Tooltips
+  Archivos: Pagar.php
+  Comentarios: Agrego lo que faltaba de los tooltips de los btn-floating (mobile)
+  Preguntas a: Lucio
+
+  Componente: Link y Boton
+  Archivos: nologueado_login_invalid.php, nologueado_olvide_pass.php
+  Comentarios: Agrego class "block mg-b-10" al link "olvidé mi usuario" y class "block" al "olvidé mi contraseña". Al botón "Ingresar" le agrego la clase "right" (puede que ya la tenía, son mil pantallas iguales y no me acuerdo)
+  Preguntas a: Lucio
+
+  Componente: label
+  Archivos: nologueado_olvide_usuario.php, nologueado_registro.php
+  Comentarios: label masculino reemplazo class mg-r-30 por mg-l-3 y agreggo clase al label de femenino mg-l-40. Así queda bien tanto desktop como mobile. Tambien le agrego la clase right al boton "recuperar" o "siguiente" segun el archivo.
+  Preguntas a: Lucio
+
+12/12
+  Componente: link "eliminar definitivamente"
+  Archivos: tabla.php
+  Comentarios: agrego clase "nowrap" al link de "eliminar definitivamente".
+  Preguntas a: Lucio
+
+13/12
+  Componente: li facturaAPagar
+  Archivos: pagar.php
+  Comentarios: agrego atributo "data-id-factura='...'" a cada LI, para poder deshacer el borrarFactura. Modifiqué el JS pero me imagino que no te interesa :D
+  Preguntas a: Lucio
+
+  Componente: col principal
+  Archivos: pinChange.php
+  Comentarios: agrego class m8 offset-m2 para la vista tablet.
+  Preguntas a: Lucio
+
+  Componente: IMG logo del banco
+  Archivos: medio_de_pago.php
+  Comentarios: saco IMG del logo del banco en la primer tarjeta (medio de pago) y agrego class "pd-t-75" al div que la contiene. Tambien reemplazo el nombre por un espacio.
+  Preguntas a: Lucio
+
+14/12
+  Componente: Toast deshacer eliminar factura
+  Archivos: pagar.php
+  Comentarios: agrego un timer al toast (un par de divs y clases dentro de $toastContent), el resto va por css.
+  Preguntas a: Lucio

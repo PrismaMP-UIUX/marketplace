@@ -1,0 +1,132 @@
+
+// Tamaño de fonts del menú
+nav ul a {font-size: 1.3rem;}
+
+
+// a:focus {
+//   box-shadow: 0px 0px 10px;
+//   border: solid 1px;
+// }
+
+@font-face {
+  font-family: 'KreditBack';
+  src: url('../fonts/kredit/kredit_back.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-tarjeta: "KreditBack", Arial, Helvetica, sans-serif;
+
+.fonttarjeta { font-family: $font-tarjeta;}
+
+
+// Tamaños de las fonts
+$font-size-base:          15px;
+$font-size-h1:            floor(($font-size-base * 2.2));  // 3
+$font-size-h2:            floor(($font-size-base * 2));// 2.5
+$font-size-h3:            ceil(($font-size-base * 1.7)); // 2.2
+$font-size-h4:            ceil(($font-size-base * 1.5)); // 1.8
+$font-size-h5:            ceil(($font-size-base * 1.2)); // 1.5
+$font-size-h6:            ceil(($font-size-base * 1.05)); // 1.2
+
+// Tamaño de los títulos
+h1, .h1 {font-size: $font-size-h1;}
+h2, .h2 {font-size: $font-size-h2;}
+h3, .h3 {font-size: $font-size-h3;}
+h4, .h4 {font-size: $font-size-h4;}
+h5, .h5 {font-size: $font-size-h5;}
+h6, .h6 {font-size: $font-size-h6;}
+p {font-size: $font-size-base;}
+
+//h1, h2, h3, h4, h5, h6 {font-weight: 300;}
+h1, h2, h3, h4, h5, h6 {font-weight: 300;}
+
+.monto { font-size: $font-size-h4; margin-bottom: 3px; }
+
+.alertita {
+	// @extend .white-text;
+	//font-weight: 300;
+    font-size: 0.8rem;
+    border-radius: 20px;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    cursor: default;
+    opacity: 0.9;
+    border: 2px solid;
+}
+
+.nota {font-size: ceil($font-size-base * 0.8);}
+
+.notificacion {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 3;
+  i.material-icons {
+    position: relative;
+    top: 7px;
+    left: 8px;
+  }
+}
+
+.card-title {
+  @extend .grey-text.text-darken-2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	@extend .orange-text; //#006c94
+}
+
+.enlace_postitulo {
+	@extend .right-align;
+	@extend .mg-b-10;
+	a {
+		@extend .blue-text;
+		@extend .btn-flat;
+		//text-decoration: underline;
+		padding-right: 0px;
+	}
+}
+
+// alerta
+i.material-icons.tiny {
+	position: relative;
+    top: 3px;
+    margin-right: 3px;
+}
+
+.alertita i.fa, i.material-icons {margin-right: 3px;}
+
+.collapsible-header .alertita {
+  i.fa, i.material-icons {
+    font-size: 11px;
+  }
+}
+
+.no-breack {white-space: nowrap;}
+
+.ayuda_input {
+	@extend .nota;
+	font-style: italic;
+	margin-top: -18px !important;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome and Opera */
+}
+
+
+.lastconection {
+  @extend .grey-text;
+  @extend .text-lighten-1;
+  font-size: 9pt;
+}
