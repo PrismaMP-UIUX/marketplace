@@ -576,7 +576,7 @@ $serv_alto_imagen: $serv_alto - ($serv_margenes * 2);
 //Modal al 100% de la pantalla en Mobile (igual o menos de 600px)
 @media only screen and (max-width: 600px) {
 	.modal {
-		width: Calc(100% - 10px);
+		width: calc(100% - 10px);
 		//height: Calc(100vh - 10px);
 		max-height: calc(100vh - 10px);
 		top: 5px !important;
