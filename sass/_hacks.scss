@@ -245,7 +245,7 @@
 @mixin only_safari($selector, $map){
 	@at-root{
 		@each $property, $value in ($map) {
-			//#{sf_func1($selector, $property)}: #{sf_func2($value)};
+		//	#{sf_func1($selector, $property)}: #{sf_func2($value)};
 		}
 	}
 }
