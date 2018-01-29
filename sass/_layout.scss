@@ -15,12 +15,6 @@ body {
 	width: 100%;
 }
 
-.main {
-	flex: 1 0 auto;
-	-ms-flex-positive: 1;
-	-ms-flex-negative: 0;
-	-ms-flex-preferred-size: auto;
-}
 
 header {
 	padding: 10px 0;
@@ -28,6 +22,18 @@ header {
 	@extend .white;
 	img.logo_pmc { float: right; }
 	img.logo_banco { float: left; }
+}
+
+.header{
+	margin-top:60px;
+	margin-left:10px;
+	h1{
+		margin-bottom:0;
+	}
+	p{
+		color:#808080;
+		margin:0;
+	}
 }
 
 .carrito {
@@ -88,7 +94,6 @@ img.logo_pmc, img.logo_banco {
 		z-index: 1;
 	}
 }
-
 // Hack IE
 @include only_ie9_below( 'body', (
 	height: 100%,
