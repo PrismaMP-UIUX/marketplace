@@ -27,45 +27,125 @@
                                                 <select>
                                                     <option value="0" selected disabled>Seleccioná uno</option>
                                                     <option value="1" data-icon="img/rubros/afip.svg">AFIP</option>
-                                                    <option value="2" data-icon="img/rubros/agua.svg">Agua</option>
-                                                    <option value="3" data-icon="img/rubros/barriosprivados.svg">Barrios privados</option>
-                                                    <option value="4" data-icon="img/rubros/clubesyasociaciones.svg">Clubes y asociaciones</option>
-                                                    <option value="5" data-icon="img/rubros/consorcios.svg">Consorcios</option>
-                                                    <option value="6" data-icon="img/rubros/cooperativas.svg">Cooperativas</option>
-                                                    <option value="7" data-icon="img/rubros/donaciones.svg">Donaciones</option>
-                                                    <option value="8" data-icon="img/rubros/electricidad.svg">Electricidad</option>
-                                                    <option value="9" data-icon="img/rubros/emergencias.svg">Emergencias médicas</option>
-                                                    <option value="10" data-icon="img/rubros/establecimientoseducativos.svg">Establecimientos educativos</option>
-                                                    <option value="11" data-icon="img/rubros/gas.svg">Gas</option>
-                                                    <option value="12" data-icon="img/rubros/impuestos.svg">Impuestos</option>
-                                                    <option value="13" data-icon="img/rubros/prepaga.svg">Medicina prepaga</option>
-                                                    <option value="14" data-icon="img/rubros/operadorestv.svg">Operadores de TV</option>
-                                                    <option value="15" data-icon="img/rubros/otrosservicios.svg">Otros servicios</option>
-                                                    <option value="16" data-icon="img/rubros/patentes.svg">Patentes</option>
-                                                    <option value="17" data-icon="img/rubros/planesdeahorro.svg">Planes de ahorro</option>
-                                                    <option value="18" data-icon="img/rubros/prestamos.svg">Préstamos</option>
-                                                    <option value="19" data-icon="img/rubros/proveedoresinternet.svg">Proveedores de internet</option>
-                                                    <option value="20" data-icon="img/rubros/recargas.svg">Recargas</option>
-                                                    <option value="21" data-icon="img/rubros/seguridad.svg">Seguridad</option>
-                                                    <option value="22" data-icon="img/rubros/seguros.svg">Seguros</option>
-                                                    <option value="23" data-icon="img/rubros/segurosderetiro.svg">Seguros de retiro</option>
-                                                    <option value="24" data-icon="img/rubros/segurodevida.svg">Seguros de vida</option>
-                                                    <option value="25" data-icon="img/rubros/serviciosweb.svg">Servicios web</option>
-                                                    <option value="26" data-icon="img/rubros/solicituddeinformes.svg">Solicitudes de informes</option>
-                                                    <option value="27" data-icon="img/rubros/tarjetasdecredito.svg">Tarjetas de crédito</option>
-                                                    <option value="28" data-icon="img/rubros/telefonia.svg">Telefonía</option>
-                                                    <option value="29" data-icon="img/rubros/viajesyturismo.svg">Viajes y turismo</option>
+                                                    <option value="2" data-icon="img/rubros/afjp-aportes.svg">AFJP Aportes</option>
+                                                    <option value="3" data-icon="img/rubros/agua.svg">Agua</option>
+                                                    <option value="4" data-icon="img/rubros/barriosprivados.svg">Barrios privados</option>
+                                                    <option value="5" data-icon="img/rubros/clubesyasociaciones.svg">Clubes y asociaciones</option>
+                                                    <option value="6" data-icon="img/rubros/compras.svg">Compras</option>
+                                                    <option value="7" data-icon="img/rubros/consorcios.svg">Consorcios</option>
+                                                    <option value="8" data-icon="img/rubros/cooperativas.svg">Cooperativas</option>
+                                                    <option value="9" data-icon="img/rubros/correo.svg">Correo</option>
+                                                    <option value="10" data-icon="img/rubros/donaciones.svg">Donaciones</option>
+                                                    <option value="11" data-icon="img/rubros/electricidad.svg">Electricidad</option>
+                                                    <option value="12" data-icon="img/rubros/emergencias.svg">Emergencias médicas</option>
+                                                    <option value="13" data-icon="img/rubros/establecimientoseducativos.svg">Establecimientos educativos</option>
+                                                    <option value="14" data-icon="img/rubros/gas.svg">Gas</option>
+                                                    <option value="15" data-icon="img/rubros/generico.svg">Genérico</option>
+                                                    <option value="16" data-icon="img/rubros/imp-provincial.svg">Impuesto provincial</option>
+                                                    <option value="17" data-icon="img/rubros/impuestos.svg">Impuestos</option>
+                                                    <option value="18" data-icon="img/rubros/prepaga.svg">Medicina prepaga</option>
+                                                    <option value="19" data-icon="img/rubros/operadorestv.svg">Operadores de TV</option>
+                                                    <option value="20" data-icon="img/rubros/otrosservicios.svg">Otros servicios</option>
+                                                    <option value="21" data-icon="img/rubros/patentes.svg">Patentes</option>
+                                                    <option value="22" data-icon="img/rubros/planesdeahorro.svg">Planes de ahorro</option>
+                                                    <option value="23" data-icon="img/rubros/prepagos.svg">Prepagos</option>
+                                                    <option value="24" data-icon="img/rubros/prestamos.svg">Préstamos</option>
+                                                    <option value="25" data-icon="img/rubros/proveedoresinternet.svg">Proveedores de internet</option>
+                                                    <option value="26" data-icon="img/rubros/recargas.svg">Recargas</option>
+                                                    <option value="27" data-icon="img/rubros/registros.svg">Registros</option>
+                                                    <option value="28" data-icon="img/rubros/seguridad.svg">Seguridad</option>
+                                                    <option value="29" data-icon="img/rubros/seguros.svg">Seguros</option>
+                                                    <option value="30" data-icon="img/rubros/segurosderetiro.svg">Seguros de retiro</option>
+                                                    <option value="31" data-icon="img/rubros/segurodevida.svg">Seguros de vida</option>
+                                                    <option value="32" data-icon="img/rubros/serviciosweb.svg">Servicios web</option>
+                                                    <option value="33" data-icon="img/rubros/solicituddeinformes.svg">Solicitudes de informes</option>
+                                                    <option value="34" data-icon="img/rubros/tarjetasdecredito.svg">Tarjetas de crédito</option>
+                                                    <option value="35" data-icon="img/rubros/telefonia.svg">Telefonía</option>
+                                                    <option value="36" data-icon="img/rubros/tickets.svg">Tickets</option>
+                                                    <option value="37" data-icon="img/rubros/viajesyturismo.svg">Viajes y turismo</option>
                                                 </select>
                                                 <label>Seleccioná el rubro del pago que hiciste</label>
                                             </div>
                                             <div class="clearfix flex flex-wrap rubros main-rubros flex-j-center width-100">
                                                 <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                     <div>
+                                                        <rubro>
+                                                            <div class="rubro afip left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">AFIP</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro afjp-aportes left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">AFJP Aportes</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro agua left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Agua</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro barriosprivados left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Barrios privados</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro clubesyasociaciones left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Clubes y Asociaciones</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro compras left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Compras</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro consorcios left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Consorcios</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro cooperativas left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Cooperativas</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro correo left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Correo</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
                                                         <div class="notificacion blue tooltipped" data-position="top" data-delay="50" data-text="Empresas guardadas <br> y pagadas">
                                                             <i class="material-icons white-text">receipt</i>
                                                         </div>
                                                         <rubro>
-                                                            <img src="img/rubros/donaciones.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro donaciones left white border-blue relative circle z-depth-2"></div>
                                                         </rubro>
                                                     </div>
                                                     <p class="width-100 center-align mg-t-10">Donaciones</p>
@@ -76,73 +156,15 @@
                                                             <i class="material-icons white-text">receipt</i>
                                                         </div>
                                                         <rubro>
-                                                            <img src="img/rubros/electricidad.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro electricidad left white border-blue relative circle z-depth-2"></div>
                                                         </rubro>
                                                     </div>
                                                     <p class="width-100 center-align mg-t-10">Electricidad</p>
                                                 </a>
                                                 <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                     <div>
-                                                        <div class="notificacion blue tooltipped" data-position="top" data-delay="50" data-text="Empresas guardadas <br> y pagadas">
-                                                            <i class="material-icons white-text">receipt</i>
-                                                        </div>
                                                         <rubro>
-                                                            <img src="img/rubros/impuestos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Impuestos</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <div class="notificacion blue tooltipped" data-position="top" data-delay="50" data-text="Empresas guardadas <br> y pagadas">
-                                                            <i class="material-icons white-text">receipt</i>
-                                                        </div>
-                                                        <rubro>
-                                                            <img src="img/rubros/prepaga.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Medicina Prepaga</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <!-- <div class="notificacion blue tooltipped" data-position="top" data-delay="50" data-text="Empresas guardadas <br> y pagadas">
-                                                            <i class="material-icons white-text">receipt</i>
-                                                        </div> -->
-                                                        <rubro>
-                                                            <img src="img/rubros/recargas.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Recargas</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/agua.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Agua</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/barriosprivados.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Barrios privados</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/establecimientoseducativos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2"
-                                                            alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Establecimientos Educativos</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/emergencias.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro emergencias left white border-blue relative circle z-depth-2"></div>
                                                         </rubro>
                                                     </div>
                                                     <p class="width-100 center-align mg-t-10">Emergencias Médicas</p>
@@ -150,39 +172,15 @@
                                                 <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                     <div>
                                                         <rubro>
-                                                            <img src="img/rubros/patentes.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro establecimientoseducativos left white border-blue relative circle z-depth-2"></div>
                                                         </rubro>
                                                     </div>
-                                                    <p class="width-100 center-align mg-t-10">Patentes</p>
+                                                    <p class="width-100 center-align mg-t-10">Establecimientos Educativos</p>
                                                 </a>
                                                 <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                     <div>
                                                         <rubro>
-                                                            <img src="img/rubros/operadorestv.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Operadores de TV</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/consorcios.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Consorcios</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/clubesyasociaciones.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Clubes y Asociaciones</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/gas.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro gas left white border-blue relative circle z-depth-2"></div>
                                                         </rubro>
                                                     </div>
                                                     <p class="width-100 center-align mg-t-10">Gas</p>
@@ -190,87 +188,42 @@
                                                 <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                     <div>
                                                         <rubro>
-                                                            <img src="img/rubros/cooperativas.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro generico left white border-blue relative circle z-depth-2"></div>
                                                         </rubro>
                                                     </div>
-                                                    <p class="width-100 center-align mg-t-10">Cooperativas</p>
+                                                    <p class="width-100 center-align mg-t-10">Genérico</p>
                                                 </a>
                                                 <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                     <div>
                                                         <rubro>
-                                                            <img src="img/rubros/serviciosweb.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro imp-provincial left white border-blue relative circle z-depth-2"></div>
                                                         </rubro>
                                                     </div>
-                                                    <p class="width-100 center-align mg-t-10">Servicios Web</p>
+                                                    <p class="width-100 center-align mg-t-10">Impuesto provincial</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <div class="notificacion blue tooltipped" data-position="top" data-delay="50" data-text="Empresas guardadas <br> y pagadas">
+                                                            <i class="material-icons white-text">receipt</i>
+                                                        </div>
+                                                        <rubro>
+                                                            <div class="rubro impuestos left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Impuestos</p>
                                                 </a>
                                                 <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                     <div>
                                                         <rubro>
-                                                            <img src="img/rubros/seguridad.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro operadorestv left white border-blue relative circle z-depth-2"></div>
                                                         </rubro>
                                                     </div>
-                                                    <p class="width-100 center-align mg-t-10">Seguridad</p>
+                                                    <p class="width-100 center-align mg-t-10">Operadores de TV</p>
                                                 </a>
                                                 <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                     <div>
                                                         <rubro>
-                                                            <img src="img/rubros/proveedoresinternet.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Proveedores de Internet</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/segurodevida.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Seguros de Vida</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/tarjetasdecredito.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Tarjetas de Crédito</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/seguros.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Seguros</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/segurosderetiro.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Seguros de Retiro</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/telefonia.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Telefonía</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/viajesyturismo.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                        </rubro>
-                                                    </div>
-                                                    <p class="width-100 center-align mg-t-10">Viajes y Turismo</p>
-                                                </a>
-                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                    <div>
-                                                        <rubro>
-                                                            <img src="img/rubros/otrosservicios.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro otrosservicios left white border-blue relative circle z-depth-2"></div>
                                                         </rubro>
                                                     </div>
                                                     <p class="width-100 center-align mg-t-10">Otros Servicios</p>
@@ -278,7 +231,42 @@
                                                 <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                     <div>
                                                         <rubro>
-                                                            <img src="img/rubros/prestamos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro patentes left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Patentes</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro planesdeahorro left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Planes de Ahorro</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <div class="notificacion blue tooltipped" data-position="top" data-delay="50" data-text="Empresas guardadas <br> y pagadas">
+                                                            <i class="material-icons white-text">receipt</i>
+                                                        </div>
+                                                        <rubro>
+                                                            <div class="rubro prepaga left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Medicina Prepaga</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro prepagos left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Prepagos</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro prestamos left white border-blue relative circle z-depth-2"></div>
                                                         </rubro>
                                                     </div>
                                                     <p class="width-100 center-align mg-t-10">Préstamos</p>
@@ -286,15 +274,71 @@
                                                 <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                     <div>
                                                         <rubro>
-                                                            <img src="img/rubros/planesdeahorro.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro proveedoresinternet left white border-blue relative circle z-depth-2"></div>
                                                         </rubro>
                                                     </div>
-                                                    <p class="width-100 center-align mg-t-10">Planes de Ahorro</p>
+                                                    <p class="width-100 center-align mg-t-10">Proveedores de Internet</p>
                                                 </a>
                                                 <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                     <div>
                                                         <rubro>
-                                                            <img src="img/rubros/solicituddeinformes.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro recargas left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Recargas</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro registros left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Registros</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro seguridad left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Seguridad</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro segurodevida left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Seguros de Vida</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro seguros left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Seguros</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro segurosderetiro left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Seguros de Retiro</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro serviciosweb left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Servicios Web</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro solicituddeinformes left white border-blue relative circle z-depth-2"></div>
                                                         </rubro>
                                                     </div>
                                                     <p class="width-100 center-align mg-t-10">Solicitudes de Informes</p>
@@ -302,10 +346,34 @@
                                                 <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                     <div>
                                                         <rubro>
-                                                            <img src="img/rubros/afip.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro tarjetasdecredito left white border-blue relative circle z-depth-2"></div>
                                                         </rubro>
                                                     </div>
-                                                    <p class="width-100 center-align mg-t-10">AFIP</p>
+                                                    <p class="width-100 center-align mg-t-10">Tarjetas de Crédito</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro telefonia left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Telefonía</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro tickets left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Tickets</p>
+                                                </a>
+                                                <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                    <div>
+                                                        <rubro>
+                                                            <div class="rubro viajesyturismo left white border-blue relative circle z-depth-2"></div>
+                                                        </rubro>
+                                                    </div>
+                                                    <p class="width-100 center-align mg-t-10">Viajes y Turismo</p>
                                                 </a>
                                             </div>
                                             <div class="center-align">
@@ -317,7 +385,7 @@
                                                 <a href="#!" class="pd-15 flex flex-j-center rubroActivo width-100">
                                                     <div class="truncate white-text relative pd-l-45 pd-r-45" style="width: auto;">
                                                         <rubro>
-                                                            <img src="img/rubros/recargas.svg" class="top-0 left-0 left white absolute circle responsive-img lighten-3 z-depth-2" alt="">
+                                                            <div class="rubro recargas top-0 left-0 left max-40 height-40 white absolute circle z-depth-2"></div>
                                                         </rubro>
                                                         <span class="truncate pd-0 mg-t-10 mg-b-9 chip-rubro"></span>
                                                         <i class="close material-icons white-text tiny top-13 absolute right-10">close</i>
@@ -395,7 +463,8 @@
                                                         <a href="#!" class="pd-15 flex flex-j-center rubroActivo width-100">
                                                             <div class="truncate white-text relative pd-l-45 pd-r-45" style="width: auto;">
                                                                 <rubro>
-                                                                    <img src="img/rubros/recargas.svg" class="top-0 left-0 left white absolute circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                    <div class="rubro recargas top-0 left-0 left max-40 height-40 white absolute circle z-depth-2"></div>
+                                                                    <!-- <img src="img/rubros/recargas.svg" class="top-0 left-0 left white absolute circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                                                 </rubro>
                                                                 <span class="truncate pd-0 mg-t-10 mg-b-9 chip-rubro"></span>
                                                                 <i class="close material-icons white-text tiny top-13 absolute right-10">close</i>
@@ -435,7 +504,8 @@
                                                         <a href="#!" class="pd-15 flex flex-j-center rubroActivo width-100 height-40 mg-b-15">
                                                             <div class="truncate white-text relative pd-l-45 pd-r-45 width-100" style="width: auto;">
                                                                 <rubro>
-                                                                    <img src="img/rubros/recargas.svg" class="top-0 left-0 left white absolute circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                    <div class="rubro recargas top-0 left-0 left max-40 height-40 white absolute circle z-depth-2"></div>
+                                                                    <!-- <img src="img/rubros/recargas.svg" class="top-0 left-0 left white absolute circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                                                 </rubro>
                                                                 <span class="truncate pd-0 mg-t-10 mg-b-9 chip-rubro"></span>
                                                                 <i class="close material-icons white-text tiny top-13 absolute right-10">close</i>

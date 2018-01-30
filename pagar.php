@@ -22,7 +22,10 @@
 
               <ul class="collection z-depth-1 listadefacturas">
                 <li data-id-factura="1" class="collection-item avatar grey lighten-3 valign-wrapper facturaAPagar facturaActiva" data-nombre-empresa="Electrosur">
-                  <img src="img/rubros/donaciones.svg" alt="servicio1" class="circle avatar-top hide-on-small-only">
+                  <rubro>
+                    <div class="rubro donaciones circle avatar-top hide-on-small-only"></div>
+                  </rubro>
+                  <!-- <img src="img/rubros/donaciones.svg" alt="servicio1" class="circle avatar-top hide-on-small-only"> -->
                   <div class="flex align-i-center width-100">
                     <div class="pd-t-10 pd-b-10 mg-r-5">
                       <span class="grey-text text-darken-2">Cutucuchillo (<b>ElectroSur</b>)</span>
@@ -58,7 +61,10 @@
                 </li>
 
                 <li data-id-factura="2" class="collection-item avatar lighten-3 valign-wrapper facturaAPagar facturaActiva" data-nombre-empresa="Claro">
-                  <img src="img/rubros/recargas.svg" alt="servicio1" class="circle avatar-top hide-on-small-only">
+                  <rubro>
+                    <div class="rubro recargas circle avatar-top hide-on-small-only"></div>
+                  </rubro>
+                  <!-- <img src="img/rubros/recargas.svg" alt="servicio1" class="circle avatar-top hide-on-small-only"> -->
                   <div class="flex align-i-center width-100">
                     <div class="pd-t-10 pd-b-10 mg-r-5">
                       <span class="grey-text text-darken-2"><b>Claro</b></span>
@@ -95,7 +101,10 @@
 
 
                 <li data-id-factura="3" class="collection-item avatar grey lighten-3 valign-wrapper facturaAPagar facturaActiva" data-nombre-empresa="Metrogas">
-                  <img src="img/rubros/gas.svg" alt="servicio1" class="circle avatar-top hide-on-small-only">
+                  <rubro>
+                    <div class="rubro gas circle avatar-top hide-on-small-only"></div>
+                  </rubro>
+                  <!-- <img src="img/rubros/gas.svg" alt="servicio1" class="circle avatar-top hide-on-small-only"> -->
                   <div class="flex align-i-center width-100">
                     <div class="pd-t-10 pd-b-10 mg-r-5">
                       <span class="grey-text text-darken-2">Gas tía mardel(<b>Metrogas</b>)</span>
@@ -143,7 +152,10 @@
 
                 <li data-id-factura="4" class="collection-item avatar valign-wrapper lighten-3 facturaAPagar facturaActiva" data-nombre-empresa="Claro">
                   <div class="valign-wrapper">
-                      <img src="img/rubros/recargas.svg" alt="servicio1" class="circle avatar-top hide-on-small-only">
+                      <rubro>
+                      <div class="rubro recargas circle avatar-top hide-on-small-only"></div>
+                    </rubro>
+                      <!-- <img src="img/rubros/recargas.svg" alt="servicio1" class="circle avatar-top hide-on-small-only"> -->
                       <div class="flex align-i-center width-100">
                         <div class="pd-t-10 pd-b-10 mg-r-5">
                           <span class="grey-text text-darken-2"><b>Claro</b></span>
@@ -183,7 +195,10 @@
 
 
                 <li data-id-factura="5" class="collection-item avatar grey lighten-3 valign-wrapper facturaAPagar facturaActiva" data-nombre-empresa="Aysa">
-                  <img src="img/rubros/agua.svg" alt="servicio1" class="circle avatar-top hide-on-small-only">
+                  <rubro>
+                    <div class="rubro agua circle avatar-top hide-on-small-only"></div>
+                  </rubro>
+                  <!-- <img src="img/rubros/agua.svg" alt="servicio1" class="circle avatar-top hide-on-small-only"> -->
                   <div class="flex align-i-center width-100">
                     <div class="pd-t-10 pd-b-10 mg-r-5">
                       <span class="grey-text text-darken-2">Empresa con importe fijo (<b>Aysa</b>)</span>
@@ -417,19 +432,19 @@
                 if($(this).find('ul.select-dropdown li').hasClass('active')){
                   //si tiene el active, o sea, clickeó, el total deberia tomar el valor del li.active.selected
                   total += parseFloat($(".facturaAPagar.facturaActiva .inputEditImporte.selectImportesFijos .select-importe .select-dropdown li.active.selected span").text());
-                console.log("clickeó el drop "+total);
+                // console.log("clickeó el drop "+total);
                 } else {
                   //si no tiene el active, o sea, no clickeó, el total deberia tomar el valor del primer li span
                   total += parseFloat($(".facturaAPagar.facturaActiva .inputEditImporte.selectImportesFijos .select-importe .select-dropdown li:first-of-type span:first-of-type").text());
-                console.log("no clickeó el drop "+total);
+                // console.log("no clickeó el drop "+total);
                 }
               //si no tiene la clase selectImportesFijos el valor lo toma del input ya definido.
               } else {
                 total += parseFloat($(this).children("input").val());
-                console.log("salió "+total);
+                // console.log("salió "+total);
               }
 
-              console.log("ni entró "+total);
+              // console.log("ni entró "+total);
             });
 
             $(".totalAPagar b span").text(total.toFixed(2));

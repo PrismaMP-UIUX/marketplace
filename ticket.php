@@ -51,7 +51,10 @@
 				<div class="card-panel grilla ticket z-depth-4">
 					<div class="card-content">
 						<div class="valign-wrapper">
-							<img src="img/rubros/agua.svg" class="circle">
+							<rubro class="mg-r-5">
+								<div class="rubro agua circle border-grey white max-40 height-40 z-depth-2"></div>
+							</rubro>
+							<!-- <img src="img/rubros/agua.svg" class="circle"> -->
 							<span class="card-title mg-l-8">Aguas Argentinas</span>
 						</div>
 						<ul>
@@ -78,7 +81,10 @@
 				<div class="card-panel grilla ticket z-depth-4">
 					<div class="card-content">
 						<div class="valign-wrapper">
-								<img src="img/rubros/telefonia.svg" class="circle">
+							<rubro class="mg-r-5">
+								<div class="rubro telefonia circle border-grey white max-40 height-40 z-depth-2"></div>
+							</rubro>
+							<!-- <img src="img/rubros/telefonia.svg" class="circle"> -->
 							<span class="card-title mg-l-8">Movistar</span>
 						</div>
 						<ul>
@@ -105,7 +111,10 @@
 				<div class="card-panel grilla ticket z-depth-4">
 					<div class="card-content">
 						<div class="valign-wrapper">
-								<img src="img/rubros/proveedoresinternet.svg" class="circle">
+							<rubro class="mg-r-5">
+								<div class="rubro proveedoresinternet circle border-grey white max-40 height-40 z-depth-2"></div>
+							</rubro>
+							<!-- <img src="img/rubros/proveedoresinternet.svg" class="circle"> -->
 							<span class="card-title mg-l-8">Fibertel</span>
 						</div>
 						<ul>
@@ -132,7 +141,10 @@
 				<div class="card-panel grilla ticket z-depth-4">
 					<div class="card-content">
 						<div class="valign-wrapper">
-								<img src="img/rubros/gas.svg" class="circle">
+							<rubro class="mg-r-5">
+								<div class="rubro gas circle border-grey white max-40 height-40 z-depth-2"></div>
+							</rubro>
+							<!-- <img src="img/rubros/gas.svg" class="circle"> -->
 							<span class="card-title mg-l-8">Metrogas</span>
 						</div>
 						<ul>

@@ -5,10 +5,11 @@
 		<p class="mg-t-30"><b>En PagoMisCuentas guardamos los comprobantes para que los tengas disponibles cuando los necesites.</b></p>
 		<div class="card-panel grilla ticket z-depth-4 mg-t-40  mg-b-50">
 			<div class="card-content">
-				<div class="valign-wrapper">
-					<img src="img/rubros/agua.svg" class="circle">
+				<rubro class="valign-wrapper">
+					<div class="rubro agua circle white border-grey max-40 height-40 z-depth-2"></div>
+					<!-- <img src="img/rubros/agua.svg" class="circle"> -->
 					<span class="card-title mg-l-8">Aguas Argentinas</span>
-				</div>
+				</rubro>
 				<ul>
 					<li>Fecha: <b>15/08/2017</b></li>
 					<li>Hora: <b>14:05:55</b>

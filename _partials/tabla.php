@@ -52,7 +52,12 @@
                   <input type="checkbox" class="filled-in anidada" id="filled-in-box-98" onclick="showLi()"/>
                   <label for="filled-in-box-98"></label>
                 </div>
-                <div class="mg-r-15 max-50 hide-on-small-only"><rubro><img src="img/rubros/agua.svg" class="circle responsive-img"></rubro></div>
+                <div class="mg-r-15 max-50 hide-on-small-only">
+                  <rubro>
+                    <div class="rubro agua circle white border-grey z-depth-2 width-100"></div>
+                    <!-- <img src="img/rubros/agua.svg" class="circle responsive-img"> -->
+                  </rubro>
+                </div>
                 <div class="mg-r-15 flex flex-grow align-i-center">
                   <span class="mg-b-5 mg-t-5 mg-r-15 blue-text"><b>Aysa</b> (<span class="blue-text seudonimoTexto">Agua de Casa</span>)</span>
                   <span class="mg-b-5 mg-t-5 mg-r-15 importe"><b>$450</b></span>
@@ -82,7 +87,12 @@
                     <input type="checkbox" class="filled-in mensual" id="filled-mensual-1" onclick="showLi()"/>
                     <label for="filled-mensual-1"></label>
                   </div>
-                  <div class="mg-r-15 max-50 hide-on-small-only"><rubro><img src="img/rubros/agua.svg" class="circle responsive-img"></rubro></div>
+                  <div class="mg-r-15 max-50 hide-on-small-only">
+                    <rubro>
+                      <div class="rubro agua circle white border-grey z-depth-2 width-100"></div>
+                      <!-- <img src="img/rubros/agua.svg" class="circle responsive-img"> -->
+                    </rubro>
+                  </div>
                   <div class="mg-r-15 flex flex-grow align-i-center">
                     <span class="mg-b-5 mg-t-5 mg-r-15 blue-text"><b>Aysa</b> (<span class="blue-text seudonimoTexto">Agua de Casa</span>)</span>
                     <span class="mg-b-5 mg-t-5 mg-r-15 importe"><b>$150</b></span>
@@ -112,7 +122,12 @@
                     <input type="checkbox" class="filled-in mensual" id="filled-mensual-2" onclick="showLi()"/>
                     <label for="filled-mensual-2"></label>
                   </div>
-                  <div class="mg-r-15 max-50 hide-on-small-only"><rubro><img src="img/rubros/agua.svg" class="circle responsive-img"></rubro></div>
+                  <div class="mg-r-15 max-50 hide-on-small-only">
+                    <rubro>
+                      <div class="rubro agua circle white border-grey z-depth-2 width-100"></div>
+                      <!-- <img src="img/rubros/agua.svg" class="circle responsive-img"> -->
+                    </rubro>
+                  </div>
                   <div class="mg-r-15 flex flex-grow align-i-center">
                     <span class="mg-b-5 mg-t-5 mg-r-15 blue-text"><b>Aysa</b> (<span class="blue-text seudonimoTexto">Agua de Casa</span>)</span>
                     <span class="mg-b-5 mg-t-5 mg-r-15 importe"><b>$150</b></span>
@@ -170,7 +185,12 @@
                 <label for="filled-in-box-96"></label>
               </div>
 
-              <div class="mg-r-15 max-50 hide-on-small-only"><rubro><img src="img/rubros/telefonia.svg" class="circle responsive-img"></rubro></div>
+              <div class="mg-r-15 max-50 hide-on-small-only">
+                <rubro>
+                  <div class="rubro telefonia circle white border-grey z-depth-2 width-100"></div>
+                  <!-- <img src="img/rubros/telefonia.svg" class="circle responsive-img"> -->
+                </rubro>
+              </div>
               <div class="mg-r-15 flex flex-grow align-i-center">
                 <span class="mg-b-5 mg-t-5 blue-text mg-r-15"><b>Personal</b>  (<span class="blue-text seudonimoTexto">Mi celu</span>)</span>
                 <span class="mg-b-5 mg-t-5 mg-r-15 importe"><b>$650</b></span>
@@ -362,7 +382,12 @@
           <li class="facturaItem">
             <div class="collapsible-header noselect">
 
-              <div class="mg-r-15 max-50 hide-on-small-only"><rubro><img src="img/rubros/proveedoresinternet.svg" class="circle responsive-img"></rubro></div>
+              <div class="mg-r-15 max-50 hide-on-small-only">
+                <rubro>
+                  <div class="rubro proveedoresinternet circle white border-grey z-depth-2 width-100"></div>
+                  <!-- <img src="img/rubros/proveedoresinternet.svg" class="circle responsive-img"> -->
+                </rubro>
+              </div>
               <div class="mg-r-15 flex flex-grow align-i-center">
                 <span class="mg-b-5 mg-t-5 blue-text mg-r-15"><b>Telecentro</b>  (<span class="blue-text seudonimoTexto">Internet</span>)</span>
                 <span class="mg-b-5 mg-t-5 mg-r-15 importe"><b>$650</b></span>

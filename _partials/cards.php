@@ -2,7 +2,10 @@
             <div class="card grilla white hoverable">
               <div class="servicio valign-wrapper fondo-card-gris">
                 <div class="valign-wrapper">
-                  <rubro><img src="img/rubros/operadorestv.svg" class="circle activator"></rubro>
+                  <rubro>
+                    <div class="rubro operadorestv circle border-grey white width-100 z-depth-2 activator"></div>
+                    <!-- <img src="img/rubros/operadorestv.svg" class="circle activator"> -->
+                  </rubro>
                   <span class="card-title">Cablevisión</span>
                 </div>
                 <a class="btn-floating halfway-fab waves-effect waves-light activator"><i class="material-icons">more_vert</i></a>
@@ -42,7 +45,9 @@
             <div class="card grilla white hoverable vencida">
               <div class="servicio valign-wrapper grey lighten-1">
                 <div class="valign-wrapper">
-                  <rubro><img src="img/rubros/telefonia.svg" class="circle activator"></rubro>
+                  <rubro>
+                    <div class="rubro recargas circle border-grey white width-100 z-depth-2 activator"></div>
+                  </rubro>
                   <span class="card-title">Claro</span>
                 </div>
                 <a class="btn-floating halfway-fab waves-effect waves-light activator" disabled><i class="material-icons">more_vert</i></a>
@@ -234,7 +239,9 @@
             <div class="card grilla white hoverable">
               <div class="servicio valign-wrapper fondo-card-gris">
                 <div class="valign-wrapper">
-                  <rubro><img src="img/rubros/recargas.svg" class="circle"></rubro>
+                  <rubro>
+                    <div class="rubro recargas circle border-grey white width-100 z-depth-2 activator"></div>
+                  </rubro>
                   <span class="card-title">Movistar</span>
                 </div>
                 <a class="btn-floating halfway-fab waves-effect waves-light activator"><i class="material-icons">more_vert</i></a>
@@ -295,7 +302,9 @@
             <div class="card grilla white hoverable">
               <div class="servicio valign-wrapper fondo-card-gris">
                 <div class="valign-wrapper">
-                  <rubro><img src="img/rubros/recargas.svg" class="circle"></rubro>
+                  <rubro>
+                    <div class="rubro agua circle border-grey white width-100 z-depth-2 activator"></div>
+                  </rubro>
                   <span class="card-title">Aguas Argentinas de la Tia Rosa</span>
                 </div>
                 <a class="btn-floating halfway-fab waves-effect waves-light activator"><i class="material-icons">more_vert</i></a>

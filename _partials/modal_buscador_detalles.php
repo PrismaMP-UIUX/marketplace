@@ -16,7 +16,13 @@
       </div>
     </div>
     <div class="row mg-b-5">
-      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em"><img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);">Rubro: AFIP</div>
+      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em">
+        <rubro class="valign-wrapper">
+          <div class="rubro afip circle white border-grey max-40 height-40 z-depth-2 mg-r-10"></div>
+        <!-- <img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);"> -->
+        Rubro: AFIP
+        <rubro>
+      </div>
     </div>
     <div class="row">
       <form>
@@ -61,7 +67,13 @@
       </div>
     </div>
     <div class="row mg-b-5">
-      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em"><img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);">Rubro: AFIP</div>
+      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em">
+        <rubro class="valign-wrapper">
+          <div class="rubro afip circle white border-grey max-40 height-40 z-depth-2 mg-r-10"></div>
+        <!-- <img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);"> -->
+        Rubro: AFIP
+        <rubro>
+      </div>
     </div>
     <div class="row">
       <form>
@@ -122,7 +134,13 @@
       </div>
     </div>
     <div class="row mg-b-5">
-      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em"><img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);">Rubro: AFIP</div>
+      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em">
+        <rubro class="valign-wrapper">
+          <div class="rubro afip circle white border-grey max-40 height-40 z-depth-2 mg-r-10"></div>
+        <!-- <img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);"> -->
+        Rubro: AFIP
+        <rubro>
+      </div>
     </div>
     <div class="row">
       <form>
@@ -169,7 +187,13 @@
       </div>
     </div>
     <div class="row mg-b-5">
-      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em"><img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);">Rubro: AFIP</div>
+      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em">
+        <rubro class="valign-wrapper">
+          <div class="rubro afip circle white border-grey max-40 height-40 z-depth-2 mg-r-10"></div>
+        <!-- <img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);"> -->
+        Rubro: AFIP
+        <rubro>
+      </div>
     </div>
     <form>
       <div class="row">
@@ -210,7 +234,13 @@
       </div>
     </div>
     <div class="row mg-b-5">
-      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em"><img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);">Rubro: AFIP</div>
+      <div class="col s12 blue-text valign-wrapper" style="font-size:1.2em">
+        <rubro class="valign-wrapper">
+          <div class="rubro afip circle white border-grey max-40 height-40 z-depth-2 mg-r-10"></div>
+        <!-- <img src="img/rubros/afip.svg" class="left circle max-40 height-40 mg-r-10" style="box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.4);"> -->
+        Rubro: AFIP
+        <rubro>
+      </div>
     </div>
     <form>
       <div class="row">

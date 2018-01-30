@@ -212,6 +212,19 @@ $(document).on('click', '#toast-container  .toast  .toast-action', function() {
       }
   });
 
+  //Funcion para que el div de img de rubro sea responsive
+  function rubroResponsive(){
+    $('div.rubro').each(function(index){
+      $(this).css({
+        'height': $(this).width() + 4 + 'px'
+      })
+    })
+  }
+  // Ejecuto la funcion cuando carga la pagina
+  rubroResponsive();
+  // Ejecuto la funcion cuando se cambia el tamaño de la pantalla
+  $(window).resize(rubroResponsive);
+
   $(document).ready(function(){
     $(".material-tooltip").addClass("hide");
   });

@@ -43,7 +43,9 @@
             <div class="card grilla white hoverable nuevita animated zoomInDown"> <!--tada flipInX   -->
               <div class="servicio valign-wrapper fondo-card-gris">
                 <div class="valign-wrapper">
-                  <rubro><img src="img/rubros/agua.svg" class="circle activator"></rubro>
+                  <rubro>
+                    <div class="rubro agua circle border-grey white width-100 z-depth-2 activator"></div>
+                  </rubro>
                   <span class="card-title seudonimoTitulonuevita" id="">Aguas Cordobesas</span>
                 </div>
                 <a href="#adherir" id="adherirButton" class="soloennuevita btn-floating halfway-fab waves-effect waves-light orange pulse modal-trigger tooltipped" data-position="top" data-text="Guardar"><i class="material-icons">save</i></a>
@@ -85,7 +87,9 @@
             <div class="card grilla white hoverable nuevita animated zoomInDown"> <!--tada flipInX   -->
               <div class="servicio valign-wrapper fondo-card-gris">
                 <div class="valign-wrapper">
-                  <rubro><img src="img/rubros/electricidad.svg" class="circle activator"></rubro>
+                  <rubro>
+                    <div class="rubro electricidad circle border-grey white width-100 z-depth-2 activator"></div>
+                  </rubro>
                   <span class="card-title seudonimoTitulonuevita" id="">Luz de Mendoza</span>
                 </div>
                 <a href="#adherir" id="adherirButton" class="soloennuevita btn-floating halfway-fab waves-effect waves-light orange pulse modal-trigger tooltipped" data-position="top" data-text="Guardar"><i class="material-icons">save</i></a>
@@ -327,16 +331,18 @@ $(document).ready(function() {
 
 
   });
-function modificarDescripcion(){
-  $(".seudonimoTexto").text($("#seudonimoInput").val());
-  $(".toggleEditSeudonimo").toggleClass("hide");
-}
 
-function modificarDescripcionNuevita(){
-  $(".seudonimoTexto").text($("#seudonimoInputNuevita").val());
-  $('.collapsible-header').removeClass('nuevita');
-  $('.card').removeClass('nuevita');
-}
+  function modificarDescripcion(){
+    $(".seudonimoTexto").text($("#seudonimoInput").val());
+    $(".toggleEditSeudonimo").toggleClass("hide");
+  }
+
+  function modificarDescripcionNuevita(){
+    $(".seudonimoTexto").text($("#seudonimoInputNuevita").val());
+    $('.collapsible-header').removeClass('nuevita');
+    $('.card').removeClass('nuevita');
+  }
+
   // Para que funcione el EDITAR ALIAS al presionar ENTER
   $("#seudonimoInputNuevita").keyup(function(event) {
       if (event.keyCode === 13) {
@@ -345,9 +351,20 @@ function modificarDescripcionNuevita(){
       }
   });
 
-    $(document).ready(function(){
-      $(".material-tooltip").addClass("hide");
-    });
+  //Para que el div de img de rubro sea responsive
+  function rubroResponsive(){
+    $('div.rubro').each(function(index){
+      $(this).css({
+        'height': $(this).width() + 4 + 'px'
+      })
+    })
+  }
+  rubroResponsive();
+  $(window).resize(rubroResponsive);
+
+  $(document).ready(function(){
+    $(".material-tooltip").addClass("hide");
+  });
 
 
 

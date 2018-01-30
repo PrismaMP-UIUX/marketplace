@@ -41,7 +41,8 @@
                           <ul class="collection clearfix">
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/operadorestv.svg" alt="" class="circle">
+                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
+                                <!-- <img src="img/rubros/operadorestv.svg" alt="" class="circle"> -->
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguas del litoral</span>
@@ -51,7 +52,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/operadorestv.svg" alt="" class="circle">
+                                <div class="rubro agua circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguas del litoral</span>
@@ -61,7 +62,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/telefonia.svg" alt="" class="circle">
+                                <div class="rubro recargas circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguas Argentinas</span>
@@ -71,7 +72,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/recargas.svg" alt="" class="circle">
+                                <div class="rubro segurodevida circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Agua Mineral</span>
@@ -81,7 +82,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/operadorestv.svg" alt="" class="circle">
+                                <div class="rubro gas circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguatero Suplente</span>
@@ -91,7 +92,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/telefonia.svg" alt="" class="circle">
+                                <div class="rubro afip circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguas Argentinas</span>
@@ -101,7 +102,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/recargas.svg" alt="" class="circle">
+                                <div class="rubro clubesyasociaciones circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Agua Mineral</span>
@@ -111,7 +112,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/operadorestv.svg" alt="" class="circle">
+                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguatero Suplente</span>
@@ -121,7 +122,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/operadorestv.svg" alt="" class="circle">
+                                <div class="rubro agua circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguas del litoral</span>
@@ -131,7 +132,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/telefonia.svg" alt="" class="circle">
+                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguas Argentinas</span>
@@ -141,7 +142,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/recargas.svg" alt="" class="circle">
+                                <div class="rubro patentes circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Agua Mineral</span>
@@ -151,7 +152,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/operadorestv.svg" alt="" class="circle">
+                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguatero Suplente</span>
@@ -161,7 +162,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/operadorestv.svg" alt="" class="circle">
+                                <div class="rubro prepaga circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguas del litoral</span>
@@ -171,7 +172,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/telefonia.svg" alt="" class="circle">
+                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguas Argentinas</span>
@@ -181,7 +182,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/recargas.svg" alt="" class="circle">
+                                <div class="rubro telefonia circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Agua Mineral</span>
@@ -191,7 +192,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/operadorestv.svg" alt="" class="circle">
+                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguatero Suplente</span>
@@ -201,7 +202,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/operadorestv.svg" alt="" class="circle">
+                                <div class="rubro gas circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguas del litoral</span>
@@ -211,7 +212,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/telefonia.svg" alt="" class="circle">
+                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguas Argentinas</span>
@@ -221,7 +222,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/recargas.svg" alt="" class="circle">
+                                <div class="rubro tickets circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Agua Mineral</span>
@@ -231,7 +232,7 @@
                             </li>
                             <li href="#!" class="collection-item valign-wrapper flex avatar">
                               <rubro class="flex align-i-center absolute left-0">
-                                <img src="img/rubros/operadorestv.svg" alt="" class="circle">
+                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
                               </rubro>
                               <div class="left">
                                 <span class="h5 mg-r-15">Aguatero Suplente</span>
@@ -246,36 +247,44 @@
                           <div class="row">
                             <div class=" col s12 m8 offset-m2 l8 offset-l2">
                               <select>
-                                  <option value="0" selected disabled>Seleccioná uno</option>
-                                  <option value="1" data-icon="img/rubros/afip.svg">AFIP</option>
-                                  <option value="2" data-icon="img/rubros/agua.svg">Agua</option>
-                                  <option value="3" data-icon="img/rubros/barriosprivados.svg">Barrios privados</option>
-                                  <option value="4" data-icon="img/rubros/clubesyasociaciones.svg">Clubes y asociaciones</option>
-                                  <option value="5" data-icon="img/rubros/consorcios.svg">Consorcios</option>
-                                  <option value="6" data-icon="img/rubros/cooperativas.svg">Cooperativas</option>
-                                  <option value="7" data-icon="img/rubros/donaciones.svg">Donaciones</option>
-                                  <option value="8" data-icon="img/rubros/electricidad.svg">Electricidad</option>
-                                  <option value="9" data-icon="img/rubros/emergencias.svg">Emergencias médicas</option>
-                                  <option value="10" data-icon="img/rubros/establecimientoseducativos.svg">Establecimientos educativos</option>
-                                  <option value="11" data-icon="img/rubros/gas.svg">Gas</option>
-                                  <option value="12" data-icon="img/rubros/impuestos.svg">Impuestos</option>
-                                  <option value="13" data-icon="img/rubros/prepaga.svg">Medicina prepaga</option>
-                                  <option value="14" data-icon="img/rubros/operadorestv.svg">Operadores de TV</option>
-                                  <option value="15" data-icon="img/rubros/otrosservicios.svg">Otros servicios</option>
-                                  <option value="16" data-icon="img/rubros/patentes.svg">Patentes</option>
-                                  <option value="17" data-icon="img/rubros/planesdeahorro.svg">Planes de ahorro</option>
-                                  <option value="18" data-icon="img/rubros/prestamos.svg">Préstamos</option>
-                                  <option value="19" data-icon="img/rubros/proveedoresinternet.svg">Proveedores de internet</option>
-                                  <option value="20" data-icon="img/rubros/recargas.svg">Recargas</option>
-                                  <option value="21" data-icon="img/rubros/seguridad.svg">Seguridad</option>
-                                  <option value="22" data-icon="img/rubros/seguros.svg">Seguros</option>
-                                  <option value="23" data-icon="img/rubros/segurosderetiro.svg">Seguros de retiro</option>
-                                  <option value="24" data-icon="img/rubros/segurodevida.svg">Seguros de vida</option>
-                                  <option value="25" data-icon="img/rubros/serviciosweb.svg">Servicios web</option>
-                                  <option value="26" data-icon="img/rubros/solicituddeinformes.svg">Solicitudes de informes</option>
-                                  <option value="27" data-icon="img/rubros/tarjetasdecredito.svg">Tarjetas de crédito</option>
-                                  <option value="28" data-icon="img/rubros/telefonia.svg">Telefonía</option>
-                                  <option value="29" data-icon="img/rubros/viajesyturismo.svg">Viajes y turismo</option>
+                                <option value="0" selected disabled>Seleccioná uno</option>
+                                <option value="1" data-icon="img/rubros/afip.svg">AFIP</option>
+                                <option value="2" data-icon="img/rubros/afjp-aportes.svg">AFJP Aportes</option>
+                                <option value="3" data-icon="img/rubros/agua.svg">Agua</option>
+                                <option value="4" data-icon="img/rubros/barriosprivados.svg">Barrios privados</option>
+                                <option value="5" data-icon="img/rubros/clubesyasociaciones.svg">Clubes y asociaciones</option>
+                                <option value="6" data-icon="img/rubros/compras.svg">Compras</option>
+                                <option value="7" data-icon="img/rubros/consorcios.svg">Consorcios</option>
+                                <option value="8" data-icon="img/rubros/cooperativas.svg">Cooperativas</option>
+                                <option value="9" data-icon="img/rubros/correo.svg">Correo</option>
+                                <option value="10" data-icon="img/rubros/donaciones.svg">Donaciones</option>
+                                <option value="11" data-icon="img/rubros/electricidad.svg">Electricidad</option>
+                                <option value="12" data-icon="img/rubros/emergencias.svg">Emergencias médicas</option>
+                                <option value="13" data-icon="img/rubros/establecimientoseducativos.svg">Establecimientos educativos</option>
+                                <option value="14" data-icon="img/rubros/gas.svg">Gas</option>
+                                <option value="15" data-icon="img/rubros/generico.svg">Genérico</option>
+                                <option value="16" data-icon="img/rubros/imp-provincial.svg">Impuesto provincial</option>
+                                <option value="17" data-icon="img/rubros/impuestos.svg">Impuestos</option>
+                                <option value="18" data-icon="img/rubros/prepaga.svg">Medicina prepaga</option>
+                                <option value="19" data-icon="img/rubros/operadorestv.svg">Operadores de TV</option>
+                                <option value="20" data-icon="img/rubros/otrosservicios.svg">Otros servicios</option>
+                                <option value="21" data-icon="img/rubros/patentes.svg">Patentes</option>
+                                <option value="22" data-icon="img/rubros/planesdeahorro.svg">Planes de ahorro</option>
+                                <option value="23" data-icon="img/rubros/prepagos.svg">Prepagos</option>
+                                <option value="24" data-icon="img/rubros/prestamos.svg">Préstamos</option>
+                                <option value="25" data-icon="img/rubros/proveedoresinternet.svg">Proveedores de internet</option>
+                                <option value="26" data-icon="img/rubros/recargas.svg">Recargas</option>
+                                <option value="27" data-icon="img/rubros/registros.svg">Registros</option>
+                                <option value="28" data-icon="img/rubros/seguridad.svg">Seguridad</option>
+                                <option value="29" data-icon="img/rubros/seguros.svg">Seguros</option>
+                                <option value="30" data-icon="img/rubros/segurosderetiro.svg">Seguros de retiro</option>
+                                <option value="31" data-icon="img/rubros/segurodevida.svg">Seguros de vida</option>
+                                <option value="32" data-icon="img/rubros/serviciosweb.svg">Servicios web</option>
+                                <option value="33" data-icon="img/rubros/solicituddeinformes.svg">Solicitudes de informes</option>
+                                <option value="34" data-icon="img/rubros/tarjetasdecredito.svg">Tarjetas de crédito</option>
+                                <option value="35" data-icon="img/rubros/telefonia.svg">Telefonía</option>
+                                <option value="36" data-icon="img/rubros/tickets.svg">Tickets</option>
+                                <option value="37" data-icon="img/rubros/viajesyturismo.svg">Viajes y turismo</option>
                               </select>
                               <!-- <label>Seleccioná el rubro del pago que hiciste</label> -->
                             </div>
@@ -285,7 +294,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/agua.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro agua white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/agua.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Agua</span>
@@ -297,7 +307,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/electricidad.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro electricidad white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/electricidad.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Electricidad</span>
@@ -309,7 +320,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/barriosprivados.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro barriosprivados white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/barriosprivados.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Barrios privados</span>
@@ -321,7 +333,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/impuestos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro impuestos white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/impuestos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Impuestos</span>
@@ -333,7 +346,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/establecimientoseducativos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro establecimientoseducativos white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/establecimientoseducativos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Establecimientos Educativos</span>
@@ -345,7 +359,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/prepaga.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro prepaga white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/prepaga.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Medicina Prepaga</span>
@@ -357,7 +372,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/emergencias.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro emergencias white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/emergencias.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Emergencias médicas</span>
@@ -369,7 +385,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/recargas.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro recargas white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/recargas.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Recargas</span>
@@ -381,7 +398,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/patentes.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro patentes white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/patentes.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Patentes</span>
@@ -393,7 +411,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/operadorestv.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro operadorestv white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/operadorestv.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Operadores de tv</span>
@@ -405,7 +424,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/consorcios.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro consorcios white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/consorcios.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Consorcios</span>
@@ -417,7 +437,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/clubesyasociaciones.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro clubesyasociaciones white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/clubesyasociaciones.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Clubes y asociaciones</span>
@@ -429,7 +450,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/gas.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro gas white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/gas.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Gas</span>
@@ -441,7 +463,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/cooperativas.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro cooperativas white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/cooperativas.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Cooperativas</span>
@@ -453,7 +476,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/donaciones.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro donaciones white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/donaciones.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Donaciones</span>
@@ -465,7 +489,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/serviciosweb.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro serviciosweb white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/serviciosweb.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Servicios Web</span>
@@ -477,7 +502,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/seguridad.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro seguridad white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/seguridad.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Seguridad</span>
@@ -489,7 +515,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/proveedoresinternet.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro proveedoresinternet white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/proveedoresinternet.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Proveedores de Internet</span>
@@ -501,7 +528,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/segurodevida.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro segurodevida white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/segurodevida.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Seguros de Vida</span>
@@ -513,7 +541,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/tarjetasdecredito.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro tarjetasdecredito white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/tarjetasdecredito.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Tarjetas de Crédito</span>
@@ -525,7 +554,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/seguros.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro seguros white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/seguros.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Seguros</span>
@@ -537,7 +567,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/segurosderetiro.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro segurosderetiro white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/segurosderetiro.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Seguros de retiro</span>
@@ -549,7 +580,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/telefonia.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro telefonia white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/telefonia.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Telefonía</span>
@@ -561,7 +593,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/viajesyturismo.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro viajesyturismo white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/viajesyturismo.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Viajes y turismo</span>
@@ -573,7 +606,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/otrosservicios.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro otrosservicios white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/otrosservicios.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Otros servicio</span>
@@ -585,7 +619,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/prestamos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro prestamos white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/prestamos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Préstamos</span>
@@ -597,7 +632,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/planesdeahorro.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro planesdeahorro white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/planesdeahorro.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Planes de ahorro</span>
@@ -609,7 +645,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/solicituddeinformes.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro solicituddeinformes white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/solicituddeinformes.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Solicitudes de informes</span>
@@ -621,7 +658,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/generico.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro generico white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/generico.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Genérico</span>
@@ -633,7 +671,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/afip.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro afip white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/afip.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Afip</span>
@@ -646,7 +685,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/compras.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro compras white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/compras.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Compras</span>
@@ -658,7 +698,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/imp-provincial.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro imp-provincial white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/imp-provincial.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Impuestos Provinciales</span>
@@ -670,7 +711,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/registros.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro registros white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/registros.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Registros Nacionales</span>
@@ -682,7 +724,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/correo.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro correo white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/correo.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Servicios de Correo</span>
@@ -694,7 +737,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/afjp-aportes.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro afjp-aportes white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/afjp-aportes.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>AFJP Aportes Voluntarios</span>
@@ -706,7 +750,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/tickets.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro tickets white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/tickets.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Tickets</span>
@@ -718,7 +763,8 @@
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
                                   <rubro>
-                                    <img src="img/rubros/prepagos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                    <div class="rubro prepagos white circle border-blue z-depth-2"></div>
+                                    <!-- <img src="img/rubros/prepagos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                   </rubro>
                                   <p class="valign-wrapper mg-0 right">
                                     <span>Prepagos</span>

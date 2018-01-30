@@ -33,108 +33,39 @@
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/agua.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro afip left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">AFIP</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro afjp-aportes left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">AFJP Aportes</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro agua left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
                                                                 <p class="width-100 center-align mg-t-10">Agua</p>
                                                             </a>
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
-                                                                    <div class="notificacion blue tooltipped" data-position="top" data-delay="50" data-text="Empresas guardadas <br> y pagadas">
-                                                                        <i class="material-icons white-text">receipt</i>
-                                                                    </div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/electricidad.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                                    </rubro>
-                                                                </div>
-                                                                <p class="width-100 center-align mg-t-10">Electricidad</p>
-                                                            </a>
-                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                                <div>
-                                                                    <rubro>
-                                                                        <img src="img/rubros/barriosprivados.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro barriosprivados left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
                                                                 <p class="width-100 center-align mg-t-10">Barrios privados</p>
                                                             </a>
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
-                                                                    <div class="notificacion blue tooltipped" data-position="top" data-delay="50" data-text="Empresas guardadas <br> y pagadas">
-                                                                        <i class="material-icons white-text">receipt</i>
-                                                                    </div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/impuestos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                                    </rubro>
-                                                                </div>
-                                                                <p class="width-100 center-align mg-t-10">Impuestos</p>
-                                                            </a>
-                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                                <div>
-                                                                    <rubro>
-                                                                        <img src="img/rubros/establecimientoseducativos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2"
-                                                                            alt="">
-                                                                    </rubro>
-                                                                </div>
-                                                                <p class="width-100 center-align mg-t-10">Establecimientos Educativos</p>
-                                                            </a>
-                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                                <div>
-                                                                    <div class="notificacion blue tooltipped" data-position="top" data-delay="50" data-text="Empresas guardadas <br> y pagadas">
-                                                                        <i class="material-icons white-text">receipt</i>
-                                                                    </div>
-                                                                    <rubro>
-                                                                        <img src="img/rubros/prepaga.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                                    </rubro>
-                                                                </div>
-                                                                <p class="width-100 center-align mg-t-10">Medicina Prepaga</p>
-                                                            </a>
-                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                                <div>
-                                                                    <rubro>
-                                                                        <img src="img/rubros/emergencias.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                                    </rubro>
-                                                                </div>
-                                                                <p class="width-100 center-align mg-t-10">Emergencias Médicas</p>
-                                                            </a>
-                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                                <div>
-                                                                    <div class="notificacion blue tooltipped" data-position="top" data-delay="50" data-text="Empresas guardadas <br> y pagadas">
-                                                                        <i class="material-icons white-text">receipt</i>
-                                                                    </div>
-                                                                    <rubro>
-                                                                        <img src="img/rubros/recargas.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                                    </rubro>
-                                                                </div>
-                                                                <p class="width-100 center-align mg-t-10">Recargas</p>
-                                                            </a>
-                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                                <div>
-                                                                    <rubro>
-                                                                        <img src="img/rubros/patentes.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                                    </rubro>
-                                                                </div>
-                                                                <p class="width-100 center-align mg-t-10">Patentes</p>
-                                                            </a>
-                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                                <div>
-                                                                    <rubro>
-                                                                        <img src="img/rubros/operadorestv.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                                    </rubro>
-                                                                </div>
-                                                                <p class="width-100 center-align mg-t-10">Operadores de TV</p>
-                                                            </a>
-                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                                <div>
-                                                                    <rubro>
-                                                                        <img src="img/rubros/consorcios.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                                    </rubro>
-                                                                </div>
-                                                                <p class="width-100 center-align mg-t-10">Consorcios</p>
-                                                            </a>
-                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                                <div>
-                                                                    <rubro>
-                                                                        <img src="img/rubros/clubesyasociaciones.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro clubesyasociaciones left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
                                                                 <p class="width-100 center-align mg-t-10">Clubes y Asociaciones</p>
@@ -142,18 +73,34 @@
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/gas.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro compras left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
-                                                                <p class="width-100 center-align mg-t-10">Gas</p>
+                                                                <p class="width-100 center-align mg-t-10">Compras</p>
                                                             </a>
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/cooperativas.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro consorcios left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Consorcios</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro cooperativas left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
                                                                 <p class="width-100 center-align mg-t-10">Cooperativas</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro correo left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Correo</p>
                                                             </a>
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
@@ -161,87 +108,85 @@
                                                                         <i class="material-icons white-text">receipt</i>
                                                                     </div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/donaciones.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro donaciones left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
                                                                 <p class="width-100 center-align mg-t-10">Donaciones</p>
                                                             </a>
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
+                                                                    <div class="notificacion blue tooltipped" data-position="top" data-delay="50" data-text="Empresas guardadas <br> y pagadas">
+                                                                        <i class="material-icons white-text">receipt</i>
+                                                                    </div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/serviciosweb.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro electricidad left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
-                                                                <p class="width-100 center-align mg-t-10">Servicios Web</p>
+                                                                <p class="width-100 center-align mg-t-10">Electricidad</p>
                                                             </a>
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/seguridad.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro emergencias left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
-                                                                <p class="width-100 center-align mg-t-10">Seguridad</p>
+                                                                <p class="width-100 center-align mg-t-10">Emergencias Médicas</p>
                                                             </a>
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/proveedoresinternet.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro establecimientoseducativos left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
-                                                                <p class="width-100 center-align mg-t-10">Proveedores de Internet</p>
+                                                                <p class="width-100 center-align mg-t-10">Establecimientos Educativos</p>
                                                             </a>
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/segurodevida.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro gas left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
-                                                                <p class="width-100 center-align mg-t-10">Seguros de Vida</p>
+                                                                <p class="width-100 center-align mg-t-10">Gas</p>
                                                             </a>
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/tarjetasdecredito.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro generico left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
-                                                                <p class="width-100 center-align mg-t-10">Tarjetas de Crédito</p>
+                                                                <p class="width-100 center-align mg-t-10">Genérico</p>
                                                             </a>
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/seguros.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro imp-provincial left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
-                                                                <p class="width-100 center-align mg-t-10">Seguros</p>
+                                                                <p class="width-100 center-align mg-t-10">Impuesto provincial</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <div class="notificacion blue tooltipped" data-position="top" data-delay="50" data-text="Empresas guardadas <br> y pagadas">
+                                                                        <i class="material-icons white-text">receipt</i>
+                                                                    </div>
+                                                                    <rubro>
+                                                                        <div class="rubro impuestos left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Impuestos</p>
                                                             </a>
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/segurosderetiro.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro operadorestv left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
-                                                                <p class="width-100 center-align mg-t-10">Seguros de Retiro</p>
+                                                                <p class="width-100 center-align mg-t-10">Operadores de TV</p>
                                                             </a>
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/telefonia.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                                    </rubro>
-                                                                </div>
-                                                                <p class="width-100 center-align mg-t-10">Telefonía</p>
-                                                            </a>
-                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                                <div>
-                                                                    <rubro>
-                                                                        <img src="img/rubros/viajesyturismo.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
-                                                                    </rubro>
-                                                                </div>
-                                                                <p class="width-100 center-align mg-t-10">Viajes y Turismo</p>
-                                                            </a>
-                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
-                                                                <div>
-                                                                    <rubro>
-                                                                        <img src="img/rubros/otrosservicios.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro otrosservicios left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
                                                                 <p class="width-100 center-align mg-t-10">Otros Servicios</p>
@@ -249,7 +194,42 @@
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/prestamos.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro patentes left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Patentes</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro planesdeahorro left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Planes de Ahorro</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <div class="notificacion blue tooltipped" data-position="top" data-delay="50" data-text="Empresas guardadas <br> y pagadas">
+                                                                        <i class="material-icons white-text">receipt</i>
+                                                                    </div>
+                                                                    <rubro>
+                                                                        <div class="rubro prepaga left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Medicina Prepaga</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro prepagos left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Prepagos</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro prestamos left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
                                                                 <p class="width-100 center-align mg-t-10">Préstamos</p>
@@ -257,15 +237,71 @@
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/planesdeahorro.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro proveedoresinternet left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
-                                                                <p class="width-100 center-align mg-t-10">Planes de Ahorro</p>
+                                                                <p class="width-100 center-align mg-t-10">Proveedores de Internet</p>
                                                             </a>
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/solicituddeinformes.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro recargas left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Recargas</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro registros left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Registros</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro seguridad left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Seguridad</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro segurodevida left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Seguros de Vida</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro seguros left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Seguros</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro segurosderetiro left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Seguros de Retiro</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro serviciosweb left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Servicios Web</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro solicituddeinformes left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
                                                                 <p class="width-100 center-align mg-t-10">Solicitudes de Informes</p>
@@ -273,10 +309,34 @@
                                                             <a href="#!" class="max-125 left pd-15 flex flex-j-center">
                                                                 <div>
                                                                     <rubro>
-                                                                        <img src="img/rubros/afip.svg" class="left white relative circle responsive-img lighten-3 z-depth-2" alt="">
+                                                                        <div class="rubro tarjetasdecredito left white border-blue relative circle z-depth-2"></div>
                                                                     </rubro>
                                                                 </div>
-                                                                <p class="width-100 center-align mg-t-10">AFIP</p>
+                                                                <p class="width-100 center-align mg-t-10">Tarjetas de Crédito</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro telefonia left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Telefonía</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro tickets left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Tickets</p>
+                                                            </a>
+                                                            <a href="#!" class="max-125 left pd-15 flex flex-j-center">
+                                                                <div>
+                                                                    <rubro>
+                                                                        <div class="rubro viajesyturismo left white border-blue relative circle z-depth-2"></div>
+                                                                    </rubro>
+                                                                </div>
+                                                                <p class="width-100 center-align mg-t-10">Viajes y Turismo</p>
                                                             </a>
                                                         </div>
                                                     </div>
@@ -426,10 +486,10 @@
                                                         </aside>
                                                         <div class="col s12 m8 center-align emptystate">
 														<p><img src="img/emptystate_paso_02.svg" class="circle max-150" alt=""></p>
-																<h3 class="card-title">No hay pagos realizados</h3			
+																<h3 class="card-title">No hay pagos realizados</h3
 																<p>Aquí podras chequear tus pagos</p>
 																<a href="#nuevopago" class="btn btn-two-lines blue modal-trigger mg-30">Hacer un Pago</a>
-															
+
 														</div>
                                                     </div>
                                                 </div>

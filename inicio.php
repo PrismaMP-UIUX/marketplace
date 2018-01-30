@@ -250,19 +250,27 @@ function showLi() {
 
   });
 
-
-
-
   function modificarDescripcion(){
-      $(".seudonimoTexto").text($("#seudonimoInput").val());
-      $(".toggleEditSeudonimo").toggleClass("hide");
-    }
-    // Para que funcione el EDITAR ALIAS al presionar ENTER
-    $("#seudonimoInput").keyup(function(event) {
-        if (event.keyCode === 13) {
-          modificarDescripcion();
-        }
-    });
+    $(".seudonimoTexto").text($("#seudonimoInput").val());
+    $(".toggleEditSeudonimo").toggleClass("hide");
+  }
+  // Para que funcione el EDITAR ALIAS al presionar ENTER
+  $("#seudonimoInput").keyup(function(event) {
+      if (event.keyCode === 13) {
+        modificarDescripcion();
+      }
+  });
+
+  //Para que el div de img de rubro sea responsive
+  function rubroResponsive(){
+    $('div.rubro').each(function(index){
+      $(this).css({
+        'height': $(this).width() + 4 + 'px'
+      })
+    })
+  }
+  rubroResponsive();
+  $(window).resize(rubroResponsive);
 
     $(document).ready(function(){
       $(".material-tooltip").addClass("hide");

@@ -43,7 +43,9 @@
             <div class="card-panel grilla ticket z-depth-4">
               <div class="card-content">
                 <div class="valign-wrapper">
-                  <rubro><img src="img/rubros/agua.svg" class="circle"></rubro>
+                  <rubro>
+                    <div class="rubro gas circle border-grey white width-100 z-depth-2 activator"></div>
+                  </rubro>
                   <span class="card-title mg-l-8">Gas tia mardel</span>
                 </div>
                 <ul>
@@ -530,6 +532,8 @@ $(document).on('click', '#toast-container  .toast  .toast-action', function() {
 
       $('#ticketGas').addClass('animated flipInY');
       $('#ticketGas').css('display', '');
+      //Ejecuto la funcion cuando se anima la card pagada
+      rubroResponsive();
 
     }, 1700)
   });
@@ -543,11 +547,24 @@ $(document).on('click', '#toast-container  .toast  .toast-action', function() {
   }
 
   //Para que no se abra el collapsible-body al hacer click en Guardar/Pagar y abra el modal que corresponda.
-    $(".not-collapse").on("click", function(e) {
-      var modal_link = $(this).attr("href");
-      $(modal_link).modal('open');
-      e.stopPropagation();
-    });
+  $(".not-collapse").on("click", function(e) {
+    var modal_link = $(this).attr("href");
+    $(modal_link).modal('open');
+    e.stopPropagation();
+  });
+
+  //Funcion para que el div de img de rubro sea responsive
+  function rubroResponsive(){
+    $('div.rubro').each(function(index){
+      $(this).css({
+        'height': $(this).width() + 4 + 'px'
+      })
+    })
+  }
+  // Ejecuto la funcion cuando carga la pagina
+  rubroResponsive();
+  // Ejecuto la funcion cuando se cambia el tamaño de la pantalla
+  $(window).resize(rubroResponsive);
 
   function modificarDescripcion(){
     $(".seudonimoTexto").text($("#seudonimoInput").val());
