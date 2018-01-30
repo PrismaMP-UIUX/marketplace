@@ -54,6 +54,65 @@ $tamanio-iconos-menu-fa:  $tamanio-iconos-fa*1.1;
 //.fa, .pmc-font {display:initial !important; font-size: $tamanio-iconos-fa; margin: 3px; }
 //&.fa, .pmc-font {display:inline-block !important; font-size: $tamanio-iconos-fa; }
 
+/*Tabla de clases de rubros para insertar una imagen en un DIV sin poner el tag IMG */
+$tabla_de_rubros: (
+  "afip",
+  "afjp-aportes",
+  "agua",
+  "barriosprivados",
+  "clubesyasociaciones",
+  "compras",
+  "consorcios",
+  "cooperativas",
+  "correo",
+  "donaciones",
+  "electricidad",
+  "emergencias",
+  "establecimientoseducativos",
+  "gas",
+  "generico",
+  "imp-provincial",
+  "impuestos",
+  "operadorestv",
+  "otrosservicios",
+  "patentes",
+  "planesdeahorro",
+  "prepaga",
+  "prepagos",
+  "prestamos",
+  "proveedoresinternet",
+  "recargas",
+  "registros",
+  "seguridad",
+  "segurodevida",
+  "seguros",
+  "segurosderetiro",
+  "serviciosweb",
+  "solicituddeinformes",
+  "tarjetasdecredito",
+  "telefonia",
+  "tickets",
+  "viajesyturismo",
+
+) !default;
+
+.rubro {
+  width: 80px;
+  height: 80px;
+  // border: 2px solid $brand_celeste;
+  @each $rubro in $tabla_de_rubros {
+    &.#{nth($rubro,1)} {
+      background: url('../img/rubros/'+"#{nth($rubro,1)}"+'.svg') no-repeat;
+    }
+  }
+  &.border-blue {
+    border: 2px solid $brand_celeste;
+  }
+  &.border-grey {
+    border: 2px solid #ddd;
+  }
+}
+
 
 // Iconos Prisma
 @font-face {
