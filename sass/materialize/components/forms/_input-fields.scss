@@ -168,7 +168,7 @@ textarea.materialize-textarea {
   }
 
   position: relative;
-  margin-top: 1rem;
+  margin-top: 1.6rem;
 
   label {
     color: $input-border-color;
@@ -211,7 +211,11 @@ textarea.materialize-textarea {
   }
 
   .prefix ~ label { margin-left: 3rem; }
-
+  .helper {
+    font-size: 0.8rem;
+    margin: -18px 0 0 5px;
+    color: #a0a0a0;
+  }
   @media #{$medium-and-down} {
     .prefix ~ input {
       width: 86%;
@@ -269,6 +273,7 @@ textarea.materialize-textarea {
     font-size: 2rem;
     transition: .3s color;
   }
+
 }
 
 

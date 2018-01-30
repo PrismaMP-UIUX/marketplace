@@ -113,3 +113,44 @@
   background-color: $input-disabled-color;
   border-color: $input-disabled-solid-color;
 }
+
+.stock-images {
+  .image {
+    opacity: 0.2;
+    width: 100%;
+    height: 160px;
+    background-position: center center;
+    background-color: #f8f8f8;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+  
+  // Drop the style of materialize
+  [type="radio"] + label:before,
+  [type="radio"] + label:after {
+    display: none;
+  }
+  
+  [type="radio"] + label {
+    width: 100%;
+    height: 160px;
+    padding: 0;
+  }
+
+  // Unchecked styles
+  [type="radio"]:not(:checked) + label {
+    .image {
+      border: 5px solid red;
+    }
+  }
+
+  // Checked styles
+  [type="radio"]:checked + label {
+    .image {
+      border: 5px solid red;
+      opacity: 1;
+    }
+  }
+}
