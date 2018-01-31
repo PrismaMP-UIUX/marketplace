@@ -7,7 +7,7 @@
 					<?php
     			$pages = array(
 				        'inicioTabla.php' => 'Pagar',
-				        'decargar.php' => 'Recargar',
+				        'recargar.php' => 'Recargar',
 				      	'donar.php' => 'Donar',
 				    		'consultar.php' => 'Consultar');
 				?>
