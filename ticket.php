@@ -239,11 +239,11 @@
         var chksLen = $("input[type=checkbox].filled-in:checked").length;
         console.log(chksLen);
         if (chksLen > 0) {
-            $('#accion a').removeAttr("disabled");
+            $('#accion > div > a').removeAttr("disabled");
             $('#accion span.checkedLen').text(chksLen);
             $('#accion p').removeClass('hide').fadeIn();
         } else {
-            $('#accion a').attr("disabled", "disabled");
+            $('#accion > div > a').attr("disabled", "disabled");
             $('#accion span.checkedLen').text("");
             $('#accion p').addClass('hide');
         }

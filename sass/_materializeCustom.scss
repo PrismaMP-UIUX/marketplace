@@ -371,6 +371,14 @@ input::-ms-clear, input::-ms-reveal {
   position: absolute !important;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
 // Format Date Picker
 .picker__date-display {
   background-color: #00A3DD!important;

@@ -815,3 +815,20 @@
   <!-- Javascript -->
   <?php include '_partials/footer.php'; ?>
   <?php include '_partials/modal_ticket.php'; ?>
+
+  <script>
+  //Para que el div de img de rubro sea responsive
+  function rubroResponsive(){
+    $('div.rubro').each(function(index){
+      $(this).css({
+        'height': $(this).width() + 4 + 'px'
+      })
+    })
+  }
+  rubroResponsive();
+  $(window).resize(rubroResponsive);
+  </script>
+
+
+</body>
+</html>

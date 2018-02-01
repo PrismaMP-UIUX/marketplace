@@ -627,7 +627,10 @@ var opsDropClick = {
 		    $(this).next().css("margin-left", rubroWidth);
 
 		    $(this).removeClass("rubroNoActivo");
-		    $(this).addClass("rubroActivo ");
+		    $(this).addClass("rubroActivo");
+		    //Agrego esto para el rubroActivo
+		    $("rubro .rubro",this).addClass("max-40 inline-block");
+		    rubroResponsive();
 
 		    $(this).css({
 		      "position": "absolute",
@@ -679,6 +682,8 @@ var opsDropClick = {
 
 		    $(this).removeClass("rubroActivo");
 		    $(this).addClass("rubroNoActivo");
+		    $("rubro .rubro",this).removeClass("max-40 inline-block");
+		    rubroResponsive();
 
 		    // Deshabilita subrubro y empresa
 		    $(".subrubro").addClass("hide");
