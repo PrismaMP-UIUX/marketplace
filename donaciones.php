@@ -14,7 +14,7 @@
       <div class="row">
         <!-- Masonry -->
         <div id="masonry-grid" class="row">
-          <div class="col s6 offset-s3">
+          <div class="col s12 m6 offset-m3">
             <div class="row">
               <div class="card-panel">
                 <form>
