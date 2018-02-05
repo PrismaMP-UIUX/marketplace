@@ -18,8 +18,8 @@
             <div class="row">
               <div class="card-panel">
                 <form>
-                  <h3 class="card-title">Donar</h3>
-                  <p>Para poder donar completa tus datos.</p>
+                  <h3 class="card-title mg-10">Donar</h3>
+                  <p class="mg-10">Para poder donar completa tus datos.</p>
                   <div class="row">
                     <div class="col s12">
                       <div class="input-field col s12 m12 l8">

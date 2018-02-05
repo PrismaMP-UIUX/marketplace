@@ -1,5 +1,6 @@
 <!-- Header -->
 <?php include '_partials/head.php'; ?>
+
 <body>
 
   <div>
@@ -10,66 +11,41 @@
 
   <main class="grey-text text-darken-2">
     <div class="container">
-
       <div class="row">
-        <!-- Masonry -->
-        <div id="masonry-grid" class="row">
-          <div class="col s6 offset-s3">
-            <div class="row">
-              <div class="card-panel">
-                <form>
-                  <h3 class="card-title">Recargas móviles</h3>
-                  <p>La manera más fácil de obtener crédito para tus servicios.</p>
-                  <div class="row">
-                    <div class="col s12">
-                      <div class="row stock-images">
-                        <div class="col s6 m2"><input id="movistar" name="carrier" type="radio" /><label for="movistar">
-                            <div class="image" style="background-image: url(http://loremflickr.com/620/440/london)"></div>
-                          </label>
-                        </div>
-                        <div class="col s6 m2"><input id="claro" name="carrier" type="radio" /><label for="claro">
-                            <div class="image" style="background-image: url(http://loremflickr.com/620/440/london)"></div>
-                          </label>
-                        </div>
-                        <div class="col s6 m2"><input id="test2" name="carrier" type="radio" /><label for="test2">
-                            <div class="image" style="background-image: url(http://loremflickr.com/620/440/london)"></div>
-                          </label>
-                        </div>
-                        <div class="col s6 m2">
-                          <input checked="checked" id="test3" name="carrier" type="radio" /><label for="test3">
-                            <div class="image" style="background-image: url(http://loremflickr.com/620/440/london)"></div>
-                          </label>
-                        </div>
-                        <div class="col s6 m2"><input id="test4" name="carrier" type="radio" /><label for="test4">
-                            <div class="image" style="background-image: url(http://loremflickr.com/620/440/london)"></div>
-                          </label>
-                        </div>
-                        </div>
-                      <div class="input-field col s8">
-                        <input value="" id="cellphone-number" type="text" class="validate">
-                        <label class="active" for="cellphone-number">Número de celular</label>
-                        <p class="helper">Ej: 1153334444</p>
+        <div class="col s12">
+
+          <div class="card-panel">
+            <div class="card-content">
+              <form>
+                <h3 class="card-title mg-10">Recargas online</h3>
+                <p class="mg-10">La manera más fácil de obtener crédito para tus servicios.</p>
+                <div class="row">
+                  <div class="col s12 offset-m1 m10 offset-l1 l10 offset-xl1 xl10">
+                    <div class="row stock-images mg-10">
+
+                      <div class="col s6 m4">
+                        <input id="movistar" name="carrier" type="radio" /><label for="movistar">
+                        <img src="/img/rubros/recargas.svg">
+                        </label>
+                        <a href="recargar.php" class="step-title waves-effect waves-white blue-text">Recarga celular</a>
                       </div>
-                      <div class="input-field col s8">
-                        <input value="" id="amount" type="text" class="validate">
-                        <label class="active" for="amount">Importe a recargar</label>
+
+                      <div class="col s6 m4"><input id="claro" name="carrier" type="radio" /><label for="claro">
+                          <img src="/img/rubros/prepagos.svg">
+                        </label>
+                        <a href="recargar.php" class="step-title waves-effect waves-white blue-text">Carga prepago</a>
                       </div>
-                      <div class="input-field col s8">
-                          <select>
-                            <option value="" disabled selected>Seleccioná el medio de pago</option>
-                            <option value="1">CA #0000-00</option>
-                            <option value="2">Visa -0392</option>
-                            <option value="3">Mastercard -3333</option>
-                          </select>
-                          <label>Medio de pago</label>
-                        </div>
-                        <div class="form-footer col s8">
-                          <button class="btn waves-effect waves-light blue" type="submit" name="action">Recargar</button>
-                        </div>
-                    </div>
+
+                      <div class="col s6 m4"><input id="test2" name="carrier" type="radio" /><label for="test2">
+                          <img src="/img/rubros/transportes.svg">
+                        </label>
+                        <a href="recargar.php" class="step-title waves-effect waves-white blue-text">Carga transporte</a>
+                      </div>
+
+                    </div><!--/row stock-images-->
                   </div>
-                </form>
-              </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -77,6 +53,48 @@
     </div>
   </main>
 
+
   <!-- Javascript -->
   <?php include '_partials/footer.php'; ?>
-  <?php include '_partials/modal_ticket.php'; ?>
+
+  <script>
+    function anyThing() {
+      setTimeout(function () {
+        $('.stepper').nextStep();
+      }, 1500);
+    }
+    $(function () {
+      $(".stepper").activateStepper();
+
+    });
+
+    $(document).ready(function () {
+      //Esconder el carrito mobile del nav
+      $('.cantidad').hide();
+
+      $('.jp-card-name').hide();
+
+      $('.jp-card-front .jp-card-logo.jp-card-visa').text("");
+      $('.jp-card-front .jp-card-logo.jp-card-mastercard').text("");
+      $('.jp-card-front .jp-card-logo.jp-card-maestro').text("");
+      $('.jp-card-front .jp-card-logo.jp-card-amex').text("");
+    });
+
+    $(".date-card").keyup(function () {
+      if (this.value.length == this.maxLength) {
+        var $next = $('.date-card2').focus();
+        // console.log($next);
+        // if ($next.length){
+        //   $(this).next('.date-card').focus();
+        // }
+        // else {
+        //   $(this).blur();
+        // }
+      }
+    });
+  </script>
+
+
+</body>
+
+</html>
