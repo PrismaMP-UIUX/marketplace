@@ -144,15 +144,23 @@
   // Unchecked styles
   [type="radio"]:not(:checked) + label {
     .image {
-      filter: grayscale(1);
-      transition: filter .3s;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: url(img/desaturate.svg#greyscale);
+        -webkit-filter: grayscale(1);
+        transition: filter .3s;
     }
   }
 
   // Checked styles
   [type="radio"]:checked + label {
     .image {
-      filter: grayscale(0);
+      -webkit-filter: grayscale(0);
+      -webkit-filter: grayscale(0%);
+      filter: none;
+      filter: grayscale(0%);
+      -webkit-filter: grayscale(0);
       opacity: 1;
     }
   }
