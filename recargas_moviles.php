@@ -12,8 +12,7 @@
     <div class="container">
 
       <div class="row">
-        <!-- Masonry -->
-        <div id="masonry-grid" class="row">
+        <div class="row">
           <div class="col s6 offset-s3">
             <div class="row">
               <div class="card-panel">
@@ -24,35 +23,34 @@
                   <div class="row">
                     <div class="col s12">
                       <div class="row stock-images">
-                        <div class="col s6 m2"><input id="movistar" name="carrier" type="radio" /><label for="movistar">
+                        <div class="col s6 m2">
+                          <input id="movistar" name="carrier" type="radio" />
+                          <label for="movistar">
                             <img class="image" src="/img/movistar.jpg">
-                            <!--
-                            <div class="image" style="background-image: url(http://loremflickr.com/620/440/london)"></div>-->
-                          </label>
-                        </div>
-                        <div class="col s6 m2"><input id="claro" name="carrier" type="radio" /><label for="claro">
-                            <img class="image" src="/img/claro.jpg">
-                            <!--
-                            <div class="image" style="background-image: url(http://loremflickr.com/620/440/london)"></div>-->
--                          </label>
-                        </div>
-                        <div class="col s6 m2"><input id="nextel" name="carrier" type="radio" /><label for="test2">
-                            <img class="image" src="/img/nextel.jpg">
-                            <!--
-                            <div class="image" style="background-image: url(http://loremflickr.com/620/440/london)"></div>-->
                           </label>
                         </div>
                         <div class="col s6 m2">
-                          <input checked="checked" id="personal" name="carrier" type="radio" /><label for="test3">
-                              <img class="image" src="/img/personal.jpg">
-                              <!--
-                            <div class="image" style="background-image: url(http://loremflickr.com/620/440/london)"></div>
- -->                         </label>
+                          <input id="claro" name="carrier" type="radio" />
+                          <label for="claro">
+                            <img class="image" src="/img/claro.jpg">
+                          </label>
                         </div>
-                        <div class="col s6 m2"><input id="tuenti" name="carrier" type="radio" /><label for="test4">
+                        <div class="col s6 m2">
+                          <input id="nextel" name="carrier" type="radio" />
+                          <label for="nextel">
+                            <img class="image" src="/img/nextel.jpg">
+                          </label>
+                        </div>
+                        <div class="col s6 m2">
+                          <input checked="checked" id="personal" name="carrier" type="radio" />
+                          <label for="personal">
+                              <img class="image" src="/img/personal.jpg">
+                         </label>
+                        </div>
+                        <div class="col s6 m2">
+                          <input id="tuenti" name="carrier" type="radio" />
+                          <label for="tuenti">
                             <img class="image" src="/img/tuenti.jpg">
-                            <!--
-                            <div class="image" style="background-image: url(http://loremflickr.com/620/440/london)"></div>-->
                           </label>
                         </div>
                       </div>
