@@ -20,7 +20,7 @@
   <div class="modal-content">
       <i class="material-icons right modal-close">close</i>
       <h3 class="card-title"><i class="material-icons left">delete_forever</i> Eliminar definitivamente</h3>
-      <p class="mg-t-30">¿Seguro queres eliminar definitivamente Luz de Casa (<b>Edesur</b>)?</p>
+      <p class="mg-t-30">¿Seguro querés eliminar definitivamente Luz de Casa (<b>Edesur</b>)?</p>
   </div>
   <div class="modal-footer">
     <div class="">

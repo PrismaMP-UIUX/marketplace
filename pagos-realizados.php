@@ -385,7 +385,7 @@
                                                 <a href="#!" class="pd-15 flex flex-j-center rubroActivo width-100">
                                                     <div class="truncate white-text relative pd-l-45 pd-r-45" style="width: auto;">
                                                         <rubro>
-                                                            <div class="rubro recargas top-0 left-0 left max-40 height-40 white absolute circle z-depth-2"></div>
+                                                            <div class="rubro recargas border-blue top-0 left-0 left max-40 height-40 white absolute circle z-depth-2"></div>
                                                         </rubro>
                                                         <span class="truncate pd-0 mg-t-10 mg-b-9 chip-rubro"></span>
                                                         <i class="close material-icons white-text tiny top-13 absolute right-10">close</i>
@@ -463,7 +463,7 @@
                                                         <a href="#!" class="pd-15 flex flex-j-center rubroActivo width-100">
                                                             <div class="truncate white-text relative pd-l-45 pd-r-45" style="width: auto;">
                                                                 <rubro>
-                                                                    <div class="rubro recargas top-0 left-0 left max-40 height-40 white absolute circle z-depth-2"></div>
+                                                                    <div class="rubro recargas border-blue top-0 left-0 left max-40 height-40 white absolute circle z-depth-2"></div>
                                                                     <!-- <img src="img/rubros/recargas.svg" class="top-0 left-0 left white absolute circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                                                 </rubro>
                                                                 <span class="truncate pd-0 mg-t-10 mg-b-9 chip-rubro"></span>
@@ -504,7 +504,7 @@
                                                         <a href="#!" class="pd-15 flex flex-j-center rubroActivo width-100 height-40 mg-b-15">
                                                             <div class="truncate white-text relative pd-l-45 pd-r-45 width-100" style="width: auto;">
                                                                 <rubro>
-                                                                    <div class="rubro recargas top-0 left-0 left max-40 height-40 white absolute circle z-depth-2"></div>
+                                                                    <div class="rubro recargas border-blue top-0 left-0 left max-40 height-40 white absolute circle z-depth-2"></div>
                                                                     <!-- <img src="img/rubros/recargas.svg" class="top-0 left-0 left white absolute circle responsive-img lighten-3 z-depth-2" alt=""> -->
                                                                 </rubro>
                                                                 <span class="truncate pd-0 mg-t-10 mg-b-9 chip-rubro"></span>
