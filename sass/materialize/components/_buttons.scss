@@ -261,6 +261,7 @@ button.btn-floating {
   &:focus,
   &:hover {
     box-shadow: none;
+    color: #00A3DD;
   }
 
   &:focus {
@@ -288,9 +289,4 @@ button.btn-floating {
 // Block button
 .btn-block {
   display: block;
-}
-
-// Recharge button
-.recharge-btn:hover{
-  color: #00A3DD!important;
 }

@@ -13,51 +13,45 @@
 
       <div class="row">
         <div class="row">
-          <div class="col s12 m8 offset-m2">
+          <div class="col s12 m6 offset-m3">
             <div class="row">
               <div class="card-panel">
                 <form>
-                  <h3 class="card-title mg-10">Recargas móviles</h3>
+                  <h3 class="card-title mg-10">Recarga transporte</h3>
                   <p class="mg-10">La manera más fácil de obtener crédito para tus servicios.</p>
-                  <p class="mg-10">Elegí tu operadora de celular.</p>
+                  <p class="mg-10">Elegí tu compañía.</p>
                   <div class="row">
                     <div class="col s12">
                       <div class="row stock-images">
-                        <div class="col s2 m2 l2">
-                          <input id="movistar" name="carrier" type="radio" />
-                          <label for="movistar">
-                            <img class="image" src="/img/movistar.jpg">
+                        <div class="col s2 m6 l3">
+                          <input id="sube" name="carrier" type="radio" />
+                          <label for="sube">
+                            <img class="image" src="/img/logo_sube.jpg">
                           </label>
                         </div>
-                        <div class="col s2 m2 l2">
-                          <input id="claro" name="carrier" type="radio" />
-                          <label for="claro">
-                            <img class="image" src="/img/claro.jpg">
+                        <div class="col s2 m6 l3">
+                          <input id="movi-tarjeta" name="carrier" type="radio" />
+                          <label for="movi-tarjeta">
+                            <img class="image" src="/img/movi-tarjeta.jpg">
                           </label>
                         </div>
-                        <div class="col s2 m2 l2">
-                          <input id="nextel" name="carrier" type="radio" />
-                          <label for="nextel">
-                            <img class="image" src="/img/nextel.jpg">
+                        <div class="col s2 m6 l3">
+                          <input id="saeta" name="carrier" type="radio" />
+                          <label for="saeta">
+                            <img class="image" src="/img/logo_saeta.jpg">
                           </label>
                         </div>
-                        <div class="col s2 m2 l2">
-                          <input checked="checked" id="personal" name="carrier" type="radio" />
-                          <label for="personal">
-                              <img class="image" src="/img/personal.jpg">
+                        <div class="col s2 m6 l3">
+                          <input checked="checked" id="red-bus" name="carrier" type="radio" />
+                          <label for="red-bus">
+                              <img class="image" src="/img/red-bus.png">
                          </label>
-                        </div>
-                        <div class="col s2 m2 l2">
-                          <input id="tuenti" name="carrier" type="radio" />
-                          <label for="tuenti">
-                            <img class="image" src="/img/tuenti.jpg">
-                          </label>
                         </div>
                       </div>
                       <div class="input-field col s12 m12 l8">
                         <input value="" id="cellphone-number" type="text" class="validate">
-                        <label class="active" for="cellphone-number">Número de celular</label>
-                        <p class="helper">Ej: 1153334444</p>
+                        <label class="active" for="cellphone-number">Número de tarjeta</label>
+                        <p class="helper">Se encuentra en el frente de la misma</p>
                       </div>
                       <div class="input-field col s12 m12 l8">
                         <input value="" id="amount" type="text" class="validate">

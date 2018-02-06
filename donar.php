@@ -8,12 +8,11 @@
   </div>
   <?php include '_partials/actions.php'; ?>
 
-  <main class="grey-text text-darken-2">
+  <main class="pay_donate grey-text text-darken-2">
     <div class="container">
 
       <div class="row">
-        <!-- Masonry -->
-        <div id="masonry-grid" class="row">
+        <div class="row">
           <div class="col s12 m6 offset-m3">
             <div class="row">
               <div class="card-panel">
@@ -27,15 +26,19 @@
                         <label class="active" for="id-number">DNI (Número de documento)</label>
                         <p class="helper">Ej: 36524856</p>
                       </div>
-                      <div class="input-field col s12 m12 l6">
+                      <div class="input-field col s12 m12 l8">
                         <input value="" id="amount" type="text" class="validate">
                         <label class="active" for="amount">Importe a donar</label>
                       </div>
                       <div class="input-field donate-radio col s12 m12 l6">
-                        <input name="grp1" type="radio" id="r1" checked="checked">
-                        <label for="r1">Solo por esta vez</label>
-                        <input name="grp1" type="radio" id="r2">
-                        <label for="r2">Mensual</label>
+                        <p>
+                          <input name="group1" type="radio" id="test1" checked="checked">
+                          <label for="test1">Solo por esta vez</label>
+                        </p>
+                        <p>
+                          <input name="group1" type="radio" id="test2">
+                          <label for="test2">Mensual</label>
+                        </p>
                       </div>
                       <div class="input-field col s12 m12 l8">
                         <select>

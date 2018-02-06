@@ -594,3 +594,80 @@ $serv_alto_imagen: $serv_alto - ($serv_margenes * 2);
 // background: -webkit-linear-gradient(left, transparent 0%,#fff 50%,transparent 100%); /* Chrome10+, Safari5.1+ */
 // background: -moz-linear-gradient(left, transparent 0%,#fff 50%,transparent 100%);    /* FF3.6+ */
 // background: linear-gradient(to left, transparent 0%,#fff 50%,transparent 100%);      /* W3C */
+
+.donate {
+	.donate_title{}
+	.donate_options {
+	
+		.stock-images {
+			padding-right:0px;
+			padding-left:0px;
+		}
+
+		.col{
+			&.s12{
+			padding-right:0px;
+			padding-left:0px;
+			margin-bottom:10px;
+			}
+			&.m6{
+			padding-right:0px;
+			padding-left:0px;
+
+			}
+			&.l6{
+			padding-right:0px;
+			padding-left:0px;
+			margin-bottom:10px;
+			}
+			&.xl6{
+			padding-right:0px;
+			padding-left:0px;
+			margin-bottom:10px;
+			}
+			
+		} 
+		
+		img{
+			width:100%;
+		}
+		#cilsa img{
+			margin-top: 50px;
+		}
+	}
+	.xl5{
+		.donate_description {
+			padding-left:10px;
+			padding-right:10px;
+		}
+
+	}
+	.l6{
+		.donate_description{
+			padding-left:10px;
+			padding-right:10px;
+		}
+
+	}
+	.donate_description{
+		margin-left:0px;
+	
+		p {
+
+		}
+		h3{
+			margin-top:7px;
+		}
+	} 
+}
+.pay_donate{
+	.donate-radio {
+		margin-top:0px;
+		margin-bottom:30px;
+		p {
+			margin-top:0px;
+
+		}
+	}
+
+}

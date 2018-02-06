@@ -127,9 +127,15 @@
       opacity: 1;
     }
   }
-  .col.m2{
-    width:95px;
+  .col{
+    &.s2{
+      width:20%;
+    }
+    &.l2{
+      width:19%;
+    }
   }
+  
   // Drop the style of materialize
   [type="radio"] + label:before,
   [type="radio"] + label:after {
