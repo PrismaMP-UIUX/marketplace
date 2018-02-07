@@ -27,7 +27,7 @@
                         <p> Elige una organización.</p>
                         <div class="stock-images row col s12 m12">
                           <div class="col s12 m12"><input id="unicef" name="donation" type="radio" /><label for="unicef">
-                              <img src="/img/banner-unicef.png">
+                              <img class="image" src="/img/banner-unicef.png">
                             </label>
                           </div>
                           <div class="col s3 m6 l4"><input id="fundacion_leer" name="donation" type="radio" /><label for="fundacion_leer">
