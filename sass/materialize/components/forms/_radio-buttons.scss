@@ -121,7 +121,6 @@
     width: 100%;
     height: auto;
     background-position: center center;
-    background-color: #f8f8f8;
     transition: opacity .3s;
     &:hover {
       opacity: 1;
@@ -135,7 +134,7 @@
       width:19%;
     }
   }
-  
+
   // Drop the style of materialize
   [type="radio"] + label:before,
   [type="radio"] + label:after {

@@ -30,14 +30,14 @@
                         <input value="" id="amount" type="text" class="validate">
                         <label class="active" for="amount">Importe a donar</label>
                       </div>
-                      <div class="input-field donate-radio col s12 m12 l6">
+                      <div class="donate-radio col s12 m12 l6">
                         <p>
-                          <input name="group1" type="radio" id="test1" checked="checked">
-                          <label for="test1">Solo por esta vez</label>
+                          <input name="frequency" type="radio" id="one-time" checked="checked">
+                          <label for="one-time">Solo por esta vez</label>
                         </p>
                         <p>
-                          <input name="group1" type="radio" id="test2">
-                          <label for="test2">Mensual</label>
+                          <input name="frequency" type="radio" id="monthly">
+                          <label for="monthly">Mensual</label>
                         </p>
                       </div>
                       <div class="input-field col s12 m12 l8">

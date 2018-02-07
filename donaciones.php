@@ -34,28 +34,28 @@
                               <img class="image" src="/img/fundacion-leer-logo.png">
                             </label>
                           </div>
-                          <div class="col s3 m6 l4"><input id="cilsa" name="donation" type="radio" /><label for="cilsa">
-                              <img class="image" src="/img/cilsa.png">
-                            </label>
-                          </div>
-                          <div class="col s3 m6 l4">
-                            <input checked="checked" id="vivienda_digna" name="donation" type="radio" /><label for="vivienda_digna">
-                              <img class="image" src="/img/vivienda-digna.png">
-                            </label>
-                          </div>
                           <div class="col s3 m6 l4">
                             <input checked="checked" id="caritas_logo" name="donation" type="radio" /><label for="caritas_logo">
                               <img class="image" src="/img/caritas-logo.png">
                             </label>
                           </div>
-                          <div class="col s3 m6 l4">
+                          <div class="col s3 m6 l4"><input id="cilsa" name="donation" type="radio" /><label for="cilsa">
+                              <img class="image" src="/img/cilsa.png">
+                            </label>
+                          </div>
+                           <div class="col s3 m6 l4">
                             <input checked="checked" id="infancia_segura" name="donation" type="radio" /><label for="infancia_segura">
                               <img class="image" src="/img/fundacion-infancia-segura.png">
                             </label>
                           </div>
                           <div class="col s3 m6 l4">
                             <input checked="checked" id="banco_de_alimentos" name="donation" type="radio" /><label for="banco_de_alimentos">
-                              <img class="image" src="/img/menos-hambre.png">
+                              <img class="image" src="/img/banco-de-alimentos.jpg">
+                            </label>
+                          </div>
+                          <div class="col s3 m6 l4">
+                            <input checked="checked" id="vivienda_digna" name="donation" type="radio" /><label for="vivienda_digna">
+                              <img class="image" src="/img/vivienda-digna.png">
                             </label>
                           </div>
                         </div>
