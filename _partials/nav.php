@@ -14,7 +14,8 @@
 				  <?php foreach ($pages as $pageId => $pageTitle): ?>
 				  <li <?=((basename($_SERVER['PHP_SELF']) == $pageId) ? 'class="active"' : '')?>><a href="<?=$pageId?>"><?=$pageTitle?></a></li>
 				  <?php endforeach; ?>
-				  <li class="pull-right"><a class="waves-light btn white blue-text z-depth-0"><!--<i class="material-icons">add_circle</i>--> Añadir nueva factura</a></li>
+				  <li class="cantidad white right grey-text text-darken-2 mg-l-15" style="display:none;"><span class="prisma accion-pagar"></span><div class="totalFacturas nro">2</div><b> <span class="total">$2.500,00</span></b> <a href="pagar.php" class="btn orange darken-1 waves-effect waves-light">Pagar Total</a></li>
+				  <li class="right"><a class="waves-light btn white blue-text z-depth-0"> Añadir nueva factura</a></li>
 				</ul>
 			</div>
 		</div>
