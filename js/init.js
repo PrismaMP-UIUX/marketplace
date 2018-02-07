@@ -741,7 +741,12 @@ var opsDropClick = {
 		$("#trigger-filtros-mobile").click(function(){
 		  $("#filtros-mobile").toggleClass("hide");
 		});
-
+		if($('input#amount')){
+			$('input#amount').focus(function(){
+					$('input#amount').inputmask({ alias : "decimal", prefix: '$', digits:0, rightAlign:false, groupSparator:'.' });
+		
+			});
+		}
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
 
