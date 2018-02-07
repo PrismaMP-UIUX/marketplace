@@ -671,3 +671,29 @@ $serv_alto_imagen: $serv_alto - ($serv_margenes * 2);
 	}
 
 }
+
+//import
+.import{
+	.row{
+		margin-top:0px;
+		margin-bottom:5px;
+	}
+	.col{
+		margin-top:0px;
+	}
+	.import_selector{
+		margin-bottom:0px;
+	}
+	.import_description{
+		color: #9e9e9e;
+		margin-bottom: 5px;
+
+	}
+
+}
+
+//p forms
+.summary{
+	margin-top:-6px;
+	width:91%;
+}

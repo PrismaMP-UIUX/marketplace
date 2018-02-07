@@ -19,7 +19,7 @@
               <div class="card-panel">
                 <form>
                   <h3 class="card-title">Donar</h3>
-                  <p>La manera más sencilla de aportar a la sociedad.</p>
+                  <p class="summary">La manera más sencilla de aportar a la sociedad.</p>
                   <div class="row">
                     
                     <div class="donate_options col s12 m6 l6 xl7">

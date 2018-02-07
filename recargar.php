@@ -14,7 +14,7 @@
 					<div class="card emptystate">
 						<div class="card-content">
 							<span class="card-title">Recargas online</span>
-							<p>La manera más fácil de obtener crédito para tus servicios.</p>
+							<p class="summary">La manera más fácil de obtener crédito para tus servicios.</p>
 							<div class="row center-align mg-t-40 mg-b-0">
 								<div class="col s12 m4 l4 mg-b-20">
 									<p><a href="recargas_moviles.php" ><img src="/img/rubros/recargas.svg" class="max-150" alt=""></p></a>

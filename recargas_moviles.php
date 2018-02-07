@@ -18,7 +18,7 @@
               <div class="card-panel">
                 <form>
                   <h3 class="card-title mg-10">Recargas móviles</h3>
-                  <p class="mg-10">La manera más fácil de obtener crédito para tus servicios.</p>
+                  <p class="mg-10 summary">La manera más fácil de obtener crédito para tus servicios.</p>
                   <p class="mg-10">Elegí tu operadora de celular.</p>
                   <div class="row">
                     <div class="col s12">

@@ -19,7 +19,7 @@
                 <form>
                   <h3 class="card-title mg-10">Recarga transporte</h3>
                   <p class="mg-10">La manera más fácil de obtener crédito para tus servicios.</p>
-                  <p class="mg-10">Elegí tu compañía.</p>
+                  <p class="mg-10 summary">Elegí tu compañía.</p>
                   <div class="row">
                     <div class="col s12">
                       <div class="row stock-images">
