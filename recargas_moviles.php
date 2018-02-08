@@ -19,9 +19,9 @@
                 <form>
                   <h3 class="card-title mg-10">Recargas móviles</h3>
                   <p class="mg-10 summary">La manera más fácil de obtener crédito para tus servicios.</p>
-                  <p class="mg-10">Elegí tu operadora de celular.</p>
                   <div class="row">
                     <div class="col s12">
+                      <!--
                       <div class="row stock-images">
                         <div class="col s2 m2 l2">
                           <input id="movistar" name="carrier" type="radio" />
@@ -53,7 +53,18 @@
                             <img class="image" src="/img/tuenti.jpg">
                           </label>
                         </div>
-                      </div>
+                      </div>-->
+                      <div class="input-field col s12 m6">
+                          <select class="icons">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="movistar" data-icon="/img/movistar.jpg" class="left circle">Movistar</option>
+                            <option value="claro" data-icon="img/claro.jpg" class="left circle">Claro</option>
+                            <option value="nextel" data-icon="img/nextel.jpg" class="left circle">Nextel</option>
+                            <option value="personal" data-icon="img/personal.jpg" class="left circle">Personal</option>
+                            <option value="tuenti" data-icon="img/tuenti.jpg" class="left circle">tuenti</option>
+                          </select>
+                          <label>Elegí la empresa</label>
+                        </div>
                       <div class="input-field col s12 m12 l8">
                         <input value="" id="cellphone-number" type="text" class="validate">
                         <label class="active" for="cellphone-number">Número de celular</label>
@@ -61,7 +72,7 @@
                       </div>
                       <div class="input-field col s12 m12 l8">
                         <input value="" id="amount" type="text" class="validate">
-                        <label class="active" for="amount">Importe a recargar</label>
+                        <label class="active" for="amount">Importe a recargar en pesos</label>
                       </div>
                       <div class="input-field col s12 m12 l8">
                           <select>
