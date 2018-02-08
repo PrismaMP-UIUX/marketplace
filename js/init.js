@@ -814,3 +814,9 @@ $('#mobileSalir').click(function() {
 });
 
 $("body").on("contextmenu", '#mobileNuevoPago, #mobileAltaTarjeta, #mobileSalir', function() { return false; });
+
+$('input[name="donation"][type="radio"]').on('click', function(e) {
+  var target = $(this).data('target'),
+    $target = $(target);
+  $target.siblings().addClass('hide').end().removeClass('hide');
+});
