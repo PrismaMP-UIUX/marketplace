@@ -26,36 +26,38 @@
 
                         <p> Elige una organización.</p>
                         <div class="stock-images row col s12 m12">
-                          <div class="col s12 m12"><input id="unicef" name="donation" type="radio" /><label for="unicef">
-                              <img src="/img/banner-unicef.png">
-                            </label>
-                          </div>
-                          <div class="col s3 m6 l4"><input id="fundacion_leer" name="donation" type="radio" /><label for="fundacion_leer">
-                              <img class="image" src="/img/fundacion-leer-logo.png">
+                          <div class="col s12 m12">
+                            <input id="unicef" name="donation" type="radio" data-target="#description_unicef" checked /><label for="unicef">
+                              <img class="image" src="/img/banner-unicef.png" alt="Unicef">
                             </label>
                           </div>
                           <div class="col s3 m6 l4">
-                            <input checked="checked" id="caritas_logo" name="donation" type="radio" /><label for="caritas_logo">
-                              <img class="image" src="/img/caritas-logo.png">
+                            <input id="fundacion_leer" name="donation" type="radio" data-target="#description_fundacion_leer" /><label for="fundacion_leer">
+                              <img class="image" src="/img/fundacion-leer-logo.png" alt="Fundación Leer">
                             </label>
                           </div>
-                          <div class="col s3 m6 l4"><input id="cilsa" name="donation" type="radio" /><label for="cilsa">
-                              <img class="image" src="/img/cilsa.png">
+                          <div class="col s3 m6 l4">
+                            <input id="caritas_logo" name="donation" type="radio" data-target="#description_caritas_logo" /><label for="caritas_logo">
+                              <img class="image" src="/img/caritas-logo.png" alt="Cáritas Argentina">
+                            </label>
+                          </div>
+                          <div class="col s3 m6 l4"><input id="cilsa" name="donation" type="radio" data-target="#description_cilsa" /><label for="cilsa">
+                              <img class="image" src="/img/cilsa.png" alt="CILSA. ONG por las inclusión">
                             </label>
                           </div>
                            <div class="col s3 m6 l4">
-                            <input checked="checked" id="infancia_segura" name="donation" type="radio" /><label for="infancia_segura">
-                              <img class="image" src="/img/fundacion-infancia-segura.png">
+                            <input id="infancia_segura" name="donation" type="radio" data-target="#description_infancia_segura" /><label for="infancia_segura">
+                              <img class="image" src="/img/fundacion-infancia-segura.png" alt="Fundación Infancia Segura">
                             </label>
                           </div>
                           <div class="col s3 m6 l4">
-                            <input checked="checked" id="banco_de_alimentos" name="donation" type="radio" /><label for="banco_de_alimentos">
-                              <img class="image" src="/img/banco-de-alimentos.jpg">
+                            <input id="banco_de_alimentos" name="donation" type="radio" data-target="#description_banco_de_alimentos" /><label for="banco_de_alimentos">
+                              <img class="image" src="/img/banco-de-alimentos.jpg" alt="Banco de Alimentos">
                             </label>
                           </div>
                           <div class="col s3 m6 l4">
-                            <input checked="checked" id="vivienda_digna" name="donation" type="radio" /><label for="vivienda_digna">
-                              <img class="image" src="/img/vivienda-digna.png">
+                            <input id="vivienda_digna" name="donation" type="radio" data-target="#description_vivienda_digna" /><label for="vivienda_digna">
+                              <img class="image" src="/img/vivienda-digna.png" alt="Vivienda Digna. Fundación Sagrada Familia">
                             </label>
                           </div>
                         </div>
@@ -63,10 +65,40 @@
 
 
                     <div class="col s12 m6 l6 xl5 ">
-                      <div class="donate_description">
+                      <div id="description_unicef" class="donate_description">
                         <h3>Unicef</h3>
                         <p><strong>UNICEF</strong> trabaja en 190 países y territorios para salvar las vidas de los niños y niñas. Para defender sus derechos. Para ayudarles a alcanzar su máximo potencial. Y nunca nos rendimos. 
                         <p>El apoyo de donantes individuales constituye la mayor parte de los fondos con los que <strong>UNICEF</strong> financia sus programas. Gracias a ello, se logra continuar y ampliar las acciones que benefician a los niños, niñas y adolescentes argentinos.
+                        </p>
+                      </div>
+                      <div id="description_fundacion_leer" class="donate_description hide">
+                        <h3>Fundación Leer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas, tellus non aliquam dignissim, lectus massa ultricies arcu, quis porta sem ligula non risus. Vivamus posuere consequat leo a efficitur. Etiam dui augue, sodales id lectus vel, aliquam vehicula ante. Suspendisse neque arcu, suscipit vitae nisl et, pretium molestie nibh. Nam lacinia felis eu pellentesque consectetur. Donec bibendum condimentum urna, sit amet lobortis libero dictum elementum.
+                        </p>
+                      </div>
+                      <div id="description_caritas_logo" class="donate_description hide">
+                        <h3>Cáritas Argentina</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas, tellus non aliquam dignissim, lectus massa ultricies arcu, quis porta sem ligula non risus. Vivamus posuere consequat leo a efficitur. Etiam dui augue, sodales id lectus vel, aliquam vehicula ante. Suspendisse neque arcu, suscipit vitae nisl et, pretium molestie nibh. Nam lacinia felis eu pellentesque consectetur. Donec bibendum condimentum urna, sit amet lobortis libero dictum elementum.
+                        </p>
+                      </div>
+                      <div id="description_cilsa" class="donate_description hide">
+                        <h3>CILSA. ONG por las inclusión</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas, tellus non aliquam dignissim, lectus massa ultricies arcu, quis porta sem ligula non risus. Vivamus posuere consequat leo a efficitur. Etiam dui augue, sodales id lectus vel, aliquam vehicula ante. Suspendisse neque arcu, suscipit vitae nisl et, pretium molestie nibh. Nam lacinia felis eu pellentesque consectetur. Donec bibendum condimentum urna, sit amet lobortis libero dictum elementum.
+                        </p>
+                      </div>
+                      <div id="description_infancia_segura" class="donate_description hide">
+                        <h3>Fundación Infancia Segura</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas, tellus non aliquam dignissim, lectus massa ultricies arcu, quis porta sem ligula non risus. Vivamus posuere consequat leo a efficitur. Etiam dui augue, sodales id lectus vel, aliquam vehicula ante. Suspendisse neque arcu, suscipit vitae nisl et, pretium molestie nibh. Nam lacinia felis eu pellentesque consectetur. Donec bibendum condimentum urna, sit amet lobortis libero dictum elementum.
+                        </p>
+                      </div>
+                      <div id="description_banco_de_alimentos" class="donate_description hide">
+                        <h3>Banco de Alimentos</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas, tellus non aliquam dignissim, lectus massa ultricies arcu, quis porta sem ligula non risus. Vivamus posuere consequat leo a efficitur. Etiam dui augue, sodales id lectus vel, aliquam vehicula ante. Suspendisse neque arcu, suscipit vitae nisl et, pretium molestie nibh. Nam lacinia felis eu pellentesque consectetur. Donec bibendum condimentum urna, sit amet lobortis libero dictum elementum.
+                        </p>
+                      </div>
+                      <div id="description_vivienda_digna" class="donate_description hide">
+                        <h3>Vivienda Digna. Fundación Sagrada Familia</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas, tellus non aliquam dignissim, lectus massa ultricies arcu, quis porta sem ligula non risus. Vivamus posuere consequat leo a efficitur. Etiam dui augue, sodales id lectus vel, aliquam vehicula ante. Suspendisse neque arcu, suscipit vitae nisl et, pretium molestie nibh. Nam lacinia felis eu pellentesque consectetur. Donec bibendum condimentum urna, sit amet lobortis libero dictum elementum.
                         </p>
                       </div>
                     </div>
