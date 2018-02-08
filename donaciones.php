@@ -24,7 +24,7 @@
                     
                     <div class="donate_options col s12 m6 l6 xl7">
 
-                        <p> Elige una organización.</p>
+                        <p>Elegí una organización:</p>
                         <div class="stock-images row col s12 m12">
                           <div class="col s12 m12">
                             <input id="unicef" name="donation" type="radio" data-target="#description_unicef" checked /><label for="unicef">
