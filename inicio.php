@@ -31,12 +31,12 @@
         <div id="masonry-grid" class="row grid">
 
           <!-- AGREGAR PAGO // ESTILO CARD -->
-          <div class="col grid-item facturaItem">
+         <!-- <div class="col grid-item facturaItem">
               <div class="card-panel white hoverable center">
                 <a href="#nuevopago" class="modal-trigger"><i class="material-icons large mg-t-20">add</i></a>
                 <a href="#nuevopago" class="modal-trigger"><h3 class="center mg-t-10 mg-b-20 blue-text">Añadir Nueva Factura</h3></a>
               </div>
-          </div>
+          </div> -->
           <!-- FIN AGREGAR PAGO -->
 
           <?php include '_partials/cards.php'; ?>

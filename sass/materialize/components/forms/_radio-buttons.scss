@@ -113,3 +113,60 @@
   background-color: $input-disabled-color;
   border-color: $input-disabled-solid-color;
 }
+
+.stock-images {
+  margin-top:10px;
+  .image {
+    opacity: 0.6;
+    width: 100%;
+    height: auto;
+    background-position: center center;
+    transition: opacity .3s;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .col{
+    &.s2{
+      width:20%;
+    }
+    &.l2{
+      width:19%;
+    }
+  }
+
+  // Drop the style of materialize
+  [type="radio"] + label:before,
+  [type="radio"] + label:after {
+    display: none;
+  }
+  
+  [type="radio"] + label {
+    width: 100%;
+    padding: 0;
+  }
+
+  // Unchecked styles
+  [type="radio"]:not(:checked) + label {
+    .image {
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: url(img/desaturate.svg#greyscale);
+        -webkit-filter: grayscale(1);
+        transition: filter .3s;
+    }
+  }
+
+  // Checked styles
+  [type="radio"]:checked + label {
+    .image {
+      -webkit-filter: grayscale(0);
+      -webkit-filter: grayscale(0%);
+      filter: none;
+      filter: grayscale(0%);
+      -webkit-filter: grayscale(0);
+      opacity: 1;
+    }
+  }
+}
