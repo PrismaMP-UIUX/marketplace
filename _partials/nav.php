@@ -7,8 +7,8 @@
 					<?php
     			$pages = array(
 				        'inicioTabla.php' => 'Pagar',
-				        'decargar.php' => 'Recargar',
-				      	'donar.php' => 'Donar',
+				        'recargar.php' => 'Recargar',
+				      	'donaciones.php' => 'Donar',
 				    		'consultar.php' => 'Consultar');
 				?>
 				  <?php foreach ($pages as $pageId => $pageTitle): ?>

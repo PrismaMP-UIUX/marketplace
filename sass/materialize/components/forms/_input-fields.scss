@@ -168,7 +168,7 @@ textarea.materialize-textarea {
   }
 
   position: relative;
-  margin-top: 1rem;
+  margin-top: 1.6rem;
 
   label {
     color: $input-border-color;
@@ -189,7 +189,7 @@ textarea.materialize-textarea {
       transform-origin: 0 0;
     }
   }
-
+  
   // Prefix Icons
   .prefix {
     position: absolute;
@@ -211,7 +211,11 @@ textarea.materialize-textarea {
   }
 
   .prefix ~ label { margin-left: 3rem; }
-
+  .helper {
+    font-size: 0.8rem;
+    margin: -18px 0 0 5px;
+    color: #a0a0a0;
+  }
   @media #{$medium-and-down} {
     .prefix ~ input {
       width: 86%;
@@ -227,7 +231,19 @@ textarea.materialize-textarea {
   }
 }
 
+// Gutter radio button
+@media (max-width: 992px){
+  .donate-radio{
+    margin-top:-0.5rem;
+    margin-bottom: 1.5rem;
+}
+}
 
+//import
+.row .col .s12 .import-id-number .input-field{
+  padding-left:0px;
+  padding-right:0px;
+}
 /* Search Field */
 
 .input-field input[type=search] {
@@ -269,6 +285,7 @@ textarea.materialize-textarea {
     font-size: 2rem;
     transition: .3s color;
   }
+
 }
 
 
