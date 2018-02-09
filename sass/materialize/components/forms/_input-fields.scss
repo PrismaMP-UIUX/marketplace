@@ -24,16 +24,16 @@ input[type=search]:not(.browser-default),
 textarea.materialize-textarea {
 
   // General Styles
-  background-color: #f5f5f5;
+  background-color: transparent;
   border: none;
-  border-bottom: 1px solid #f5f5f5;
-  border-radius: 3px;
+  border-bottom: $input-border;
+  border-radius: 0;
   outline: none;
-  height: 2.5rem;
+  height: $input-height;
   width: 100%;
   font-size: $input-font-size;
   margin: $input-margin;
-  padding: 0 5px;
+  padding: $input-padding;
   box-shadow: none;
   box-sizing: content-box;
   transition: $input-transition;
@@ -158,7 +158,7 @@ textarea.materialize-textarea {
   // Gutter spacing
   &.col {
     label {
-      left: 1rem;
+      left: $gutter-width / 2;
     }
 
     .prefix ~ label,
@@ -168,28 +168,28 @@ textarea.materialize-textarea {
   }
 
   position: relative;
-  margin-top: 1.6rem;
+  margin-top: 1rem;
 
   label {
     color: $input-border-color;
     position: absolute;
     top: 0;
-    left: 5px;
+    left: 0;
     height: 100%;
     font-size: 1rem;
     cursor: text;
     transition: transform .2s ease-out;
     transform-origin: 0% 100%;
     text-align: initial;
-    transform: translateY(9px);
+    transform: translateY(12px);
     pointer-events: none;
 
     &:not(.label-icon).active {
-      transform: translateY(-19px) scale(.8);
+      transform: translateY(-14px) scale(.8);
       transform-origin: 0 0;
     }
   }
-  
+
   // Prefix Icons
   .prefix {
     position: absolute;
@@ -211,11 +211,7 @@ textarea.materialize-textarea {
   }
 
   .prefix ~ label { margin-left: 3rem; }
-  .helper {
-    font-size: 0.8rem;
-    margin: -18px 0 0 5px;
-    color: #a0a0a0;
-  }
+
   @media #{$medium-and-down} {
     .prefix ~ input {
       width: 86%;
@@ -231,19 +227,7 @@ textarea.materialize-textarea {
   }
 }
 
-// Gutter radio button
-@media (max-width: 992px){
-  .donate-radio{
-    margin-top:-0.5rem;
-    margin-bottom: 1.5rem;
-}
-}
 
-//import
-.row .col .s12 .import-id-number .input-field{
-  padding-left:0px;
-  padding-right:0px;
-}
 /* Search Field */
 
 .input-field input[type=search] {
@@ -285,7 +269,6 @@ textarea.materialize-textarea {
     font-size: 2rem;
     transition: .3s color;
   }
-
 }
 
 
