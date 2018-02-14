@@ -95,6 +95,7 @@
 		<script src="js/materialize.min.js"></script>
 		<script src="js/materialize-stepper.min.js"></script>
 		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/jquery.inputmask.bundle.min.js"></script>
   	
   	<!-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/121761/card.js"></script>
 	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/121761/jquery.card.js"></script> -->

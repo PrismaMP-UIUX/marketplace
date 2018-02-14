@@ -15,7 +15,7 @@
                 <span class="mg-b-5 mg-t-5 mg-r-15 importe"><b>$200,37</b></span>
                 <span class="mg-b-5 mg-t-5 mg-r-15 vto">Vto: 10/12/2017</span>
                 <span class="alertita orange-text mg-r-15 valign-wrapper tooltipped autoTooltip" data-position="top" data-text="Guardate esta factura <br> para que te recordemos <br> pagarla el mes que viene" data-delay="1"><i class="fa fa-certificate" aria-hidden="true"></i> Nueva</span>
-                <a href="#adherir" class="left mg-b-5 mg-t-5 orange btn-floating flex flex-j-center mg-r-15 pulse modal-trigger scale-out scale-in soloennuevita not-collapse tooltipped" data-position="top" data-text="Guardar"><i class="material-icons mg-l-9 white-text">save</i></a>
+                <a href="#adherir" class="left mg-b-5 mg-t-5 orange btn-floating flex flex-j-center mg-r-15 modal-trigger scale-out scale-in soloennuevita not-collapse tooltipped" data-position="top" data-text="Guardar"><i class="material-icons mg-l-9 white-text">save</i></a>
                 <a class="mg-b-5 mg-t-5 btn blue accionDeLaCard waves-effect modal-trigger not-collapse" href="#pago-rapido">Pagar</a>
               </div>
               <div class="flex flex align-i-center flex-j-end"><i class="material-icons more-details left rotateOnClick">expand_more</i></div>
