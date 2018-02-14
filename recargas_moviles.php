@@ -57,7 +57,7 @@
                       <div class="input-field col s12 m6">
                           <select class="icons">
                             <option value="" disabled selected>Choose your option</option>
-                            <option value="movistar" data-icon="/img/movistar.jpg" class="left circle">Movistar</option>
+                            <option value="movistar" data-icon="img/movistar.jpg" class="left circle">Movistar</option>
                             <option value="claro" data-icon="img/claro.jpg" class="left circle">Claro</option>
                             <option value="nextel" data-icon="img/nextel.jpg" class="left circle">Nextel</option>
                             <option value="personal" data-icon="img/personal.jpg" class="left circle">Personal</option>

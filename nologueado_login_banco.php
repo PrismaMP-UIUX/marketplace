@@ -28,11 +28,23 @@
 
 				<div class="input-field col s12">
 				  <select>
-						<option value="" disabled selected>Seleccione Banco</option>
-						<option value="1" data-icon="img/santander.png">Santander Río</option>
-						<option value="2" data-icon="img/comafi.png">Comafi</option>
-						<option value="3" data-icon="img/icbc.png">ICBC</option>
-						<option value="4" data-icon="img/frances.png">BBVA Francés</option>
+						<option value="0" disabled selected>Seleccione Banco</option>
+						<option data-icon="img/bancos_CH/bancos_CH_columbia.svg" value="1">Columbia</option>
+						<option data-icon="img/bancos_CH/bancos_CH_itau.svg" value="2">Itaú</option>
+						<option data-icon="img/bancos_CH/bancos_CH_santanderrio.svg" value="3">Santander Río</option>
+						<option data-icon="img/bancos_CH/bancos_CH_comafi.svg" value="4">Banco Comafi</option>
+						<option data-icon="img/bancos_CH/bancos_CH_hsbc.svg" value="5">HSBC</option>
+						<option data-icon="img/bancos_CH/bancos_CH_tucuman.svg" value="6">Banco Tucumán</option>
+						<option data-icon="img/bancos_CH/bancos_CH_galicia.svg" value="7">Galicia</option>
+						<option data-icon="img/bancos_CH/bancos_CH_macro.svg" value="8">Macro</option>
+						<option data-icon="img/bancos_CH/bancos_CH_icbc.svg" value="9">ICBC</option>
+						<option data-icon="img/bancos_CH/bancos_CH_frances.svg" value="10">BBVA Francés</option>
+						<option data-icon="img/bancos_CH/bancos_CH_patagonia.svg" value="11">Banco Patagonia</option>
+						<option data-icon="img/bancos_CH/bancos_CH_supervielle.svg" value="12">Supervielle</option>
+						<option data-icon="img/bancos_CH/bancos_CH_bancodelsol.svg" value="13">Banco del Sol</option>
+						<option data-icon="img/bancos_CH/bancos_CH_bancorepublica.svg" value="14">Banco República</option>
+						<option data-icon="img/bancos_CH/bancos_CH_bst.svg" value="15">BST</option>
+						<option data-icon="img/bancos_CH/bancos_CH_efectivosi.svg" value="16">Efectivo Sí</option>
 				  </select>
 				  <label>Banco</label>
 				</div>

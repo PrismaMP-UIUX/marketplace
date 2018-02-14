@@ -26,25 +26,25 @@
                         <div class="col s2 m6 l3">
                           <input id="sube" name="carrier" type="radio" />
                           <label for="sube">
-                            <img class="image" src="/img/logo_sube.jpg">
+                            <img class="image" src="img/logo_sube.jpg">
                           </label>
                         </div>
                         <div class="col s2 m6 l3">
                           <input id="movi-tarjeta" name="carrier" type="radio" />
                           <label for="movi-tarjeta">
-                            <img class="image" src="/img/movi-tarjeta.jpg">
+                            <img class="image" src="img/movi-tarjeta.jpg">
                           </label>
                         </div>
                         <div class="col s2 m6 l3">
                           <input id="saeta" name="carrier" type="radio" />
                           <label for="saeta">
-                            <img class="image" src="/img/logo_saeta.jpg">
+                            <img class="image" src="img/logo_saeta.jpg">
                           </label>
                         </div>
                         <div class="col s2 m6 l3">
                           <input checked="checked" id="red-bus" name="carrier" type="radio" />
                           <label for="red-bus">
-                              <img class="image" src="/img/red-bus.png">
+                              <img class="image" src="img/red-bus.jpg">
                          </label>
                         </div>
                       </div>

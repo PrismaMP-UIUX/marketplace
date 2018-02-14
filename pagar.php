@@ -126,7 +126,7 @@
                     <div class="input-field height-45 flex align-i-center inputEditImporte selectImportesFijos mg-t-0 mg-l-0 mg-r-10 max-115 grey-text text-darken-2 left">
                       <span style="position: absolute;">$</span>
                       <div class="left mg-r-10">
-                        <select class="left select-wrapper select-sin-margen select-importe pd-r-30">
+                        <select class="left select-wrapper select-sin-margen select-importe pd-r-20">
                           <option value="0">2100</option>
                           <option value="1">2500</option>
                           <option value="2">3000</option>

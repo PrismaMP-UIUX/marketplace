@@ -903,6 +903,7 @@ header a.btn.grey {
 
 //Dentro de cards y modals
 .card-content,
+.card-panel,
 .modal-content {
 	input[type=text]:not(.browser-default):focus:not([readonly]),
 	input[type=password]:not(.browser-default):focus:not([readonly]),
@@ -943,7 +944,7 @@ header a.btn.grey {
 	.input-field .prefix.active {
 		color: $brand_celeste;
 	}
-	.dropdown-content li>span {
+	.dropdown-content li > span {
 		color: $brand_celeste;
 	}
 }

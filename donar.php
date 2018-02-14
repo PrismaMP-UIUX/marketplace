@@ -32,11 +32,11 @@
                       </div>
                       <div class="donate-radio col s12 m12 l6">
                         <p>
-                          <input name="frequency" type="radio" id="one-time" checked="checked">
+                          <input name="frequency" type="radio" id="one-time" class="with-gap" checked="checked">
                           <label for="one-time">Solo por esta vez</label>
                         </p>
                         <p>
-                          <input name="frequency" type="radio" id="monthly">
+                          <input name="frequency" type="radio" id="monthly" class="with-gap">
                           <label for="monthly">Mensual</label>
                         </p>
                       </div>

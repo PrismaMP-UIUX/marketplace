@@ -54,7 +54,7 @@
                 </div>
                 <div class="mg-r-15 max-50 hide-on-small-only">
                   <rubro>
-                    <div class="rubro agua circle white border-grey z-depth-2 width-100"></div>
+                    <div class="rubro agua circle white border-blue z-depth-2 width-100"></div>
                     <!-- <img src="img/rubros/agua.svg" class="circle responsive-img"> -->
                   </rubro>
                 </div>
@@ -89,7 +89,7 @@
                   </div>
                   <div class="mg-r-15 max-50 hide-on-small-only">
                     <rubro>
-                      <div class="rubro agua circle white border-grey z-depth-2 width-100"></div>
+                      <div class="rubro agua circle white border-blue z-depth-2 width-100"></div>
                       <!-- <img src="img/rubros/agua.svg" class="circle responsive-img"> -->
                     </rubro>
                   </div>
@@ -124,7 +124,7 @@
                   </div>
                   <div class="mg-r-15 max-50 hide-on-small-only">
                     <rubro>
-                      <div class="rubro agua circle white border-grey z-depth-2 width-100"></div>
+                      <div class="rubro agua circle white border-blue z-depth-2 width-100"></div>
                       <!-- <img src="img/rubros/agua.svg" class="circle responsive-img"> -->
                     </rubro>
                   </div>
@@ -187,7 +187,7 @@
 
               <div class="mg-r-15 max-50 hide-on-small-only">
                 <rubro>
-                  <div class="rubro telefonia circle white border-grey z-depth-2 width-100"></div>
+                  <div class="rubro telefonia circle white border-blue z-depth-2 width-100"></div>
                   <!-- <img src="img/rubros/telefonia.svg" class="circle responsive-img"> -->
                 </rubro>
               </div>
@@ -384,7 +384,7 @@
 
               <div class="mg-r-15 max-50 hide-on-small-only">
                 <rubro>
-                  <div class="rubro proveedoresinternet circle white border-grey z-depth-2 width-100"></div>
+                  <div class="rubro proveedoresinternet circle white border-blue z-depth-2 width-100"></div>
                   <!-- <img src="img/rubros/proveedoresinternet.svg" class="circle responsive-img"> -->
                 </rubro>
               </div>

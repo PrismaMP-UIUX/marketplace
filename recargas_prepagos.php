@@ -26,13 +26,13 @@
                         <div class="col s6 m6 l2">
                           <input id="directv" name="carrier" type="radio" />
                           <label for="directv">
-                            <img class="image" src="/img/DirecTV_logo.jpg">
+                            <img class="image" src="img/DirecTV_logo.jpg">
                           </label>
                         </div>
                         <div class="col s6 m6 l2">
                           <input id="pim" name="carrier" type="radio" />
                           <label for="pim">
-                            <img class="image" src="/img/logo-pim.jpg">
+                            <img class="image" src="img/logo-pim.jpg">
                           </label>
                         </div>
                       </div>
