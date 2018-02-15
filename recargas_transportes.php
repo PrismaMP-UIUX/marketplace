@@ -44,7 +44,7 @@
                         <div class="col s2 m6 l3">
                           <input checked="checked" id="red-bus" name="carrier" type="radio" />
                           <label for="red-bus">
-                              <img class="image" src="/img/red-bus.png">
+                              <img class="image" src="/img/logo_red-bus.jpg">
                          </label>
                         </div>
                       </div>
