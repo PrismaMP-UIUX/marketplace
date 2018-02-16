@@ -31,31 +31,31 @@
                               <img class="image" src="/img/banner-unicef.png" alt="Unicef">
                             </label>
                           </div>
-                          <div class="col s3 m6 l4">
+                          <div class="col s4 m6 l4">
                             <input id="fundacion_leer" name="donation" type="radio" data-target="#description_fundacion_leer" /><label for="fundacion_leer">
                               <img class="image" src="/img/fundacion-leer-logo.png" alt="Fundación Leer">
                             </label>
                           </div>
-                          <div class="col s3 m6 l4">
+                          <div class="col s4 m6 l4">
                             <input id="caritas_logo" name="donation" type="radio" data-target="#description_caritas_logo" /><label for="caritas_logo">
                               <img class="image" src="/img/caritas-logo.png" alt="Cáritas Argentina">
                             </label>
                           </div>
-                          <div class="col s3 m6 l4"><input id="cilsa" name="donation" type="radio" data-target="#description_cilsa" /><label for="cilsa">
+                          <div class="col s4 m6 l4"><input id="cilsa" name="donation" type="radio" data-target="#description_cilsa" /><label for="cilsa">
                               <img class="image" src="/img/cilsa.png" alt="CILSA. ONG por las inclusión">
                             </label>
                           </div>
-                           <div class="col s3 m6 l4">
+                           <div class="col s4 m6 l4">
                             <input id="infancia_segura" name="donation" type="radio" data-target="#description_infancia_segura" /><label for="infancia_segura">
                               <img class="image" src="/img/fundacion-infancia-segura.png" alt="Fundación Infancia Segura">
                             </label>
                           </div>
-                          <div class="col s3 m6 l4">
+                          <div class="col s4 m6 l4">
                             <input id="banco_de_alimentos" name="donation" type="radio" data-target="#description_banco_de_alimentos" /><label for="banco_de_alimentos">
                               <img class="image" src="/img/banco-de-alimentos.jpg" alt="Banco de Alimentos">
                             </label>
                           </div>
-                          <div class="col s3 m6 l4">
+                          <div class="col s4 m6 l4">
                             <input id="vivienda_digna" name="donation" type="radio" data-target="#description_vivienda_digna" /><label for="vivienda_digna">
                               <img class="image" src="/img/vivienda-digna.png" alt="Vivienda Digna. Fundación Sagrada Familia">
                             </label>
