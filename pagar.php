@@ -38,8 +38,8 @@
                           <a href="#!" class="editar btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon" data-text="Modificar importe" data-position="top">
                               <i class="material-icons mg-0" id="iconoEditReplay">edit</i>
                           </a>
-                          <a href="#!" class="pagarTotal btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon hide" data-text="Monto total" data-position="top" onclick="">
-                              <i class="material-icons mg-0" id="iconoEditReplay">replay</i>
+                          <a href="#!" class="pagarTotal btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon hide" data-text="Volver al monto total" data-position="top" onclick="">
+                              <i class="material-icons mg-0" id="iconoEditReplay">undo</i>
                           </a>
                       </div>
                       <a href='#!' class='guardarMonto inside-icon btn-floating blue boton-edicion valign-wrapper flex tooltipped' data-text="Guardar" data-position="top"><i class='material-icons mg-0'>save</i></a>
@@ -77,8 +77,8 @@
                           <a href="#!" class="editar btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon" data-text="Modificar importe" data-position="top">
                               <i class="material-icons mg-0" id="iconoEditReplay">edit</i>
                           </a>
-                          <a href="#!" class="pagarTotal btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon hide" data-text="Monto total" data-position="top" onclick="">
-                              <i class="material-icons mg-0" id="iconoEditReplay">replay</i>
+                          <a href="#!" class="pagarTotal btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon hide" data-text="Volver al monto total" data-position="top" onclick="">
+                              <i class="material-icons mg-0" id="iconoEditReplay">undo</i>
                           </a>
                       </div>
                       <a href='#!' class='guardarMonto inside-icon btn-floating blue boton-edicion valign-wrapper flex tooltipped' data-text="Guardar" data-position="top"><i class='material-icons mg-0'>save</i></a>
@@ -168,8 +168,8 @@
                               <a href="#!" class="editar btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon" data-text="Modificar importe" data-position="top">
                                   <i class="material-icons mg-0" id="iconoEditReplay">edit</i>
                               </a>
-                              <a href="#!" class="pagarTotal btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon hide" data-text="Monto total" data-position="top" onclick="">
-                                  <i class="material-icons mg-0" id="iconoEditReplay">replay</i>
+                              <a href="#!" class="pagarTotal btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon hide" data-text="Volver al monto total" data-position="top" onclick="">
+                                  <i class="material-icons mg-0" id="iconoEditReplay">undo</i>
                               </a>
                           </div>
                           <a href='#!' class='guardarMonto inside-icon btn-floating blue boton-edicion valign-wrapper flex tooltipped' data-text="Guardar" data-position="top"><i class='material-icons mg-0'>save</i></a>

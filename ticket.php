@@ -32,8 +32,12 @@
 		</div>
 
 	<div class="container tickets">
+		<div class="header">
+		  <h1>Pagaste</h1>
+		  <p>En PagoMisCuentas guardamos todos tus comprobantes para que puedas tener acceso cuando quieras.</p>
+		</div>
 		<!-- botones de acción -->
-		<div class="row mg-t-50">
+		<div class="row mg-t-20">
 			<div class="flex flex-j-between align-i-center" id="accion">
 				<div class="flex flex-j-start align-i-center">
           <a href="#!" class="btn blue white-text mg-b-5 tooltipped" data-text="Imprimir" data-position="top" data-delay="50" disabled><i class="material-icons left">local_printshop</i></a>
@@ -45,7 +49,7 @@
 			</div>
 		</div>
 		<!-- tickets -->
-		<div class="row">
+		<div class="row tickets">
 
 			<div class="col s12 m4 l3"><!-- ticket 01 -->
 				<div class="card-panel grilla ticket z-depth-4">

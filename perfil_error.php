@@ -15,8 +15,8 @@
           <div class="card">
             <form>
               <div class="card-content">
-              <span class="card-title">Mi perfil</span>
-              <!-- <h3 class="card-title">Mi Perfil</h3> -->
+              <!-- <span class="card-title">Mi perfil</span> -->
+              <h3 class="card-title">Mi Perfil</h3>
                 <ul id="tabs-swipe-demo" class="tabs tabs-fixed-width mg-b-30">
                   <li class="tab col s3"><a class="active" href="#userPass">Usuario y contraseña</a></li>
                   <li class="tab col s3"><a href="#email"><!-- Direccion de e-mail -->Notificaciones</a></li>

@@ -3,7 +3,7 @@
 	<nav  role="navigation" class="hide-on-small-only">
 		<div class="container">
 			<div class="nav-wrapper">
-				<ul class="hide-on-med-and-down">
+				<ul class="hide-on-small-only">
 					<?php
     			$pages = array(
 				        'inicioTabla.php' => 'Pagar',
@@ -29,7 +29,7 @@
 					<a href="#" data-activates="mobile-demo" class="button-collapse left hide-on-med-and-up"><i class="material-icons">menu</i></a>
 				</li>
 				<li class="cantidad white-text right pulse grey-text text-darken-2 pd-0 hide-on-med-and-up" style="display: none;">
-					<a href="pagar.php" class="btn orange darken-1 mg-0 mg-r-15 height-40 waves-effect waves-light pulse tada animated">
+					<a href="pagar.php" class="btn orange darken-1 mg-0 mg-r-15 height-40 waves-effect waves-light  tada animated">
 						<span class="prisma white-text accion-pagar mg-r-20"></span>
 						<div class="totalFacturas nro">1</div>
 						<span>Pagar</span>

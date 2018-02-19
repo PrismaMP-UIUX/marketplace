@@ -15,6 +15,7 @@
           <div class="card">
             <form>
               <div class="card-content">
+                <h3 class="card-title">Mi Perfil</h3>
                 <ul id="tabs-swipe-demo" class="tabs tabs-fixed-width mg-b-30">
                   <li class="tab col s3"><a href="#usr" class="active">Contraseña</a></li>
                   <li class="tab col s3"><a href="#mensajes">Mensajes</a></li>

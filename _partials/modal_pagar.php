@@ -5,31 +5,26 @@
         <h3 class="card-title">Completá los datos</h3>
         <div class="row mg-b-0">
           <h6 class="grey-text text-darken-2 mg-b-20">Por favor Mariano N D Almeida <i>(tal como figura en la tarjeta)</i>, ingresá una tarjeta a tu nombre.</h6>
-            <div class="card-wrapper col s12 m10 offset-m1 l6 hide-on-med-and-down mg-t-50"></div>
             <form class="tarjeta">
-                <div class="mg-t-0 col s12 m10 offset-m1 l6">
-                    <div class="input-field col s12">
-                        <input id="tarjeta" name="tarjeta" type="text" class="center-align" maxlength="20" placeholder="0000 0000 0000 0000 0000"
-                            required>
-                        <label class="active">Número de la tarjeta</label>
-                    </div>
-                    <div class="input-field col s12 clearfix mg-t-40" id="vencimiento">
-                        <label class="active" for="vencimiento">Fecha de vencimiento</label>
-                        <div class="input-field col s5 pd-0">
-                            <input id="mes" name="mes" type="text" pattern="^(0?[1-9]|1[012])$" maxlength="2" class="date-card center-align left validate"
-                            placeholder="MM" required>
-                            <label class="active" for="mes" data-error="Ingresá el mes en formato numérico." data-success="Válido"></label>
-                        </div>
-                        <div class="input-field col s5 offset-s2 pd-0">
-                            <input id="anio" name="anio" type="text" pattern="\d*" maxlength="2" class="date-card2 center-align right validate" placeholder="AA"
-                                required>
-                            <label class="active" for="anio" data-error="Ingresá el año en formato numérico." data-success="Válido"></label>
-                        </div>
-                    </div>
-                    <div class="input-field col s6 offset-s3 clearfix mg-t-40">
-                        <input id="seguridad" name="seguridad" type="text" class="center-align" maxlength="4" placeholder="0000" required>
-                        <label class="active">Código de seguridad</label>
-                    </div>
+              <div class="mg-t-0 col s12 m10 offset-m1 l6">
+                <div class="input-field col s12">
+                  <input id="tarjeta" name="tarjeta" type="text" class="center-align" maxlength="20" placeholder="0000 0000 0000 0000 0000" required>
+                  <label class="active">Número de la tarjeta</label>
+                </div>
+                <div class="input-field col s12 clearfix mg-t-40" id="vencimiento">
+                  <label class="active" for="vencimiento">Fecha de vencimiento</label>
+                  <div class="input-field col s5 pd-0 mg-t-0">
+                    <input id="mes" name="mes" type="text" pattern="^(0?[1-9]|1[012])$" maxlength="2" class="date-card center-align left validate" placeholder="MM" required>
+                    <label class="active" for="mes" data-error="Ingresá el mes en formato numérico." data-success="Válido"></label>
+                  </div>
+                  <div class="input-field col s5 offset-s2 pd-0 mg-t-0">
+                    <input id="anio" name="anio" type="text" pattern="\d*" maxlength="2" class="date-card2 center-align right validate" placeholder="AA" required>
+                    <label class="active" for="anio" data-error="Ingresá el año en formato numérico." data-success="Válido"></label>
+                  </div>
+                </div>
+                <div class="input-field col s6 clearfix mg-t-40">
+                  <input id="seguridad" name="seguridad" type="text" class="center-align" maxlength="4" placeholder="0000" required>
+                  <label class="active">Código de seguridad</label>
                 </div>
                 <input type="checkbox" class="filled-in" id="filled-in-box-1"/>
                 <label for="filled-in-box-1" class="mg-t-20">AGREGAR MEDIO DE PAGO</label>
@@ -44,7 +39,9 @@
                     <img src="img/mediosdepago/todopago.svg" alt="todopago" width="100%">
                   </div>
                 </div>
+              </div>
             </form>
+            <div class="card-wrapper col s12 m10 offset-m1 l6 hide-on-med-and-down mg-t-50"></div>
         </div>
     </div>
     <div class="modal-footer">

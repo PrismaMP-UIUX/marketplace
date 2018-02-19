@@ -499,6 +499,7 @@ $small-down: "only screen and (max-width : #{$small-screen-down})" !default;
 		.input-field {
 			.prefix {
 				font-size: 1rem;
+				position: relative;
 			}
 			input {
 				height: 2rem;
@@ -1100,7 +1101,7 @@ table.bordered tbody {
 }
 
 .container.tickets {
-	& > .row:nth-of-type(2) {
+	& > .row.tickets {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;

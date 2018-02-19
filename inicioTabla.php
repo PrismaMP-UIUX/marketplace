@@ -10,24 +10,13 @@
 
   <main class="grey-text text-darken-2">
     <div class="container">
-      <div class="header">
-        <h1>Próximos vencimientos</h1>
-        <p>Seleccioná las facturas próximas a vencer y aboná con el medio de pago que quieras.</p>
-      </div>
-      <div class="row">
+
+<!--       <div class="row">
         <div class="col right mg-t-10 view hide-on-small-only">
-          <!--Vista -->
           <a class="btn orange mg-r-3" href="inicio.php"><i class="material-icons">view_module</i></a>
           <a class="btn orange disabled" href="inicioTabla.php"><i class="material-icons">format_list_bulleted</i></a>
         </div>
-      </div>
-<!-- botón de pagar de nav.php /// MOBILE -->
-<!--       <div class="row">
-        <div id="cantidad" class="col s12 mg-b-10 hide-on-med-and-up">
-          <a href="#" class="btn-floating white-text blue pulse right" id="a-button"><span class="prisma accion-pagar large mg-l-15"></span></a>
-        </div>
       </div> -->
-  <!-- fin botón de pagar de nav.php /// MOBILE -->
 
       <div class="row" id="vistaTabla">
         <?php include '_partials/tabla.php'; ?>

@@ -16,7 +16,7 @@
             <div class="col s12 m8 offset-m2 l6 offset-l3">
           <div class="card margindown hoverable">
                 <div class="card-content">
-                  <span class="card-title blue-text">Cambio de Clave de acceso</span>
+                  <span class="card-title">Cambio de Clave de acceso</span>
                   <p>Solo tenes que ingresar tu clave actual, luego una clave nueva y confirmala para verificar que la hayas ingresado bien.</p>
                   <div class="input-field width-100 left">
                     <input id="password" name="password" type="password" class="validate" >

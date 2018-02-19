@@ -18,7 +18,7 @@
               <span class="card-title">Saldos y disponibles</span>
               <ul class="collapsible" data-collapsible="accordion">
                 <li>
-                  <div class="collapsible-header before-collapse tabla" collapsible-order="0">
+                  <div class="collapsible-header before-collapse tabla pointer" collapsible-order="0">
                     <span>Caja de ahorro en pesos 0504501112200817</span>
                     <div class="valign-wrapper">
                       <i class="material-icons rotate right hide">data_usage</i>
@@ -33,7 +33,7 @@
                   </div>
                 </li>
                 <li>
-                  <div class="collapsible-header before-collapse tabla" collapsible-order="1">
+                  <div class="collapsible-header before-collapse tabla pointer" collapsible-order="1">
                     <span>Cuenta corriente en pesos 0504501112200817</span>
                     <div class="valign-wrapper">
                       <i class="material-icons rotate right hide">data_usage</i>
@@ -48,7 +48,7 @@
                   </div>
                 </li>
                 <li>
-                  <div class="collapsible-header before-collapse tabla" collapsible-order="2">
+                  <div class="collapsible-header before-collapse tabla pointer" collapsible-order="2">
                     <span>Caja de ahorro en dolares 0504501112200817</span>
                     <div class="valign-wrapper">
                       <i class="material-icons rotate right hide">data_usage</i>
@@ -63,7 +63,7 @@
                   </div>
                 </li>
                 <li>
-                  <div class="collapsible-header before-collapse tabla" collapsible-order="3">
+                  <div class="collapsible-header before-collapse tabla pointer" collapsible-order="3">
                     <span>Cuenta corriente en dolares 0504501112200817</span>
                     <div class="valign-wrapper">
                       <i class="material-icons rotate right hide">data_usage</i>
