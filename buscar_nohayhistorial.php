@@ -10,13 +10,13 @@
 
   <main class="grey-text text-darken-2">
     <div class="container">
-
       <div class="row">
+        <div class="col s12">
         <!-- Masonry -->
-        <div id="masonry-grid" class="row">
-          <div class="col s12">
+        <!-- <div id="masonry-grid" class="row"> -->
+          <!-- <div class="col s12"> -->
 
-            <div class="row">
+            <!-- <div class="row"> -->
               <div class="card-panel">
                 <h3 class="card-title">Buscar <span class="hide-on-med-and-up">por</span></h3>
                 <div class="row">
@@ -992,8 +992,10 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+            <!-- </div> -->
+
+          <!-- </div> -->
+        <!-- </div> -->
         </div>
       </div>
     </div>

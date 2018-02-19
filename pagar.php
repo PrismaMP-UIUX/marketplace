@@ -38,8 +38,8 @@
                           <a href="#!" class="editar btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon" data-text="Modificar importe" data-position="top">
                               <i class="material-icons mg-0" id="iconoEditReplay">edit</i>
                           </a>
-                          <a href="#!" class="pagarTotal btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon hide" data-text="Monto total" data-position="top" onclick="">
-                              <i class="material-icons mg-0" id="iconoEditReplay">replay</i>
+                          <a href="#!" class="pagarTotal btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon hide" data-text="Volver al monto total" data-position="top" onclick="">
+                              <i class="material-icons mg-0" id="iconoEditReplay">undo</i>
                           </a>
                       </div>
                       <a href='#!' class='guardarMonto inside-icon btn-floating blue boton-edicion valign-wrapper flex tooltipped' data-text="Guardar" data-position="top"><i class='material-icons mg-0'>save</i></a>
@@ -77,8 +77,8 @@
                           <a href="#!" class="editar btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon" data-text="Modificar importe" data-position="top">
                               <i class="material-icons mg-0" id="iconoEditReplay">edit</i>
                           </a>
-                          <a href="#!" class="pagarTotal btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon hide" data-text="Monto total" data-position="top" onclick="">
-                              <i class="material-icons mg-0" id="iconoEditReplay">replay</i>
+                          <a href="#!" class="pagarTotal btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon hide" data-text="Volver al monto total" data-position="top" onclick="">
+                              <i class="material-icons mg-0" id="iconoEditReplay">undo</i>
                           </a>
                       </div>
                       <a href='#!' class='guardarMonto inside-icon btn-floating blue boton-edicion valign-wrapper flex tooltipped' data-text="Guardar" data-position="top"><i class='material-icons mg-0'>save</i></a>
@@ -126,7 +126,7 @@
                     <div class="input-field height-45 flex align-i-center inputEditImporte selectImportesFijos mg-t-0 mg-l-0 mg-r-10 max-115 grey-text text-darken-2 left">
                       <span style="position: absolute;">$</span>
                       <div class="left mg-r-10">
-                        <select class="left select-wrapper select-sin-margen select-importe pd-r-30">
+                        <select class="left select-wrapper select-sin-margen select-importe pd-r-20">
                           <option value="0">2100</option>
                           <option value="1">2500</option>
                           <option value="2">3000</option>
@@ -168,8 +168,8 @@
                               <a href="#!" class="editar btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon" data-text="Modificar importe" data-position="top">
                                   <i class="material-icons mg-0" id="iconoEditReplay">edit</i>
                               </a>
-                              <a href="#!" class="pagarTotal btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon hide" data-text="Monto total" data-position="top" onclick="">
-                                  <i class="material-icons mg-0" id="iconoEditReplay">replay</i>
+                              <a href="#!" class="pagarTotal btn-floating blue boton-edicion valign-wrapper flex tooltipped inside-icon hide" data-text="Volver al monto total" data-position="top" onclick="">
+                                  <i class="material-icons mg-0" id="iconoEditReplay">undo</i>
                               </a>
                           </div>
                           <a href='#!' class='guardarMonto inside-icon btn-floating blue boton-edicion valign-wrapper flex tooltipped' data-text="Guardar" data-position="top"><i class='material-icons mg-0'>save</i></a>

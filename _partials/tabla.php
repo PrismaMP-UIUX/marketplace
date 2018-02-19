@@ -1,4 +1,8 @@
         <!-- collapsible -->
+        <div class="header pd-b-20 animated bounceInUp">
+          <h1>Próximos vencimientos</h1>
+          <p>Seleccioná las facturas próximas a vencer y aboná con el medio de pago que quieras.</p>
+        </div>
         <ul class="collapsible animated bounceInUp popout" data-collapsible="accordion">
           <li class="facturaItem">
             <div class="collapsible-header noselect nuevita">
@@ -15,7 +19,7 @@
                 <span class="mg-b-5 mg-t-5 mg-r-15 importe"><b>$200,37</b></span>
                 <span class="mg-b-5 mg-t-5 mg-r-15 vto">Vto: 10/12/2017</span>
                 <span class="alertita orange-text mg-r-15 valign-wrapper tooltipped autoTooltip" data-position="top" data-text="Guardate esta factura <br> para que te recordemos <br> pagarla el mes que viene" data-delay="1"><i class="fa fa-certificate" aria-hidden="true"></i> Nueva</span>
-                <a href="#adherir" class="left mg-b-5 mg-t-5 orange btn-floating flex flex-j-center mg-r-15 pulse modal-trigger scale-out scale-in soloennuevita not-collapse tooltipped" data-position="top" data-text="Guardar"><i class="material-icons mg-l-9 white-text">save</i></a>
+                <a href="#adherir" class="left mg-b-5 mg-t-5 orange btn-floating flex flex-j-center mg-r-15 modal-trigger scale-out scale-in soloennuevita not-collapse tooltipped" data-delay="50" data-position="top" data-text="Guardar"><i class="material-icons mg-l-9 white-text">save</i></a>
                 <a class="mg-b-5 mg-t-5 btn blue accionDeLaCard waves-effect modal-trigger not-collapse" href="#pago-rapido">Pagar</a>
               </div>
               <div class="flex flex align-i-center flex-j-end"><i class="material-icons more-details left rotateOnClick">expand_more</i></div>
@@ -24,7 +28,7 @@
               <aside class="flex align-i-center">
                 <p>Empresa: <span>Metrogas</span></p>
                 <div class="flex flex-inline align-i-center">
-                  <p class="mg-r-5">Alias: <span class="toggleEditSeudonimo seudonimoTexto" id="">Aguita</span><a href="#" onclick="$('.toggleEditSeudonimo').toggleClass('hide'); $('input.toggleEditSeudonimo').focus();" class="toggleEditSeudonimo"><i class="material-icons tiny gris-mas-oscuro-text">create</i></a><div class="input-field mg-t-0"><input id="" type="text" class="seudonimoInput hide toggleEditSeudonimo"/><a href="#" class="hide toggleEditSeudonimo prefix mg-neg-l-9 tooltipped" data-position="top" data-text="Guardar" onclick="modificarDescripcion()"><i class="material-icons tiny gris-mas-oscuro-text mg-r-10">save</i></a></div></p>
+                  <p class="mg-r-5">Alias: <span class="toggleEditSeudonimo seudonimoTexto" id="">Aguita</span><a href="#" onclick="$('.toggleEditSeudonimo').toggleClass('hide'); $('input.toggleEditSeudonimo').focus();" class="toggleEditSeudonimo"><i class="material-icons tiny gris-mas-oscuro-text">create</i></a><div class="input-field mg-t-0"><input id="" type="text" class="seudonimoInput hide toggleEditSeudonimo max-150"/><a href="#" class="hide toggleEditSeudonimo prefix tooltipped" data-delay="50" data-position="top" data-text="Guardar" onclick="modificarDescripcion()"><i class="material-icons tiny gris-mas-oscuro-text">save</i></a></div></p>
                 </div>
                 <p>Identificación: <span>33444</span></p>
                 <p>Importe: <span>$200,00</span></p>
@@ -45,6 +49,161 @@
               </div>
             </div>
           </li>
+          <li class="facturaItem">
+            <div class="collapsible-header noselect">
+              <div class="flex align-i-center">
+                <input type="checkbox" class="filled-in" id="filled-in-box-96" onclick="showLi()"/>
+                <label for="filled-in-box-96"></label>
+              </div>
+
+              <div class="mg-r-15 max-50 hide-on-small-only">
+                <rubro>
+                  <div class="rubro telefonia circle white border-blue z-depth-2 width-100"></div>
+                  <!-- <img src="img/rubros/telefonia.svg" class="circle responsive-img"> -->
+                </rubro>
+              </div>
+              <div class="mg-r-15 flex flex-grow align-i-center">
+                <span class="mg-b-5 mg-t-5 blue-text mg-r-15"><b>Personal</b>  (<span class="blue-text seudonimoTexto">Mi celu</span>)</span>
+                <span class="mg-b-5 mg-t-5 mg-r-15 importe"><b>$650</b></span>
+                <span class="mg-b-5 mg-t-5 mg-r-15 vto">Vto: 10/12/2017</span>
+                <span class="alertita red-text mg-r-15 valign-wrapper"><i class="fa fa-hourglass-half" aria-hidden="true"></i> QUEDAN 3 DÍAS</span>
+                <a class="mg-b-5 mg-t-5 btn blue accionDeLaCard waves-effect  modal-trigger not-collapse" href="#pago-rapido">Pagar</a>
+              </div>
+              <div class="flex flex align-i-center flex-j-end"><i class="material-icons more-details left rotateOnClick">expand_more</i></div>
+            </div>
+            <div class="collapsible-body">
+              <aside class="flex align-i-center">
+                <p>Empresa: <span>Metrogas</span></p>
+                <div class="flex flex-inline align-i-center">
+                  <p class="mg-r-5">Alias: <span class="toggleEditSeudonimo seudonimoTexto" id="">Agua de Casa</span><a href="#" onclick="$('.toggleEditSeudonimo').toggleClass('hide'); $('input.toggleEditSeudonimo').focus();" class="toggleEditSeudonimo"><i class="material-icons tiny gris-mas-oscuro-text">create</i></a><div class="input-field mg-t-0"><input id="" type="text" class="seudonimoInput hide toggleEditSeudonimo"/><a href="#" class="hide toggleEditSeudonimo prefix mg-neg-l-9 tooltipped" data-position="top" data-text="Guardar" onclick="modificarDescripcion()"><i class="material-icons tiny gris-mas-oscuro-text mg-r-10">save</i></a></div></p>
+                </div>
+                <p>Identificación: <span>33444</span></p>
+                <p>Importe: <span>$200,00</span></p>
+                <p>Ref. Interna: <span>33322</span></p>
+                <p>Datos adicionales: <span>Cuota 1</span></p>
+                <a class="btn btn-flat transparent red-text right tooltipped" data-text="Eliminar" href="#!" onclick="deleteItem(this)"><i class="material-icons left">delete_forever</i> Eliminar</a>
+                <a class="btn btn-flat transparent blue-text right" href="#!"><i class="material-icons left">file_download</i> Descargar</a>
+              </aside>
+              <div class="red-text block pd-l-30 eliminar-mobile">
+                <h5 class="red-text left-align flex alig-i-center flex-j-start"><i class="material-icons mg-neg-t-4 mg-r-5">delete_forever</i> Eliminar pago</h5>
+                <div class="pd-r-15">
+                  <p class="left-align">Estás a punto de <b>eliminar</b> de tus <b>PAGOS</b> Luz de Casa (<b>Edesur</b>). ¿Estás seguro?</p>
+                  <p class="left-align">No te preocupes, ésta acción no va a eliminar ésta empresa. Para que no se te informen más facturas de éste servicio tenés que <a href="#definitivamente" class="modal-trigger tooltipped white-text nowrap" data-position="top" data-text="La factura se desvinculará para siempre" data-delay="50"><b class="red-text">eliminarla definitivamente</b></a>.</p>
+                </div>
+                <div class="right mg-r-15 mg-b-15">
+                  <a href="#!" onclick="closeDelete(this)" class="btn-flat red-text pd-l-10 pd-r-10"><i class="material-icons left">close</i> No eliminar</a>
+                  <a href="#!" class="btn white-text red pd-l-10 pd-r-10"><i class="material-icons left tooltipped" data-position="top" data-text="La factura volverá a aparecer el mes que viene" data-delay="50">check</i> Eliminar</a>
+                </div>
+                <br>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="header pd-b-20 animated bounceInUp">
+          <h1>Facturas pagas en esta sesión</h1>
+          <p>La próxima vez que ingreses no aparecerán pero podrás visualizar el comprobante en Mis Pagos Realizados.</p>
+        </div>
+        <ul class="collapsible animated bounceInUp popout" data-collapsible="accordion">
+          <li class="facturaItem">
+            <div class="collapsible-header noselect">
+              <div class="flex align-i-center">
+                <!-- <input type="checkbox" class="filled-in" id="filled-in-box-90" onclick="showLi()" disabled/>
+                <label for="filled-in-box-90"></label> -->
+              </div>
+
+              <div class="mg-r-15 max-50 hide-on-small-only"><rubro><img src="img/aysa.jpg" class="circle responsive-img"></rubro></div>
+              <div class="mg-r-15 flex flex-grow align-i-center">
+                <span class="mg-b-5 mg-t-5 blue-text mg-r-15"><b>Aysa</b> (<span class="blue-text seudonimoTexto">Agua del Vecino</span>)</span>
+                <span class="mg-b-5 mg-t-5 mg-r-15 green-text importe"><b>$1.250,47</b></span>
+                <span class="alertita green-text mg-r-15 valign-wrapper"><i class="fa fa-check" aria-hidden="true"></i> pagada</span>
+                <span><a class="btn-flat blue-text modal-trigger" href="#imprimir"><i class="fa fa-print tiny" aria-hidden="true"></i>imprimir</a></span>
+              </div>
+              <div class="flex flex align-i-center flex-j-end"><i class="material-icons more-details left rotateOnClick">expand_more</i></div>
+            </div>
+            <div class="collapsible-body">
+              <aside class="flex align-i-center">
+                <p>Fecha:<span>15/08/2017</span></p>
+                <p>Hora:<span>14:05:55</span></p>
+                <p>Transacción: <span>000100001274</span></p>
+                <p>Identificación: <span>33444</span></p>
+                <p>Importe: <span>$200,00</span></p>
+                <p class="flex">Medio de pago: <span><img src="img/mediosdepago/visa.svg" class="max-30" alt=""></span><span> terminada en 9459</span></p>
+                <a class="btn btn-flat transparent blue-text right" href="#!"><i class="material-icons left">file_download</i> Descargar</a>
+                <a class="btn btn-flat transparent blue-text right" href="#!"><i class="material-icons left">mail</i> Enviar por Mail</a>
+              </aside>
+              <div class="red-text block pd-l-30 eliminar-mobile">
+                <h5 class="red-text left-align flex alig-i-center flex-j-start"><i class="material-icons mg-neg-t-4 mg-r-5">delete_forever</i> Eliminar pago</h5>
+                <div class="pd-r-15">
+                  <p class="left-align">Estás a punto de <b>eliminar</b> de tus <b>PAGOS</b> Luz de Casa (<b>Edesur</b>). ¿Estás seguro?</p>
+                  <p class="left-align">No te preocupes, ésta acción no va a eliminar ésta empresa. Para que no se te informen más facturas de éste servicio tenés que <a href="#definitivamente" class="modal-trigger tooltipped white-text nowrap" data-position="top" data-text="La factura se desvinculará para siempre" data-delay="50"><b class="red-text">eliminarla definitivamente</b></a>.</p>
+                </div>
+                <div class="right mg-r-15 mg-b-15">
+                  <a href="#!" onclick="closeDelete(this)" class="btn-flat red-text pd-l-10 pd-r-10"><i class="material-icons left">close</i> No eliminar</a>
+                  <a href="#!" class="btn white-text red pd-l-10 pd-r-10"><i class="material-icons left tooltipped" data-position="top" data-text="La factura volverá a aparecer el mes que viene" data-delay="50">check</i> Eliminar</a>
+                </div>
+                <br>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- <div class="header pd-b-20">
+          <h1>Facturas vencidas</h1>
+          <p>Estas facturas vencieron, volverán a aparecer el mes que viene.</p>
+        </div>
+        <ul class="collapsible animated bounceInUp popout" data-collapsible="accordion">
+          <li class="facturaItem">
+            <div class="collapsible-header noselect grey lighten-3">
+              <div class="flex align-i-center">
+                <input type="checkbox" class="filled-in" id="filled-in-box-95" disabled />
+                <label for="filled-in-box-95"></label>
+              </div>
+
+              <div class="mg-r-15 max-50 hide-on-small-only"><rubro><img src="img/metrogas.png" class="circle responsive-img"></rubro></div>
+              <div class="mg-r-15 flex flex-grow align-i-center">
+                <span class="mg-b-5 mg-t-5 blue-text mg-r-15"><b>Metrogas</b>  (<span class="blue-text seudonimoTexto">Gas tía</span>)</span>
+                <span class="mg-b-5 mg-t-5 mg-r-15 importe"><b>$4650</b></span>
+                <span class="alertita red-text mg-r-15 valign-wrapper"><i class="fa fa-frown-o" aria-hidden="true"></i> VENCIDA</span>
+                <a class="mg-b-5 mg-t-5 btn blue accionDeLaCard waves-effect  modal-trigger disabled not-collapse" href="#pago-rapido">Pagar</a>
+              </div>
+              <div class="flex flex align-i-center flex-j-end"><i class="material-icons more-details left rotateOnClick">expand_more</i></div>
+            </div>
+            <div class="collapsible-body">
+              <aside class="flex align-i-center">
+                <p>Empresa: <span>Metrogas</span></p>
+                <div class="flex flex-inline align-i-center">
+                  <p class="mg-r-5">Alias: <span class="toggleEditSeudonimo seudonimoTexto" id="">Agua de Casa</span><a href="#" onclick="$('.toggleEditSeudonimo').toggleClass('hide'); $('input.toggleEditSeudonimo').focus();" class="toggleEditSeudonimo"><i class="material-icons tiny gris-mas-oscuro-text">create</i></a><div class="input-field mg-t-0"><input id="" type="text" class="seudonimoInput hide toggleEditSeudonimo"/><a href="#" class="hide toggleEditSeudonimo prefix mg-neg-l-9 tooltipped" data-position="top" data-text="Guardar" onclick="modificarDescripcion()"><i class="material-icons tiny gris-mas-oscuro-text mg-r-10">save</i></a></div></p>
+                </div>
+                <p>Identificación: <span>33444</span></p>
+                <p>Importe: <span>$200,00</span></p>
+                <p>Ref. Interna: <span>33322</span></p>
+                <p>Datos adicionales: <span>Cuota 1</span></p>
+                <a class="btn btn-flat transparent red-text right tooltipped" data-text="Eliminar" href="#!" onclick="deleteItem(this)"><i class="material-icons left">delete_forever</i> Eliminar</a>
+                <a class="btn btn-flat transparent blue-text right" href="#!"><i class="material-icons left">file_download</i> Descargar</a>
+              </aside>
+              <div class="red-text block pd-l-30 eliminar-mobile">
+                <h5 class="red-text left-align flex alig-i-center flex-j-start"><i class="material-icons mg-neg-t-4 mg-r-5">delete_forever</i> Eliminar pago</h5>
+                <div class="pd-r-15">
+                  <p class="left-align">Estás a punto de <b>eliminar</b> de tus <b>PAGOS</b> Luz de Casa (<b>Edesur</b>). ¿Estás seguro?</p>
+                  <p class="left-align">No te preocupes, ésta acción no va a eliminar ésta empresa. Para que no se te informen más facturas de éste servicio tenés que <a href="#definitivamente" class="modal-trigger tooltipped white-text nowrap" data-position="top" data-text="La factura se desvinculará para siempre" data-delay="50"><b class="red-text">eliminarla definitivamente</b></a>.</p>
+                </div>
+                <div class="right mg-r-15 mg-b-15">
+                  <a href="#!" onclick="closeDelete(this)" class="btn-flat red-text pd-l-10 pd-r-10"><i class="material-icons left">close</i> No eliminar</a>
+                  <a href="#!" class="btn white-text red pd-l-10 pd-r-10"><i class="material-icons left tooltipped" data-position="top" data-text="La factura volverá a aparecer el mes que viene" data-delay="50">check</i> Eliminar</a>
+                </div>
+                <br>
+              </div>
+            </div>
+          </li>
+        </ul> -->
+
+
+        <div class="header pd-b-20 animated bounceInUp">
+          <h1>Otras</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <ul class="collapsible animated bounceInUp popout" data-collapsible="accordion">
           <li class="facturaItem factura-anidada">
             <div class="collapsible-header noselect flex">
               <div class="flex-inline width-100 factura-anual">
@@ -54,7 +213,7 @@
                 </div>
                 <div class="mg-r-15 max-50 hide-on-small-only">
                   <rubro>
-                    <div class="rubro agua circle white border-grey z-depth-2 width-100"></div>
+                    <div class="rubro agua circle white border-blue z-depth-2 width-100"></div>
                     <!-- <img src="img/rubros/agua.svg" class="circle responsive-img"> -->
                   </rubro>
                 </div>
@@ -89,7 +248,7 @@
                   </div>
                   <div class="mg-r-15 max-50 hide-on-small-only">
                     <rubro>
-                      <div class="rubro agua circle white border-grey z-depth-2 width-100"></div>
+                      <div class="rubro agua circle white border-blue z-depth-2 width-100"></div>
                       <!-- <img src="img/rubros/agua.svg" class="circle responsive-img"> -->
                     </rubro>
                   </div>
@@ -124,7 +283,7 @@
                   </div>
                   <div class="mg-r-15 max-50 hide-on-small-only">
                     <rubro>
-                      <div class="rubro agua circle white border-grey z-depth-2 width-100"></div>
+                      <div class="rubro agua circle white border-blue z-depth-2 width-100"></div>
                       <!-- <img src="img/rubros/agua.svg" class="circle responsive-img"> -->
                     </rubro>
                   </div>
@@ -176,154 +335,6 @@
                   <a href="#!" class="btn white-text red pd-l-10 pd-r-10"><i class="material-icons left tooltipped" data-position="top" data-text="La factura volverá a aparecer el mes que viene" data-delay="50">check</i> Eliminar</a>
                 </div>
               </div> -->
-            </div>
-          </li>
-          <li class="facturaItem">
-            <div class="collapsible-header noselect">
-              <div class="flex align-i-center">
-                <input type="checkbox" class="filled-in" id="filled-in-box-96" onclick="showLi()"/>
-                <label for="filled-in-box-96"></label>
-              </div>
-
-              <div class="mg-r-15 max-50 hide-on-small-only">
-                <rubro>
-                  <div class="rubro telefonia circle white border-grey z-depth-2 width-100"></div>
-                  <!-- <img src="img/rubros/telefonia.svg" class="circle responsive-img"> -->
-                </rubro>
-              </div>
-              <div class="mg-r-15 flex flex-grow align-i-center">
-                <span class="mg-b-5 mg-t-5 blue-text mg-r-15"><b>Personal</b>  (<span class="blue-text seudonimoTexto">Mi celu</span>)</span>
-                <span class="mg-b-5 mg-t-5 mg-r-15 importe"><b>$650</b></span>
-                <span class="mg-b-5 mg-t-5 mg-r-15 vto">Vto: 10/12/2017</span>
-                <span class="alertita red-text mg-r-15 valign-wrapper"><i class="fa fa-hourglass-half" aria-hidden="true"></i> QUEDAN 3 DÍAS</span>
-                <a class="mg-b-5 mg-t-5 btn blue accionDeLaCard waves-effect  modal-trigger not-collapse" href="#pago-rapido">Pagar</a>
-              </div>
-              <div class="flex flex align-i-center flex-j-end"><i class="material-icons more-details left rotateOnClick">expand_more</i></div>
-            </div>
-            <div class="collapsible-body">
-              <aside class="flex align-i-center">
-                <p>Empresa: <span>Metrogas</span></p>
-                <div class="flex flex-inline align-i-center">
-                  <p class="mg-r-5">Alias: <span class="toggleEditSeudonimo seudonimoTexto" id="">Agua de Casa</span><a href="#" onclick="$('.toggleEditSeudonimo').toggleClass('hide'); $('input.toggleEditSeudonimo').focus();" class="toggleEditSeudonimo"><i class="material-icons tiny gris-mas-oscuro-text">create</i></a><div class="input-field mg-t-0"><input id="" type="text" class="seudonimoInput hide toggleEditSeudonimo"/><a href="#" class="hide toggleEditSeudonimo prefix mg-neg-l-9 tooltipped" data-position="top" data-text="Guardar" onclick="modificarDescripcion()"><i class="material-icons tiny gris-mas-oscuro-text mg-r-10">save</i></a></div></p>
-                </div>
-                <p>Identificación: <span>33444</span></p>
-                <p>Importe: <span>$200,00</span></p>
-                <p>Ref. Interna: <span>33322</span></p>
-                <p>Datos adicionales: <span>Cuota 1</span></p>
-                <a class="btn btn-flat transparent red-text right tooltipped" data-text="Eliminar" href="#!" onclick="deleteItem(this)"><i class="material-icons left">delete_forever</i> Eliminar</a>
-                <a class="btn btn-flat transparent blue-text right" href="#!"><i class="material-icons left">file_download</i> Descargar</a>
-              </aside>
-              <div class="red-text block pd-l-30 eliminar-mobile">
-                <h5 class="red-text left-align flex alig-i-center flex-j-start"><i class="material-icons mg-neg-t-4 mg-r-5">delete_forever</i> Eliminar pago</h5>
-                <div class="pd-r-15">
-                  <p class="left-align">Estás a punto de <b>eliminar</b> de tus <b>PAGOS</b> Luz de Casa (<b>Edesur</b>). ¿Estás seguro?</p>
-                  <p class="left-align">No te preocupes, ésta acción no va a eliminar ésta empresa. Para que no se te informen más facturas de éste servicio tenés que <a href="#definitivamente" class="modal-trigger tooltipped white-text nowrap" data-position="top" data-text="La factura se desvinculará para siempre" data-delay="50"><b class="red-text">eliminarla definitivamente</b></a>.</p>
-                </div>
-                <div class="right mg-r-15 mg-b-15">
-                  <a href="#!" onclick="closeDelete(this)" class="btn-flat red-text pd-l-10 pd-r-10"><i class="material-icons left">close</i> No eliminar</a>
-                  <a href="#!" class="btn white-text red pd-l-10 pd-r-10"><i class="material-icons left tooltipped" data-position="top" data-text="La factura volverá a aparecer el mes que viene" data-delay="50">check</i> Eliminar</a>
-                </div>
-                <br>
-              </div>
-            </div>
-          </li>
-          <li class="facturaItem">
-            <div class="collapsible-header noselect grey lighten-3">
-              <div class="flex align-i-center">
-                <input type="checkbox" class="filled-in" id="filled-in-box-95" disabled />
-                <label for="filled-in-box-95"></label>
-              </div>
-
-              <div class="mg-r-15 max-50 hide-on-small-only"><rubro><img src="img/metrogas.png" class="circle responsive-img"></rubro></div>
-              <div class="mg-r-15 flex flex-grow align-i-center">
-                <span class="mg-b-5 mg-t-5 blue-text mg-r-15"><b>Metrogas</b>  (<span class="blue-text seudonimoTexto">Gas tía</span>)</span>
-                <span class="mg-b-5 mg-t-5 mg-r-15 importe"><b>$4650</b></span>
-                <span class="alertita red-text mg-r-15 valign-wrapper"><i class="fa fa-frown-o" aria-hidden="true"></i> VENCIDA</span>
-                <a class="mg-b-5 mg-t-5 btn blue accionDeLaCard waves-effect  modal-trigger disabled not-collapse" href="#pago-rapido">Pagar</a>
-              </div>
-              <div class="flex flex align-i-center flex-j-end"><i class="material-icons more-details left rotateOnClick">expand_more</i></div>
-            </div>
-            <div class="collapsible-body">
-              <aside class="flex align-i-center">
-                <p>Empresa: <span>Metrogas</span></p>
-                <div class="flex flex-inline align-i-center">
-                  <p class="mg-r-5">Alias: <span class="toggleEditSeudonimo seudonimoTexto" id="">Agua de Casa</span><a href="#" onclick="$('.toggleEditSeudonimo').toggleClass('hide'); $('input.toggleEditSeudonimo').focus();" class="toggleEditSeudonimo"><i class="material-icons tiny gris-mas-oscuro-text">create</i></a><div class="input-field mg-t-0"><input id="" type="text" class="seudonimoInput hide toggleEditSeudonimo"/><a href="#" class="hide toggleEditSeudonimo prefix mg-neg-l-9 tooltipped" data-position="top" data-text="Guardar" onclick="modificarDescripcion()"><i class="material-icons tiny gris-mas-oscuro-text mg-r-10">save</i></a></div></p>
-                </div>
-                <p>Identificación: <span>33444</span></p>
-                <p>Importe: <span>$200,00</span></p>
-                <p>Ref. Interna: <span>33322</span></p>
-                <p>Datos adicionales: <span>Cuota 1</span></p>
-                <a class="btn btn-flat transparent red-text right tooltipped" data-text="Eliminar" href="#!" onclick="deleteItem(this)"><i class="material-icons left">delete_forever</i> Eliminar</a>
-                <a class="btn btn-flat transparent blue-text right" href="#!"><i class="material-icons left">file_download</i> Descargar</a>
-              </aside>
-              <div class="red-text block pd-l-30 eliminar-mobile">
-                <h5 class="red-text left-align flex alig-i-center flex-j-start"><i class="material-icons mg-neg-t-4 mg-r-5">delete_forever</i> Eliminar pago</h5>
-                <div class="pd-r-15">
-                  <p class="left-align">Estás a punto de <b>eliminar</b> de tus <b>PAGOS</b> Luz de Casa (<b>Edesur</b>). ¿Estás seguro?</p>
-                  <p class="left-align">No te preocupes, ésta acción no va a eliminar ésta empresa. Para que no se te informen más facturas de éste servicio tenés que <a href="#definitivamente" class="modal-trigger tooltipped white-text nowrap" data-position="top" data-text="La factura se desvinculará para siempre" data-delay="50"><b class="red-text">eliminarla definitivamente</b></a>.</p>
-                </div>
-                <div class="right mg-r-15 mg-b-15">
-                  <a href="#!" onclick="closeDelete(this)" class="btn-flat red-text pd-l-10 pd-r-10"><i class="material-icons left">close</i> No eliminar</a>
-                  <a href="#!" class="btn white-text red pd-l-10 pd-r-10"><i class="material-icons left tooltipped" data-position="top" data-text="La factura volverá a aparecer el mes que viene" data-delay="50">check</i> Eliminar</a>
-                </div>
-                <br>
-              </div>
-            </div>
-          </li>
-          <li class="facturaItem">
-            <div class="collapsible-header noselect">
-              <div class="flex align-i-center">
-                <!-- <input type="checkbox" class="filled-in" id="filled-in-box-94" onclick="showLi()" disabled />
-                <label for="filled-in-box-94"></label> -->
-              </div>
-
-              <div class="mg-r-15 max-50 hide-on-small-only"><rubro><img src="img/claro.jpg" class="circle responsive-img"></rubro></div>
-              <div class="mg-r-15 flex flex-grow align-i-center">
-                <span class="blue-text mg-r-15">Claro</span>
-                <span class="mg-r-15">Duplica tus minutos para llamadas a <b>Claro</b> recargando por PAGO MIS CUENTA</span>
-                <a class="mg-b-5 mg-t-5 btn blue accionDeLaCard waves-effect " href="#!">Duplicar</a>
-              </div>
-            </div>
-          </li>
-          <li class="facturaItem">
-            <div class="collapsible-header noselect">
-              <div class="flex align-i-center">
-                <!-- <input type="checkbox" class="filled-in" id="filled-in-box-90" onclick="showLi()" disabled/>
-                <label for="filled-in-box-90"></label> -->
-              </div>
-
-              <div class="mg-r-15 max-50 hide-on-small-only"><rubro><img src="img/aysa.jpg" class="circle responsive-img"></rubro></div>
-              <div class="mg-r-15 flex flex-grow align-i-center">
-                <span class="mg-b-5 mg-t-5 blue-text mg-r-15"><b>Aysa</b> (<span class="blue-text seudonimoTexto">Agua del Vecino</span>)</span>
-                <span class="mg-b-5 mg-t-5 mg-r-15 green-text importe"><b>$1.250,47</b></span>
-                <span class="alertita green-text mg-r-15 valign-wrapper"><i class="fa fa-check" aria-hidden="true"></i> pagada</span>
-                <span><a class="btn-flat blue-text modal-trigger" href="#imprimir"><i class="fa fa-print tiny" aria-hidden="true"></i>imprimir</a></span>
-              </div>
-              <div class="flex flex align-i-center flex-j-end"><i class="material-icons more-details left rotateOnClick">expand_more</i></div>
-            </div>
-            <div class="collapsible-body">
-              <aside class="flex align-i-center">
-                <p>Fecha:<span>15/08/2017</span></p>
-                <p>Hora:<span>14:05:55</span></p>
-                <p>Transacción: <span>000100001274</span></p>
-                <p>Identificación: <span>33444</span></p>
-                <p>Importe: <span>$200,00</span></p>
-                <p class="flex">Medio de pago: <span><img src="img/mediosdepago/visa.svg" class="max-30" alt=""></span><span> terminada en 9459</span></p>
-                <a class="btn btn-flat transparent blue-text right" href="#!"><i class="material-icons left">file_download</i> Descargar</a>
-                <a class="btn btn-flat transparent blue-text right" href="#!"><i class="material-icons left">mail</i> Enviar por Mail</a>
-              </aside>
-              <div class="red-text block pd-l-30 eliminar-mobile">
-                <h5 class="red-text left-align flex alig-i-center flex-j-start"><i class="material-icons mg-neg-t-4 mg-r-5">delete_forever</i> Eliminar pago</h5>
-                <div class="pd-r-15">
-                  <p class="left-align">Estás a punto de <b>eliminar</b> de tus <b>PAGOS</b> Luz de Casa (<b>Edesur</b>). ¿Estás seguro?</p>
-                  <p class="left-align">No te preocupes, ésta acción no va a eliminar ésta empresa. Para que no se te informen más facturas de éste servicio tenés que <a href="#definitivamente" class="modal-trigger tooltipped white-text nowrap" data-position="top" data-text="La factura se desvinculará para siempre" data-delay="50"><b class="red-text">eliminarla definitivamente</b></a>.</p>
-                </div>
-                <div class="right mg-r-15 mg-b-15">
-                  <a href="#!" onclick="closeDelete(this)" class="btn-flat red-text pd-l-10 pd-r-10"><i class="material-icons left">close</i> No eliminar</a>
-                  <a href="#!" class="btn white-text red pd-l-10 pd-r-10"><i class="material-icons left tooltipped" data-position="top" data-text="La factura volverá a aparecer el mes que viene" data-delay="50">check</i> Eliminar</a>
-                </div>
-                <br>
-              </div>
             </div>
           </li>
           <li class="facturaItem">
@@ -384,7 +395,7 @@
 
               <div class="mg-r-15 max-50 hide-on-small-only">
                 <rubro>
-                  <div class="rubro proveedoresinternet circle white border-grey z-depth-2 width-100"></div>
+                  <div class="rubro proveedoresinternet circle white border-blue z-depth-2 width-100"></div>
                   <!-- <img src="img/rubros/proveedoresinternet.svg" class="circle responsive-img"> -->
                 </rubro>
               </div>
@@ -420,6 +431,21 @@
                   <a href="#!" class="btn white-text red pd-l-10 pd-r-10"><i class="material-icons left tooltipped" data-position="top" data-text="La factura volverá a aparecer el mes que viene" data-delay="50">check</i> Eliminar</a>
                 </div>
                 <br>
+              </div>
+            </div>
+          </li>
+          <li class="facturaItem">
+            <div class="collapsible-header noselect">
+              <div class="flex align-i-center">
+                <!-- <input type="checkbox" class="filled-in" id="filled-in-box-94" onclick="showLi()" disabled />
+                <label for="filled-in-box-94"></label> -->
+              </div>
+
+              <div class="mg-r-15 max-50 hide-on-small-only"><rubro><img src="img/claro.jpg" class="circle responsive-img"></rubro></div>
+              <div class="mg-r-15 flex flex-grow align-i-center">
+                <span class="blue-text mg-r-15">Claro</span>
+                <span class="mg-r-15">Duplica tus minutos para llamadas a <b>Claro</b> recargando por PagoMisCuentas</span>
+                <a class="mg-b-5 mg-t-5 btn blue accionDeLaCard waves-effect " href="#!">Duplicar</a>
               </div>
             </div>
           </li>

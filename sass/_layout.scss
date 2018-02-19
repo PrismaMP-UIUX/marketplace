@@ -15,12 +15,6 @@ body {
 	width: 100%;
 }
 
-.main {
-	flex: 1 0 auto;
-	-ms-flex-positive: 1;
-	-ms-flex-negative: 0;
-	-ms-flex-preferred-size: auto;
-}
 
 header {
 	padding: 10px 0;
@@ -28,6 +22,18 @@ header {
 	@extend .white;
 	img.logo_pmc { float: right; }
 	img.logo_banco { float: left; }
+}
+
+.header{
+	margin-top:60px;
+	margin-left:10px;
+	h1{
+		margin-bottom:0;
+	}
+	p{
+		color:#808080;
+		margin:0;
+	}
 }
 
 .carrito {
@@ -88,7 +94,6 @@ img.logo_pmc, img.logo_banco {
 		z-index: 1;
 	}
 }
-
 // Hack IE
 @include only_ie9_below( 'body', (
 	height: 100%,
@@ -582,7 +587,7 @@ $serv_alto_imagen: $serv_alto - ($serv_margenes * 2);
 //Modal al 100% de la pantalla en Mobile (igual o menos de 600px)
 @media only screen and (max-width: 600px) {
 	.modal {
-		width: Calc(100% - 10px);
+		width: calc(100% - 10px);
 		//height: Calc(100vh - 10px);
 		max-height: calc(100vh - 10px);
 		top: 5px !important;
@@ -595,3 +600,106 @@ $serv_alto_imagen: $serv_alto - ($serv_margenes * 2);
 // background: -webkit-linear-gradient(left, transparent 0%,#fff 50%,transparent 100%); /* Chrome10+, Safari5.1+ */
 // background: -moz-linear-gradient(left, transparent 0%,#fff 50%,transparent 100%);    /* FF3.6+ */
 // background: linear-gradient(to left, transparent 0%,#fff 50%,transparent 100%);      /* W3C */
+
+.donate {
+	.donate_title{}
+	.donate_options {
+	
+		.stock-images {
+			padding-right:0px;
+			padding-left:0px;
+		}
+
+		.col{
+			&.s12{
+			padding-right:0px;
+			padding-left:0px;
+			margin-bottom:10px;
+			}
+			&.m6{
+			padding-right:0px;
+			padding-left:0px;
+
+			}
+			&.l6{
+			padding-right:0px;
+			padding-left:0px;
+			margin-bottom:10px;
+			}
+			&.xl6{
+			padding-right:0px;
+			padding-left:0px;
+			margin-bottom:10px;
+			}
+			
+		} 
+		
+		img{
+			width:100%;
+		}
+		#cilsa img{
+			margin-top: 50px;
+		}
+	}
+	.xl5{
+		.donate_description {
+			padding-left:10px;
+			padding-right:10px;
+		}
+
+	}
+	.l6{
+		.donate_description{
+			padding-left:10px;
+			padding-right:10px;
+		}
+
+	}
+	.donate_description{
+		margin-left:0px;
+	
+		p {
+
+		}
+		h3{
+			margin-top:7px;
+		}
+	} 
+}
+.pay_donate{
+	.donate-radio {
+		margin-top:0px;
+		margin-bottom:30px;
+		p {
+			margin-top:0px;
+
+		}
+	}
+
+}
+
+//import
+.import{
+	.row{
+		margin-top:0px;
+		margin-bottom:5px;
+	}
+	.col{
+		margin-top:0px;
+	}
+	.import_selector{
+		margin-bottom:0px;
+	}
+	.import_description{
+		color: #9e9e9e;
+		margin-bottom: 5px;
+
+	}
+
+}
+
+//p forms
+.summary{
+	margin-top:-6px;
+	width:91%;
+}

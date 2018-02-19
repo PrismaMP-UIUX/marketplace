@@ -12,237 +12,240 @@
     <div class="container">
 
       <div class="row">
-        <!-- Masonry -->
-        <div id="masonry-grid" class="row">
-          <div class="col s12">
+        <div class="col s12">
+          <!-- Masonry -->
+<!--           <div id="masonry-grid" class="row">
+            <div class="col s12"> -->
 
-            <div class="row">
-              <div class="card-panel">
-                <h3 class="card-title">Buscar <span class="hide-on-med-and-up">por</span></h3>
-                <div class="row">
-                  <div class="col s12">
-                    <div class="card-tabs mg-b-30">
-                      <ul id="tabs-swipe-demo" class="tabs tabs-fixed-width">
-                        <li class="tab col s6"><a href="#test-swipe-1"><span class="hide-on-small-only">Por</span> Nombre</a></li>
-                        <li class="tab col s6 active"><a href="#test-swipe-2"><span class="hide-on-small-only">Por</span> Rubros</a></li>
-                      </ul>
-                    </div>
-                    <div class="card-content">
-                      <div id="test-swipe-1" class="col s12 white">
-                        <!-- <div class="card-content"> -->
-                          <div class="row mg-b-30">
-                            <div class="col s12 m10 offset-m1 l8 offset-l2">
-                              <div class="valign-wrapper">
-                                <input type="text" id="search1" placeholder="¿qué queres pagar?">
-                                <!-- <label for="search1" class="active">¿qué queres pagar?</label> -->
+              <!-- <div class="row"> -->
+                <div class="card-panel">
+                  <!-- <h3 class="card-title">Buscar <span class="hide-on-med-and-up">por</span></h3> -->
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="card-tabs mg-b-30">
+                        <ul id="tabs-swipe-demo" class="tabs tabs-fixed-width">
+                          <li class="tab col s6"><a href="#test-swipe-1"><span class="hide-on-small-only">Por</span> Nombre</a></li>
+                          <li class="tab col s6 active"><a href="#test-swipe-2"><span class="hide-on-small-only">Por</span> Rubros</a></li>
+                        </ul>
+                      </div>
+                      <div class="card-content">
+                        <div id="test-swipe-1" class="col s12 white">
+                          <!-- <div class="card-content"> -->
+                            <div class="row mg-b-30">
+                              <div class="col s12 m10 offset-m1 l8 offset-l2">
+                                <div class="valign-wrapper">
+                                  <input type="text" id="search1" placeholder="¿qué queres pagar?">
+                                  <!-- <label for="search1" class="active">¿qué queres pagar?</label> -->
+                                </div>
                               </div>
                             </div>
-                          </div>
-                          <ul class="collection clearfix">
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
-                                <!-- <img src="img/rubros/operadorestv.svg" alt="" class="circle"> -->
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguas del litoral</span>
-                                <!-- <p class="grey-text text-darken-1">Descripci lorenzo ipsum e querramos poner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro agua circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguas del litoral</span>
-                                <!-- <p class="grey-text text-darken-1">Descripción Id o algo que querramos poner</p> -->
-                              </div>
-                              <a href="#bd-2" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro recargas circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguas Argentinas</span>
-                                <!-- <p class="grey-text text-darken-1">Descripci lorenzo ipsum mos poner</p> -->
-                              </div>
-                              <a href="#bd-3" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro segurodevida circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Agua Mineral</span>
-                                <!-- <p class="grey-text text-darken-1">Descripción Id o algo q lorenzo ipsum er</p> -->
-                              </div>
-                              <a href="#bd-4" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro gas circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguatero Suplente</span>
-                                <!-- <p class="grey-text text-darken-1">Descripción Id o algo que querramos poner</p> -->
-                              </div>
-                              <a href="#bd-5" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro afip circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguas Argentinas</span>
-                                <!-- <p class="grey-text text-darken-1">Descripción Id o algo que querramos poner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro clubesyasociaciones circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Agua Mineral</span>
-                                <!-- <p class="grey-text text-darken-1">Descripción Id o algo que lorenzo ipsum ner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguatero Suplente</span>
-                                <!-- <p class="grey-text text-darken-1">Descripción Id o algo que querramos poner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro agua circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguas del litoral</span>
-                                <!-- <p class="grey-text text-darken-1">Descri lorenzo ipsum que qu Loren ipsum dolor ner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguas Argentinas</span>
-                                <!-- <p class="grey-text text-darken-1">Descripción Id o algo que querramos poner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro patentes circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Agua Mineral</span>
-                                <!-- <p class="grey-text text-darken-1">Descripció Loren ipsum dolor  que querramos poner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguatero Suplente</span>
-                                <!-- <p class="grey-text text-darken-1">Descr Loren ipsum dolor Id o algo que querramos poner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro prepaga circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguas del litoral</span>
-                                <!-- <p class="grey-text text-darken-1">Descripción Id o algo que Loren ipsum dolor oner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguas Argentinas</span>
-                                <!-- <p class="grey-text text-darken-1">Descrip Loren ipsum dolor n Id o algo que querramos poner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro telefonia circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Agua Mineral</span>
-                                <!-- <p class="grey-text text-darken-1">Descripción Id o algo que que Loren ipsum dolor poner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguatero Suplente</span>
-                                <!-- p class="grey-text text-darken-1">Descripción Id o algo q Loren ipsum dolor amos poner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro gas circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguas del litoral</span>
-                                <!-- <p class="grey-text text-darken-1">Descripc Loren ipsum dolor Id o algo que querramos poner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguas Argentinas</span>
-                                <!-- <p class="grey-text text-darken-1">Descripción Id o algo que  Loren ipsum dolor s poner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro tickets circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Agua Mineral</span>
-                                <!-- <p class="grey-text text-darken-1">Descr Loren ipsum dolor  Id o algo que querramos poner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                            <li href="#!" class="collection-item valign-wrapper flex avatar">
-                              <rubro class="flex align-i-center absolute left-0">
-                                <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
-                              </rubro>
-                              <div class="left">
-                                <span class="h5 mg-r-15">Aguatero Suplente</span>
-                                <!-- <p class="grey-text text-darken-1">Descripción Id o algo qu Loren ipsum dolor amos poner</p> -->
-                              </div>
-                              <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
-                            </li>
-                          </ul>
-                      </div>
-                      <div id="test-swipe-2" class="col s12 white relative">
+                            <ul class="collection clearfix">
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
+                                  <!-- <img src="img/rubros/operadorestv.svg" alt="" class="circle"> -->
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguas del litoral</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripci lorenzo ipsum e querramos poner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro agua circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguas del litoral</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripción Id o algo que querramos poner</p> -->
+                                </div>
+                                <a href="#bd-2" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro recargas circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguas Argentinas</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripci lorenzo ipsum mos poner</p> -->
+                                </div>
+                                <a href="#bd-3" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro segurodevida circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Agua Mineral</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripción Id o algo q lorenzo ipsum er</p> -->
+                                </div>
+                                <a href="#bd-4" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro gas circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguatero Suplente</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripción Id o algo que querramos poner</p> -->
+                                </div>
+                                <a href="#bd-5" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro afip circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguas Argentinas</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripción Id o algo que querramos poner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro clubesyasociaciones circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Agua Mineral</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripción Id o algo que lorenzo ipsum ner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguatero Suplente</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripción Id o algo que querramos poner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro agua circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguas del litoral</span>
+                                  <!-- <p class="grey-text text-darken-1">Descri lorenzo ipsum que qu Loren ipsum dolor ner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguas Argentinas</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripción Id o algo que querramos poner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro patentes circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Agua Mineral</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripció Loren ipsum dolor  que querramos poner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguatero Suplente</span>
+                                  <!-- <p class="grey-text text-darken-1">Descr Loren ipsum dolor Id o algo que querramos poner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro prepaga circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguas del litoral</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripción Id o algo que Loren ipsum dolor oner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguas Argentinas</span>
+                                  <!-- <p class="grey-text text-darken-1">Descrip Loren ipsum dolor n Id o algo que querramos poner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro telefonia circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Agua Mineral</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripción Id o algo que que Loren ipsum dolor poner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguatero Suplente</span>
+                                  <!-- p class="grey-text text-darken-1">Descripción Id o algo q Loren ipsum dolor amos poner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro gas circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguas del litoral</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripc Loren ipsum dolor Id o algo que querramos poner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguas Argentinas</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripción Id o algo que  Loren ipsum dolor s poner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro tickets circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Agua Mineral</span>
+                                  <!-- <p class="grey-text text-darken-1">Descr Loren ipsum dolor  Id o algo que querramos poner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                              <li href="#!" class="collection-item valign-wrapper flex avatar">
+                                <rubro class="flex align-i-center absolute left-0">
+                                  <div class="rubro operadorestv circle border-grey max-42 height-42 z-depth-2"></div>
+                                </rubro>
+                                <div class="left">
+                                  <span class="h5 mg-r-15">Aguatero Suplente</span>
+                                  <!-- <p class="grey-text text-darken-1">Descripción Id o algo qu Loren ipsum dolor amos poner</p> -->
+                                </div>
+                                <a href="#bd-1" class="modal-trigger btn blue white-text right mg-t-10 mg-b-10">AGREGAR</a>
+                              </li>
+                            </ul>
+                        </div>
+
+
+                        <div id="test-swipe-2" class="col s12 white relative">
 
                           <div class="row">
                             <div class=" col s10 m6 l4 offset-s1 offset-m3 offset-l4">
@@ -737,39 +740,43 @@
                               <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Prepagos</p>
                             </a>
 
-                          </div>
 
-                          <form action="">
-                            <div class="hide subrubro input-field">
-                              <select>
-                                <option value="" disabled selected>Seleccioná el subrubro</option>
-                                <option value="1">Option 1</option>
-                                <option value="2">Option 2</option>
-                                <option value="3">Option 3</option>
-                              </select>
-                              <label>Seleccioná el subrubro</label>
                             </div>
-                            <div class="hide empresa-del-rubro input-field">
-                              <select id="seleccionarEmpresa">
-                                <option value="" disabled selected>Seleccioná la empresa</option>
-                                <option value="1"><a href="#bd-1" class="modal-trigger">VEP</a></option>
-                                <option value="2"><a href="#bd-2" class="modal-trigger">ABSA</a></option>
-                                <option value="3"><a href="#bd-3" class="modal-trigger">CruzRoja</a></option>
-                                <option value="3"><a href="#bd-4" class="modal-trigger">AySA</a></option>
-                                <option value="3"><a href="#bd-5" class="modal-trigger">Personal</a></option>
-                              </select>
-                              <label>Seleccioná la empresa</label>
-                            </div>
-                          </form>
 
-                        <!-- </div> -->
+                            <form action="">
+                              <div class="hide subrubro input-field">
+                                <select>
+                                  <option value="" disabled selected>Seleccioná el subrubro</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select>
+                                <label>Seleccioná el subrubro</label>
+                              </div>
+                              <div class="hide empresa-del-rubro input-field">
+                                <select id="seleccionarEmpresa">
+                                  <option value="" disabled selected>Seleccioná la empresa</option>
+                                  <option value="1"><a href="#bd-1" class="modal-trigger">VEP</a></option>
+                                  <option value="2"><a href="#bd-2" class="modal-trigger">ABSA</a></option>
+                                  <option value="3"><a href="#bd-3" class="modal-trigger">CruzRoja</a></option>
+                                  <option value="3"><a href="#bd-4" class="modal-trigger">AySA</a></option>
+                                  <option value="3"><a href="#bd-5" class="modal-trigger">Personal</a></option>
+                                </select>
+                                <label>Seleccioná la empresa</label>
+                              </div>
+                            </form>
+
+                          <!-- </div> -->
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
+              <!-- </div> -->
+
+<!--             </div>
+          </div> -->
+
         </div>
       </div>
     </div>
