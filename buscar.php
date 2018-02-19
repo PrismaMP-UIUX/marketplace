@@ -243,50 +243,13 @@
                           </ul>
                       </div>
                       <div id="test-swipe-2" class="col s12 white relative">
-                        <!-- <div class="card-content">  -->
+
                           <div class="row">
-                            <div class=" col s12 m8 offset-m2 l8 offset-l2">
-                              <select>
-                                <option value="0" selected disabled>Seleccioná uno</option>
-                                <option value="1" data-icon="img/rubros/afip.svg">AFIP</option>
-                                <option value="2" data-icon="img/rubros/afjp-aportes.svg">AFJP Aportes</option>
-                                <option value="3" data-icon="img/rubros/agua.svg">Agua</option>
-                                <option value="4" data-icon="img/rubros/barriosprivados.svg">Barrios privados</option>
-                                <option value="5" data-icon="img/rubros/clubesyasociaciones.svg">Clubes y asociaciones</option>
-                                <option value="6" data-icon="img/rubros/compras.svg">Compras</option>
-                                <option value="7" data-icon="img/rubros/consorcios.svg">Consorcios</option>
-                                <option value="8" data-icon="img/rubros/cooperativas.svg">Cooperativas</option>
-                                <option value="9" data-icon="img/rubros/correo.svg">Correo</option>
-                                <option value="10" data-icon="img/rubros/donaciones.svg">Donaciones</option>
-                                <option value="11" data-icon="img/rubros/electricidad.svg">Electricidad</option>
-                                <option value="12" data-icon="img/rubros/emergencias.svg">Emergencias médicas</option>
-                                <option value="13" data-icon="img/rubros/establecimientoseducativos.svg">Establecimientos educativos</option>
-                                <option value="14" data-icon="img/rubros/gas.svg">Gas</option>
-                                <option value="15" data-icon="img/rubros/generico.svg">Genérico</option>
-                                <option value="16" data-icon="img/rubros/imp-provincial.svg">Impuesto provincial</option>
-                                <option value="17" data-icon="img/rubros/impuestos.svg">Impuestos</option>
-                                <option value="18" data-icon="img/rubros/prepaga.svg">Medicina prepaga</option>
-                                <option value="19" data-icon="img/rubros/operadorestv.svg">Operadores de TV</option>
-                                <option value="20" data-icon="img/rubros/otrosservicios.svg">Otros servicios</option>
-                                <option value="21" data-icon="img/rubros/patentes.svg">Patentes</option>
-                                <option value="22" data-icon="img/rubros/planesdeahorro.svg">Planes de ahorro</option>
-                                <option value="23" data-icon="img/rubros/prepagos.svg">Prepagos</option>
-                                <option value="24" data-icon="img/rubros/prestamos.svg">Préstamos</option>
-                                <option value="25" data-icon="img/rubros/proveedoresinternet.svg">Proveedores de internet</option>
-                                <option value="26" data-icon="img/rubros/recargas.svg">Recargas</option>
-                                <option value="27" data-icon="img/rubros/registros.svg">Registros</option>
-                                <option value="28" data-icon="img/rubros/seguridad.svg">Seguridad</option>
-                                <option value="29" data-icon="img/rubros/seguros.svg">Seguros</option>
-                                <option value="30" data-icon="img/rubros/segurosderetiro.svg">Seguros de retiro</option>
-                                <option value="31" data-icon="img/rubros/segurodevida.svg">Seguros de vida</option>
-                                <option value="32" data-icon="img/rubros/serviciosweb.svg">Servicios web</option>
-                                <option value="33" data-icon="img/rubros/solicituddeinformes.svg">Solicitudes de informes</option>
-                                <option value="34" data-icon="img/rubros/tarjetasdecredito.svg">Tarjetas de crédito</option>
-                                <option value="35" data-icon="img/rubros/telefonia.svg">Telefonía</option>
-                                <option value="36" data-icon="img/rubros/tickets.svg">Tickets</option>
-                                <option value="37" data-icon="img/rubros/viajesyturismo.svg">Viajes y turismo</option>
-                              </select>
-                              <!-- <label>Seleccioná el rubro del pago que hiciste</label> -->
+                            <div class=" col s10 m6 l4 offset-s1 offset-m3 offset-l4">
+                              <div class="input-field clearfix">
+                                <input class="buscadorConFiltro" type="text" placeholder="Ingresá el rubro">
+                                <a href="#!" class="inside-icon cleanFilterRubro scale-in scale-transition"><i for="password" class="material-icons">close</i></a>
+                              </div>
                             </div>
                           </div>
                           <!-- <p class="red-text">Se tiene que ver de a uno a medida que los elije</p> -->
@@ -302,7 +265,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Agua</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Agua</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -315,7 +278,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Electricidad</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Electricidad</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -328,7 +291,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Barrios privados</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Barrios privados</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -341,7 +304,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Impuestos</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Impuestos</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -354,7 +317,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Establecimientos Educativos</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Establecimientos Educativos</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -367,7 +330,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Medicina Prepaga</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Medicina Prepaga</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -380,7 +343,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Emergencias médicas</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Emergencias médicas</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -393,7 +356,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Recargas</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Recargas</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -406,7 +369,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Patentes</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Patentes</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -419,7 +382,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Operadores de tv</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Operadores de tv</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -432,7 +395,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Consorcios</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Consorcios</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -445,7 +408,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Clubes y asociaciones</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Clubes y asociaciones</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -458,7 +421,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Gas</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Gas</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -471,7 +434,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Cooperativas</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Cooperativas</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -484,7 +447,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Donaciones</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Donaciones</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -497,7 +460,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Servicios Web</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Servicios Web</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -510,7 +473,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Seguridad</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Seguridad</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -523,7 +486,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Proveedores de Internet</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Proveedores de Internet</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -536,7 +499,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Seguros de Vida</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Seguros de Vida</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -549,7 +512,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Tarjetas de Crédito</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Tarjetas de Crédito</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -562,7 +525,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Seguros</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Seguros</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -575,7 +538,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Seguros de retiro</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Seguros de retiro</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -588,7 +551,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Telefonía</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Telefonía</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -601,7 +564,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Viajes y turismo</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Viajes y turismo</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -614,7 +577,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Otros servicio</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Otros servicio</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -627,7 +590,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Préstamos</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Préstamos</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -640,7 +603,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Planes de ahorro</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Planes de ahorro</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -653,7 +616,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Solicitudes de informes</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Solicitudes de informes</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -666,7 +629,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Genérico</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Genérico</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -679,7 +642,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p class="width-100 center-align mg-t-10">Afip</p>
+                              <p class="width-100 center-align mg-t-10 extractValue">Afip</p>
                             </a>
 
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
@@ -693,7 +656,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Compras</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Compras</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -706,7 +669,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Impuestos Provinciales</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Impuestos Provinciales</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -719,7 +682,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Registros Nacionales</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Registros Nacionales</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -732,7 +695,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Servicios de Correo</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Servicios de Correo</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -745,7 +708,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">AFJP Aportes Voluntarios</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">AFJP Aportes Voluntarios</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -758,7 +721,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Tickets</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Tickets</p>
                             </a>
                             <a href="#!" class="rubroNoActivo max-125 left pd-15 flex flex-j-center">
                               <div>
@@ -771,7 +734,7 @@
                                     <i class="close material-icons white-text tiny mg-l-15">close</i>
                                   </p>
                               </div>
-                              <p style="font-size:.9em" class="width-100 center-align mg-t-10">Prepagos</p>
+                              <p style="font-size:.9em" class="width-100 center-align mg-t-10 extractValue">Prepagos</p>
                             </a>
 
                           </div>

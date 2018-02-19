@@ -747,6 +747,31 @@ var opsDropClick = {
 		  $("#filtros-mobile").toggleClass("hide");
 		});
 
+
+		// Filtro rubros en buscador
+		$(".cleanFilterRubro").css("display","none");
+
+		$(".buscadorConFiltro").keyup(function(){
+				$(".extractValue").parent().css("display", "none");
+
+				var inputText =  $(this).val();
+				$("p.extractValue:contains('" + inputText + "')").parent().css("display", "flex");
+
+				// Boton de clean filter
+		    if($(this).val().length>0){
+		     $(this).siblings(".cleanFilterRubro").attr("style", " ");
+		     $(this).siblings(".cleanFilterRubro").removeClass("scale-transition scale-out");
+		     $(this).siblings(".cleanFilterRubro").addClass("scale-transition scale-in");
+		    }else{
+		     $(this).siblings(".cleanFilterRubro").removeClass("scale-transition scale-in");
+		     $(this).siblings(".cleanFilterRubro").addClass("scale-transition scale-out");
+		    };
+		});
+		$(".cleanFilterRubro").click(function(){
+			$(this).css("display","none");
+			$(this).siblings(".buscadorConFiltro").focus().val("");
+			$(".extractValue").parent().css("display", "flex");
+		});
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
 
@@ -754,6 +779,12 @@ function openSearch(){
 	$(".main-search").addClass("active");
 	$(".main-search input").focus();
 }
+
+// Sobrescribe el viejo selector :contains
+jQuery.expr[':'].contains = function(a, i, m) {
+  return jQuery(a).text().toUpperCase()
+      .indexOf(m[3].toUpperCase()) >= 0;
+};
 
 /**
  * Number.prototype.format(n, x, s, c)
